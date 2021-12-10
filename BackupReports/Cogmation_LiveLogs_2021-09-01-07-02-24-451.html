@@ -1,0 +1,871 @@
+<html>
+    <head>
+        <title>Cogmation Logs</title>
+        <img src="https://elasticbeanstalk-ap-south-1-509040541908.s3.ap-south-1.amazonaws.com/Cogmation/CogmationIcon.png" alt=www.Ltts.com width=200 height=75>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <style>
+            body { 
+                background-color: #ffffff;
+            }
+            table {  
+                color: #333; /* Lighten up font color */
+                font-family: Consolas, Helvetica, Arial, sans-serif;
+                table-layout: fixed;
+                width: 150%;
+                font-size: 14px;
+            }
+
+            td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+            th {  
+                background: #ccffff; /* Light grey background */
+                font-weight: bold; /* Make sure they're bold */
+                text-align: center; /* Center our text */
+                width: 100; 
+                /* css-3 */
+                white-space: -o-pre-wrap; 
+                word-wrap: break-word;
+                white-space: pre-wrap; 
+                white-space: -moz-pre-wrap; 
+                white-space: -pre-wrap;
+            }
+
+            td {  
+                        
+                background: #FAFAFA; /* Lighter grey background */
+                text-align: center; /* Center our text */
+                width: 100; 
+                /* css-3 */
+                white-space: -o-pre-wrap; 
+                word-wrap: break-word;
+                white-space: pre-wrap; 
+                white-space: -moz-pre-wrap; 
+                white-space: -pre-wrap;
+            }
+
+            tr.breakrow {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th> >>>>> Cogmation Live Automation Logs - Scroll Down for latest <<<<< </th>
+            </tr>
+        </table>
+        </br>
+        <table class="gridtable" id="tablemain">
+            <thead>
+                <tr class="tableheader">
+                    <th>Suite Name (No.of Test Cases)</th>
+                    <th>Test Device Serial Number</th>
+                    <th>Test Name</th>
+                    <th>Execution Status</th>
+                    <th>Start Time (YMD H:M:S.ms)</th>
+                    <th>End Time (YMD H:M:S.ms)</th>                        
+                    <th>Elapased Time (H:M:S.ms)</th>
+                    <th>No.of Loops</th>
+                    <th>Loop Pass Count</th>
+                    <th>Test Status</th>
+                    <th>Message</th>
+                    <th>Screenshot</th>
+                    <th>Logcat And Radio Logs</th>
+                    <th>Crash Count</th>
+                    <th>Device Usage</th>
+                    <th>Build Notes</th>
+                </tr>
+            </thead>
+            <script>
+                $( document ).ready(function(){
+                    $('.breakrow').click(function(){
+                        $(this).nextUntil('tr.breakrow').slideToggle(200);
+                        $(this).find("i").toggleClass("fas fa-chevron-circle-up fas fa-chevron-circle-down");
+                    });
+                });
+            </script>
+    <tbody>
+        
+                <tr class="breakrow">
+                    <td style="background-color:#00aaff"><strong>VZW Stability LiveDashboard (18)</strong>
+                        <i style="float:right;" class="fas fa-chevron-circle-up"></i>
+                    </td>
+                    <td><strong>2748B3DC6M002L</strong></td>
+                    <td></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:02:24.540</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>WiFi_Turn WiFi Radio On And Off</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:02:33.671</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>WiFi_Turn WiFi Radio On And Off</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:02:33.671</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:04:03.288</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:29.617000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:11%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>WiFi_Connect And Disconnect to a WiFi network</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:04:03.289</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>WiFi_Connect And Disconnect to a WiFi network</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:04:03.289</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:06:05.380</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:02:02.091000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:11%<br>Battery Percentage:86%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>PIM_Set an alarm</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:06:05.382</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>PIM_Set an alarm</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:06:05.382</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:07:01.080</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:00:55.698000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:11%<br>Battery Percentage:87%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>PIM_Delete an Alarm</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:07:01.081</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>PIM_Delete an Alarm</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:07:01.081</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:08:01.232</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:00.151000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:11%<br>Battery Percentage:87%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Record A 30s Video</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:08:01.234</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Record A 30s Video</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:08:01.234</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:09:46.968</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:45.734000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:11%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Play back a 30s video</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:09:46.971</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Play back a 30s video</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:09:46.971</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:12:48.606</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:03:01.635000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:13%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Delete A Video</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:12:48.608</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Delete A Video</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:12:48.608</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:17:26.994</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:04:38.386000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:14%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Take A Picture</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:17:26.995</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Take A Picture</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:17:26.995</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:18:44.645</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:17.650000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Open A Picture</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:18:44.647</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Open A Picture</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:18:44.647</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:20:15.613</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:30.966000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Delete A Picture</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:20:15.615</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Delete A Picture</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:20:15.615</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:22:22.397</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:02:06.782000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Opening and Closing music player</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:22:22.399</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Opening and Closing music player</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:22:22.399</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:23:30.265</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:07.866000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Open Music Player and play a music file</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:23:30.267</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Open Music Player and play a music file</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:23:30.267</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:24:53.677</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:01:23.410000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Close the music player</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:24:53.679</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>MultiMedia_Close the music player</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:24:53.679</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:25:39.330</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:00:45.651000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>MultiMedia_Open and set a theme</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:25:39.331</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#ff4d4d"><strong>MultiMedia_Open and set a theme</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>Completed</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:25:39.331</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:27:09.092</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>0:01:29.761000</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>1</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>0</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>FAIL</strong></td>
+                    <td style="text-align: left;">Teardown failed:
+Expected 95% of iterations to be successful but only 0% of iterations are successfull</td>
+                    <td><a href="./MultiMedia_Open and set a theme\Fail_01_09_2021_07_26_49.png"><strong>Failure Screenshot</strong></a></td>
+                    <td><a href="./MultiMedia_Open and set a theme\Logcat_2748B3DC6M002L_01-09-2021-07-26-48.txt"><strong>Logcat</strong></a><br><a href="./MultiMedia_Open and set a theme\Radio_2748B3DC6M002L_01-09-2021-07-26-48.txt"><strong>Radio Logs</strong></a></td>
+                    <td style="background-color:#ff4d4d"><strong>0</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Menu_Navigation_Starting From The Device Main screen</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:27:09.095</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Menu_Navigation_Starting From The Device Main screen</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:27:09.095</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:32:55.155</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:05:46.060000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Telephony_Make A Voice Call From The Call History List</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:32:55.157</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#ff4d4d"><strong>Telephony_Make A Voice Call From The Call History List</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>Completed</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:32:55.157</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:35:59.065</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>0:03:03.908000</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>1</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>0</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>FAIL</strong></td>
+                    <td style="text-align: left;">Teardown failed:
+Expected 80% of iterations to be successful but only 0% of iterations are successfull</td>
+                    <td><a href="./Telephony_Make A Voice Call From The Call History List\Fail_01_09_2021_07_35_29.png"><strong>Failure Screenshot</strong></a></td>
+                    <td><a href="./Telephony_Make A Voice Call From The Call History List\Logcat_2748B3DC6M002L_01-09-2021-07-35-29.txt"><strong>Logcat</strong></a><br><a href="./Telephony_Make A Voice Call From The Call History List\Radio_2748B3DC6M002L_01-09-2021-07-35-29.txt"><strong>Radio Logs</strong></a></td>
+                    <td style="background-color:#ff4d4d"><strong>0</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>Storage Used:15%<br>Battery Percentage:85%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Telephony_Receive A Call</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:35:59.068</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Telephony_Receive A Call</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:35:59.068</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:38:16.306</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:02:17.238000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:84%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Fetch Data For Dashboard</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:38:16.307</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Fetch Data For Dashboard</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:38:16.307</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:38:39.367</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:00:23.060000</strong></td>
+                    <td style="background-color:#00ff00"><strong>0</strong></td>
+                    <td style="background-color:#00ff00"><strong>0</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:84%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td style="background-color:#ff4d4d"><strong>VZW Stability LiveDashboard</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>2748B3DC6M002L</strong></td>
+                    <td style="background-color:#ff4d4d"></td>
+                    <td style="background-color:#ff4d4d"><strong>Completed</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:02:24.540</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>20210901 07:38:43.644</strong></td>
+                    <td style="background-color:#ff4d4d"><strong>0:36:19.104000</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#ff4d4d"><strong>18 critical tests, 16 passed, 2 failed
+18 tests total, 16 passed, 2 failed</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>  
+            
+        </tbody>
+    </table>
+    </br>
+    <table>
+        <tr>
+            <td><strong>Report and Logs</strong></td>
+            <td style="text-align:left"><a href="./log_2748B3DC6M002L-20210901-070224.html"><div style="height:100%;width:100%"><strong>Detailed Logs</strong></div></a></td>
+        </tr>
+        </table>
+        <table>
+            <tr>
+                <th><strong>Execution completed!</strong></th>
+            </tr>
+        </table>
+    </body>
+</html>
+        

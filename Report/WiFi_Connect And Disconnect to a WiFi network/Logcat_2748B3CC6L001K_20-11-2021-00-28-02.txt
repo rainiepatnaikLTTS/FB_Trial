@@ -1,0 +1,1297 @@
+--------- beginning of system
+11-20 00:19:53.785 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1194, appType = 1, type = SVC_REQ, clientId = 0, token = 54, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:19:53.788 D/commandrouter( 1117): mcu_healthcheck_1194 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 54, service client ID = 39, token ID = 17874, result = 0
+11-20 00:19:53.789 I/chatty  ( 1194): uid=1000(system) android.bg expire 1 line
+11-20 00:19:53.848 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:19:54.770 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:19:55.074 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 3 lines
+11-20 00:19:58.633 I/chatty  ( 1194): uid=1000(system) android.ui expire 10 lines
+11-20 00:20:01.278 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35838
+11-20 00:20:01.279 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35838, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:06.155 I/chatty  ( 1194): uid=1000(system) Binder:1194_1F expire 4 lines
+11-20 00:20:08.106 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 511, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:20:08.109 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 511, service client ID = 6, token ID = 17875, result = 0
+11-20 00:20:08.518 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:20:11.274 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35839
+11-20 00:20:11.275 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35839, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:12.278 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1023, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:20:12.282 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1023, service client ID = 40, token ID = 17876, result = 0
+11-20 00:20:12.283 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:20:12.375 I/chatty  ( 1194): uid=1000(system) android.ui expire 2 lines
+11-20 00:20:14.154 I/chatty  ( 1194): uid=1000(system) Binder:1194_C expire 4 lines
+11-20 00:20:20.867 I/chatty  ( 1194): uid=1000(system) android.display expire 1 line
+11-20 00:20:21.275 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35840
+11-20 00:20:21.275 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35840, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:21.862 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:20:21.863 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:20:23.478 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 2 lines
+11-20 00:20:23.620 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:20:24.314 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 34 lines
+11-20 00:20:25.750 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:20:25.750 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:20:25.750 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:20:25.750 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:20:25.975 I/chatty  ( 1194): uid=1000 system_server expire 2 lines
+11-20 00:20:25.983 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 7 lines
+11-20 00:20:26.163 I/chatty  ( 1194): uid=1000(system) android.fg expire 3 lines
+11-20 00:20:27.688 I/chatty  ( 1194): uid=1000(system) Binder:1194_5 expire 3 lines
+11-20 00:20:31.276 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35841
+11-20 00:20:31.277 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35841, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:33.741 I/chatty  ( 1194): uid=1000(system) android.ui expire 8 lines
+11-20 00:20:38.494 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 2 lines
+11-20 00:20:41.161 I/chatty  ( 1194): uid=1000(system) Binder:1194_8 expire 4 lines
+11-20 00:20:41.272 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35842
+11-20 00:20:41.272 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35842, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:42.285 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1024, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:20:42.288 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1024, service client ID = 40, token ID = 17877, result = 0
+11-20 00:20:42.289 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:20:51.274 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35843
+11-20 00:20:51.275 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35843, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:20:55.791 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 18 lines
+11-20 00:21:01.275 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35844
+11-20 00:21:01.276 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35844, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:06.418 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:21:08.110 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 512, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:21:08.116 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 512, service client ID = 6, token ID = 17878, result = 0
+11-20 00:21:08.626 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:21:09.248 I/chatty  ( 1194): uid=1000(system) android.ui expire 12 lines
+11-20 00:21:11.160 I/chatty  ( 1194): uid=1000(system) Binder:1194_1F expire 4 lines
+11-20 00:21:11.269 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35845
+11-20 00:21:11.269 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35845, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:12.290 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1025, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:21:12.294 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1025, service client ID = 40, token ID = 17879, result = 0
+11-20 00:21:12.295 D/mculinkhealth( 1118): isMcuReachable 1 (5 ms)
+11-20 00:21:14.868 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 3 lines
+11-20 00:21:18.844 I/chatty  ( 1194): uid=1000(system) android.display expire 2 lines
+11-20 00:21:19.567 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:21:19.567 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:21:19.567 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:21:19.567 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:21:19.913 I/chatty  ( 1194): uid=1000(system) android.fg expire 1 line
+11-20 00:21:21.272 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35846
+11-20 00:21:21.273 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35846, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:30.152 I/chatty  ( 1194): uid=1000(system) Binder:1194_12 expire 4 lines
+11-20 00:21:31.262 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35847
+11-20 00:21:31.263 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35847, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:38.107 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:21:38.109 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:21:38.192 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:21:38.568 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 1 line
+11-20 00:21:39.057 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 23 lines
+11-20 00:21:39.471 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:21:39.471 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:21:39.471 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:21:39.471 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:21:41.256 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35848
+11-20 00:21:41.257 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35848, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:42.297 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1026, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:21:42.301 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1026, service client ID = 40, token ID = 17880, result = 0
+11-20 00:21:42.301 D/mculinkhealth( 1118): isMcuReachable 1 (5 ms)
+11-20 00:21:51.253 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35849
+11-20 00:21:51.254 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35849, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:21:58.241 I/chatty  ( 1194): uid=1000(system) android.ui expire 10 lines
+11-20 00:22:01.159 I/chatty  ( 1194): uid=1000(system) Binder:1194_14 expire 4 lines
+11-20 00:22:01.253 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35850
+11-20 00:22:01.254 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35850, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:03.859 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 1 line
+11-20 00:22:08.118 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 513, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:22:08.123 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 513, service client ID = 6, token ID = 17881, result = 0
+11-20 00:22:08.698 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:22:08.911 I/chatty  ( 1194): uid=1000(system) android.display expire 1 line
+11-20 00:22:09.453 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 9 lines
+11-20 00:22:09.573 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:22:09.574 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:22:09.574 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:22:09.574 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:22:10.412 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:22:11.254 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35851
+11-20 00:22:11.254 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35851, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:12.303 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1027, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:22:12.307 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1027, service client ID = 40, token ID = 17882, result = 0
+11-20 00:22:12.307 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:22:18.245 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 2 lines
+11-20 00:22:18.626 I/chatty  ( 1194): uid=1000(system) android.ui expire 2 lines
+11-20 00:22:20.157 I/chatty  ( 1194): uid=1000(system) Binder:1194_15 expire 4 lines
+11-20 00:22:21.252 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35852
+11-20 00:22:21.253 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35852, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:26.984 I/chatty  ( 1194): uid=1000(system) android.display expire 1 line
+11-20 00:22:27.995 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:22:27.998 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:22:28.022 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:22:28.451 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 1 line
+11-20 00:22:28.468 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 32 lines
+11-20 00:22:29.236 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:22:29.240 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:22:29.240 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:22:29.240 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:22:31.251 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35853
+11-20 00:22:31.252 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35853, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:41.252 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35854
+11-20 00:22:41.253 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35854, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:42.308 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1028, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:22:42.311 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1028, service client ID = 40, token ID = 17883, result = 0
+11-20 00:22:42.311 D/mculinkhealth( 1118): isMcuReachable 1 (3 ms)
+11-20 00:22:48.352 I/chatty  ( 1194): uid=1000(system) android.ui expire 10 lines
+11-20 00:22:51.155 I/chatty  ( 1194): uid=1000(system) Binder:1194_12 expire 4 lines
+11-20 00:22:51.245 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35855
+11-20 00:22:51.245 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35855, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:22:53.987 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 3 lines
+11-20 00:22:58.832 I/chatty  ( 1194): uid=1000(system) android.display expire 2 lines
+11-20 00:22:59.233 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 11 lines
+11-20 00:22:59.466 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:22:59.467 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:22:59.467 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:22:59.467 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:23:01.246 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35856
+11-20 00:23:01.247 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35856, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:08.125 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 514, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:23:08.128 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 514, service client ID = 6, token ID = 17884, result = 0
+11-20 00:23:08.619 I/chatty  ( 1194): uid=1000(system) android.ui expire 2 lines
+11-20 00:23:08.741 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:23:10.149 I/chatty  ( 1194): uid=1000(system) Binder:1194_18 expire 4 lines
+11-20 00:23:11.244 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35857
+11-20 00:23:11.244 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35857, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:12.312 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1029, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:23:12.316 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1029, service client ID = 40, token ID = 17885, result = 0
+11-20 00:23:12.317 D/mculinkhealth( 1118): isMcuReachable 1 (5 ms)
+11-20 00:23:14.836 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:23:15.991 I/chatty  ( 1194): uid=1000(system) Binder:1194_1D expire 1 line
+11-20 00:23:17.944 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:23:17.945 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:23:17.987 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:23:19.357 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 1 line
+11-20 00:23:19.375 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 32 lines
+11-20 00:23:20.128 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:23:20.128 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:23:20.128 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:23:20.128 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:23:21.244 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35858
+11-20 00:23:21.245 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35858, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:31.240 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35859
+11-20 00:23:31.241 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35859, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:38.291 I/chatty  ( 1194): uid=1000(system) android.ui expire 11 lines
+11-20 00:23:41.132 I/chatty  ( 1194): uid=1000(system) Binder:1194_12 expire 4 lines
+11-20 00:23:41.230 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35860
+11-20 00:23:41.230 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35860, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:42.318 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1030, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:23:42.321 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1030, service client ID = 40, token ID = 17886, result = 0
+11-20 00:23:42.321 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:23:43.928 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 2 lines
+11-20 00:23:48.816 I/chatty  ( 1194): uid=1000(system) android.display expire 1 line
+11-20 00:23:49.234 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 13 lines
+11-20 00:23:49.360 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:23:49.361 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:23:49.361 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:23:49.361 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:23:51.219 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35861
+11-20 00:23:51.219 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35861, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:23:59.619 I/chatty  ( 1194): uid=1000(system) android.ui expire 4 lines
+11-20 00:24:00.153 I/chatty  ( 1194): uid=1000(system) Binder:1194_8 expire 4 lines
+11-20 00:24:01.206 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35862
+11-20 00:24:01.206 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35862, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:03.879 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 1 line
+11-20 00:24:06.399 I/chatty  ( 1194): uid=1000(system) android.display expire 1 line
+11-20 00:24:07.393 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:24:07.395 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:24:07.500 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:24:07.877 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 1 line
+11-20 00:24:08.129 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 515, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:24:08.133 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 515, service client ID = 6, token ID = 17887, result = 0
+11-20 00:24:08.151 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 28 lines
+11-20 00:24:08.680 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:24:08.681 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:24:08.681 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:24:08.681 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:24:08.843 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:24:11.192 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35863
+11-20 00:24:11.193 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35863, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:12.322 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1031, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:24:12.325 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1031, service client ID = 40, token ID = 17888, result = 0
+11-20 00:24:12.326 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:24:21.180 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35864
+11-20 00:24:21.181 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35864, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:29.954 I/chatty  ( 1194): uid=1000(system) android.ui expire 9 lines
+11-20 00:24:30.157 I/chatty  ( 1194): uid=1000(system) Binder:1194_18 expire 1 line
+11-20 00:24:30.276 I/chatty  ( 1194): uid=1000(system) Binder:1194_14 expire 3 lines
+11-20 00:24:31.169 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35865
+11-20 00:24:31.170 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35865, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:33.270 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 3 lines
+11-20 00:24:37.849 I/chatty  ( 1194): uid=1000(system) android.display expire 2 lines
+11-20 00:24:38.348 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 26 lines
+11-20 00:24:38.474 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:24:38.474 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:24:38.474 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:24:38.474 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:24:39.473 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:24:41.167 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35866
+11-20 00:24:41.168 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35866, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:42.327 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1032, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:24:42.330 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1032, service client ID = 40, token ID = 17889, result = 0
+11-20 00:24:42.331 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:24:50.143 I/chatty  ( 1194): uid=1000(system) Binder:1194_19 expire 4 lines
+11-20 00:24:51.167 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35867
+11-20 00:24:51.168 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35867, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:24:57.233 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:24:57.234 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 1 line
+11-20 00:24:57.381 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:24:57.756 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 1 line
+11-20 00:24:58.352 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 15 lines
+11-20 00:24:58.613 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:24:58.613 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:24:58.613 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:24:58.614 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:25:01.166 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35868
+11-20 00:25:01.167 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35868, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:25:08.135 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 516, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:25:08.139 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 516, service client ID = 6, token ID = 17890, result = 0
+11-20 00:25:08.934 I/chatty  ( 1194): uid=1000(system) DeviceStorageMo expire 2 lines
+11-20 00:25:11.159 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35869
+11-20 00:25:11.160 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35869, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:25:12.331 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1033, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:25:12.335 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1033, service client ID = 40, token ID = 17891, result = 0
+11-20 00:25:12.335 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:25:17.673 I/chatty  ( 1194): uid=1000(system) android.ui expire 12 lines
+11-20 00:25:20.129 I/chatty  ( 1194): uid=1000(system) Binder:1194_5 expire 1 line
+11-20 00:25:20.255 I/chatty  ( 1194): uid=1000(system) Binder:1194_19 expire 3 lines
+11-20 00:25:21.154 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35870
+11-20 00:25:21.154 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35870, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:25:23.247 I/chatty  ( 1194): uid=1000(system) LazyTaskWriterT expire 3 lines
+11-20 00:25:27.832 I/chatty  ( 1194): uid=1000(system) android.display expire 2 lines
+11-20 00:25:28.292 I/chatty  ( 1194): uid=1000(system) ConnectivitySer expire 9 lines
+11-20 00:25:28.423 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:25:28.424 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:25:28.424 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:25:28.424 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:25:31.148 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35871
+11-20 00:25:31.149 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35871, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:25:39.129 I/chatty  ( 1194): uid=1000(system) Binder:1194_1 expire 1 line
+11-20 00:25:39.255 I/chatty  ( 1194): uid=1000(system) Binder:1194_15 expire 3 lines
+11-20 00:25:41.143 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35872
+11-20 00:25:41.144 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35872, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:25:42.336 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1034, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:25:42.339 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1034, service client ID = 40, token ID = 17892, result = 0
+11-20 00:25:42.339 D/mculinkhealth( 1118): isMcuReachable 1 (3 ms)
+11-20 00:25:44.073 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:25:46.985 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendP2pConnectionChangedBroadcast:3236 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.access$5100:768 
+11-20 00:25:46.987 W/BroadcastQueue( 1194): Permission Denial: receiving Intent { act=android.net.wifi.p2p.CONNECTION_STATE_CHANGE flg=0x24000010 (has extras) } to ProcessRecord{ba73 1900:.qtidataservices/u0a89} (pid=1900, uid=10089) requires android.permission.ACCESS_FINE_LOCATION due to sender android (uid 1000)
+11-20 00:25:46.994 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendThisDeviceChangedBroadcast:3218 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.updateThisDevice:3962 
+11-20 00:25:47.009 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:25:47.480 D/ConnectivityService( 1194): registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{129}  nethandle{557456478221}  lp{{InterfaceName: wlan0 LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=72000Kbps LinkDnBandwidth>=72000Kbps OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:25:47.496 D/ConnectivityService( 1194): [129 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to UNKNOWN
+11-20 00:25:47.661 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:25:47.704 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:47.704 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:47.948 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:25:47.949 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:25:47.949 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:47.949 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:48.095 D/ConnectivityService( 1194): Setting DNS servers for network 129 to [/192.168.1.1]
+11-20 00:25:48.096 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:48.096 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:48.195 D/ConnectivityService( 1194): [129 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to CONNECTED
+11-20 00:25:48.198 D/DnsManager( 1194): sendDnsConfigurationForNetwork(129, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [])
+11-20 00:25:48.199 W/DnsManager( 1194): updatePrivateDns(129, PrivateDnsConfig{true:/[]})
+11-20 00:25:48.200 D/ConnectivityService( 1194): Setting DNS servers for network 129 to [/192.168.1.1]
+11-20 00:25:48.200 D/DnsManager( 1194): sendDnsConfigurationForNetwork(129, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:25:48.203 D/ConnectivityService( 1194): Adding iface wlan0 to network 129
+11-20 00:25:48.228 D/ConnectivityService( 1194): Setting DNS servers for network 129 to [/192.168.1.1]
+11-20 00:25:48.228 D/DnsManager( 1194): sendDnsConfigurationForNetwork(129, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:25:48.230 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:48.230 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:48.288 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:25:48.454 D/ConnectivityService( 1194): [129 WIFI] validation passed
+11-20 00:25:48.454 D/ConnectivityService( 1194): NetReassign [8 : 100 → 129, 20 : 100 → 129, 46 : 100 → 129, 45 : 100 → 129, 626 : 100 → 129, 12 : 100 → 129, 22 : 100 → 129, 16 : 100 → 129, 603 : 100 → 129, 14 : 100 → 129, 50 : 100 → 129, 18 : 100 → 129, 11 : 100 → 129, 629 : 100 → 129, 1 : 100 → 129, 17 : 100 → 129]
+11-20 00:25:48.458 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:25:48.458 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:25:48.458 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:25:48.458 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:25:48.476 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{129}  nethandle{557456478221}  lp{{InterfaceName: wlan0 LinkAddresses: [ 192.168.1.39/24 ] DnsAddresses: [ /192.168.1.1 ] Domains: null MTU: 0 ServerAddress: /192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,192.168.1.0/24 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 192.168.1.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=68000Kbps LinkDnBandwidth>=68000Kbps SignalStrength: -30 OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:25:48.604 D/ConnectivityService( 1194): Lingering [100 CELLULAR] for 30000ms
+11-20 00:25:48.615 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:25:48.617 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 1 [129 WIFI] isDefaultNetwork=true
+11-20 00:25:48.638 D/ConnectivityService( 1194): Setting DNS servers for network 129 to [/192.168.1.1]
+11-20 00:25:48.638 D/DnsManager( 1194): sendDnsConfigurationForNetwork(129, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:25:49.182 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:49.183 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:25:51.136 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35873
+11-20 00:25:51.138 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35873, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:01.132 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35874
+11-20 00:26:01.132 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35874, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:07.154 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:07.681 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:08.140 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 517, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:26:08.143 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 517, service client ID = 6, token ID = 17893, result = 0
+11-20 00:26:08.201 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:09.027 D/AppStorageManager( 1194): BEFORE:: Previous Size: 1047580672 Current Size: 1047715840
+11-20 00:26:09.027 D/AppStorageManager( 1194): AFTER:: Previous Size: 1047715840 Current Size: 1047715840
+11-20 00:26:09.618 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:10.184 W/ActivityManager( 1194): Invalid packageName: com.facebook.wearable.system.settings/com.facebook.wearable.system.settings.SettingsActivity
+11-20 00:26:10.302 I/ActivityTaskManager( 1194): START u0 {flg=0x10000000 cmp=com.facebook.wearable.system.settings/.SettingsActivity} from uid 0
+11-20 00:26:10.322 I/ActivityTaskManager( 1194): The Process com.facebook.wearable.system.settings Already Exists in BG. So sending its PID: 3038
+11-20 00:26:10.323 W/ActivityTaskManager( 1194): Tried to set launchTime (0) < mLastActivityLaunchTime (31085543)
+11-20 00:26:11.131 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35875
+11-20 00:26:11.132 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35875, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:12.340 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1035, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:26:12.343 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1035, service client ID = 40, token ID = 17894, result = 0
+11-20 00:26:12.344 D/mculinkhealth( 1118): isMcuReachable 1 (3 ms)
+11-20 00:26:12.768 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:26:17.914 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.display.WifiDisplayAdapter.handleSendStatusChangeBroadcast:440 com.android.server.display.WifiDisplayAdapter.access$1700:63 com.android.server.display.WifiDisplayAdapter$WifiDisplayHandler.handleMessage:675 
+11-20 00:26:18.455 D/ConnectivityService( 1194): handleLingerComplete for [100 CELLULAR]
+11-20 00:26:18.682 I/wificond(  906): Fail RSSI polling because wifi is not associated.
+11-20 00:26:18.722 D/ConnectivityService( 1194): [129 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+11-20 00:26:18.722 D/ConnectivityService( 1194): [129 WIFI] disconnected, was satisfying 27
+11-20 00:26:18.791 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:18.791 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:18.831 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 1 [129 WIFI] isDefaultNetwork=true
+11-20 00:26:18.845 D/ConnectivityService( 1194): NetReassign [8 : null → 100, 20 : null → 100, 46 : null → 100, 45 : null → 100, 626 : null → 100, 12 : null → 100, 22 : null → 100, 16 : null → 100, 603 : null → 100, 14 : null → 100, 50 : null → 100, 18 : null → 100, 11 : null → 100, 629 : null → 100, 1 : null → 100, 17 : null → 100]
+11-20 00:26:18.850 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:26:18.850 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:26:18.850 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:26:18.850 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:26:18.865 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: nxtgenphone, failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{InterfaceName: rmnet_data2 LinkAddresses: [ 10.129.103.196/29,2600:380:c119:24f:b89a:9f3c:46c1:95af/64 ] DnsAddresses: [ /172.26.38.1,/fc00:a:a::300 ] Domains: null MTU: 1430 TcpBufferSizes: 2097152,4194304,8388608,262144,524288,1048576 Routes: [ 0.0.0.0/0 -> 10.129.103.197 rmnet_data2 mtu 1430,::/0 -> fe80::b45f:41f1:1846:969d rmnet_data2 mtu 1430,10.129.103.192/29 -> 0.0.0.0 rmnet_data2 mtu 0,2600:380:c119:24f::/64 -> :: rmnet_data2 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&FOTA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]}  Score{50}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:26:19.068 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:26:21.131 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35876
+11-20 00:26:21.131 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35876, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:22.929 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:25.627 I/chatty  ( 1194): uid=1000(system) android.ui identical 3 lines
+11-20 00:26:26.621 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:27.431 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:26:27.618 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:28.615 I/chatty  ( 1194): uid=1000(system) android.ui identical 1 line
+11-20 00:26:29.627 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:30.157 W/ActivityManager( 1194): Invalid packageName: com.facebook.wearable.system.settings/com.facebook.wearable.system.settings.SettingsActivity
+11-20 00:26:30.289 I/ActivityTaskManager( 1194): START u0 {flg=0x10000000 cmp=com.facebook.wearable.system.settings/.SettingsActivity} from uid 0
+11-20 00:26:30.309 I/ActivityTaskManager( 1194): The Process com.facebook.wearable.system.settings Already Exists in BG. So sending its PID: 3038
+11-20 00:26:30.310 W/ActivityTaskManager( 1194): Tried to set launchTime (0) < mLastActivityLaunchTime (31116587)
+11-20 00:26:31.128 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35877
+11-20 00:26:31.129 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35877, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:33.895 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:26:36.974 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.display.WifiDisplayAdapter.handleSendStatusChangeBroadcast:440 com.android.server.display.WifiDisplayAdapter.access$1700:63 com.android.server.display.WifiDisplayAdapter$WifiDisplayHandler.handleMessage:675 
+11-20 00:26:37.995 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendP2pConnectionChangedBroadcast:3236 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.access$5100:768 
+11-20 00:26:37.998 W/BroadcastQueue( 1194): Permission Denial: receiving Intent { act=android.net.wifi.p2p.CONNECTION_STATE_CHANGE flg=0x24000010 (has extras) } to ProcessRecord{ba73 1900:.qtidataservices/u0a89} (pid=1900, uid=10089) requires android.permission.ACCESS_FINE_LOCATION due to sender android (uid 1000)
+11-20 00:26:38.004 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendThisDeviceChangedBroadcast:3218 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.updateThisDevice:3962 
+11-20 00:26:38.019 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:26:38.542 D/ConnectivityService( 1194): registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{130}  nethandle{561751445517}  lp{{InterfaceName: wlan0 LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=72000Kbps LinkDnBandwidth>=72000Kbps OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:26:38.587 D/ConnectivityService( 1194): [130 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to UNKNOWN
+11-20 00:26:38.734 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:26:38.770 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:38.770 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:38.910 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:26:38.911 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:26:38.911 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:38.911 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:38.980 D/ConnectivityService( 1194): Setting DNS servers for network 130 to [/192.168.1.1]
+11-20 00:26:38.981 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:38.981 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:39.067 D/ConnectivityService( 1194): [130 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to CONNECTED
+11-20 00:26:39.069 D/DnsManager( 1194): sendDnsConfigurationForNetwork(130, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [])
+11-20 00:26:39.070 W/DnsManager( 1194): updatePrivateDns(130, PrivateDnsConfig{true:/[]})
+11-20 00:26:39.070 D/ConnectivityService( 1194): Setting DNS servers for network 130 to [/192.168.1.1]
+11-20 00:26:39.071 D/DnsManager( 1194): sendDnsConfigurationForNetwork(130, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:26:39.073 D/ConnectivityService( 1194): Adding iface wlan0 to network 130
+11-20 00:26:39.104 D/ConnectivityService( 1194): Setting DNS servers for network 130 to [/192.168.1.1]
+11-20 00:26:39.105 D/DnsManager( 1194): sendDnsConfigurationForNetwork(130, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:26:39.106 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:39.106 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:39.169 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:26:39.417 D/ConnectivityService( 1194): [130 WIFI] validation passed
+11-20 00:26:39.418 D/ConnectivityService( 1194): NetReassign [8 : 100 → 130, 20 : 100 → 130, 46 : 100 → 130, 45 : 100 → 130, 626 : 100 → 130, 12 : 100 → 130, 22 : 100 → 130, 16 : 100 → 130, 603 : 100 → 130, 14 : 100 → 130, 50 : 100 → 130, 18 : 100 → 130, 11 : 100 → 130, 629 : 100 → 130, 1 : 100 → 130, 17 : 100 → 130]
+11-20 00:26:39.422 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:26:39.422 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:26:39.422 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:26:39.422 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:26:39.434 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{130}  nethandle{561751445517}  lp{{InterfaceName: wlan0 LinkAddresses: [ 192.168.1.39/24 ] DnsAddresses: [ /192.168.1.1 ] Domains: null MTU: 0 ServerAddress: /192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,192.168.1.0/24 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 192.168.1.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=68000Kbps LinkDnBandwidth>=68000Kbps SignalStrength: -30 OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:26:39.562 D/ConnectivityService( 1194): Lingering [100 CELLULAR] for 30000ms
+11-20 00:26:39.571 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:26:39.573 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 1 [130 WIFI] isDefaultNetwork=true
+11-20 00:26:39.602 D/ConnectivityService( 1194): Setting DNS servers for network 130 to [/192.168.1.1]
+11-20 00:26:39.603 D/DnsManager( 1194): sendDnsConfigurationForNetwork(130, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:26:39.741 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:39.741 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:26:41.124 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35878
+11-20 00:26:41.125 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35878, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:42.344 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1036, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:26:42.347 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1036, service client ID = 40, token ID = 17895, result = 0
+11-20 00:26:42.348 D/mculinkhealth( 1118): isMcuReachable 1 (4 ms)
+11-20 00:26:51.119 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35879
+11-20 00:26:51.120 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35879, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:26:58.312 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:26:59.377 I/chatty  ( 1194): uid=1000(system) android.ui identical 2 lines
+11-20 00:27:00.708 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:01.140 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35880
+11-20 00:27:01.140 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35880, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:01.152 W/ActivityManager( 1194): Invalid packageName: com.facebook.wearable.system.settings/com.facebook.wearable.system.settings.SettingsActivity
+11-20 00:27:01.271 I/ActivityTaskManager( 1194): START u0 {flg=0x10000000 cmp=com.facebook.wearable.system.settings/.SettingsActivity} from uid 0
+11-20 00:27:01.289 I/ActivityTaskManager( 1194): The Process com.facebook.wearable.system.settings Already Exists in BG. So sending its PID: 3038
+11-20 00:27:01.290 W/ActivityTaskManager( 1194): Tried to set launchTime (0) < mLastActivityLaunchTime (31136575)
+11-20 00:27:03.949 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:27:08.145 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_946, appType = 1, type = SVC_REQ, clientId = 0, token = 518, payloadLen = 20, result = 0, payload.size() = 20
+11-20 00:27:08.148 D/commandrouter( 1117): mcu_healthcheck_946 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 518, service client ID = 6, token ID = 17896, result = 0
+11-20 00:27:08.288 D/AnalyticsLogger( 1194): sent events: 12
+11-20 00:27:08.797 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.display.WifiDisplayAdapter.handleSendStatusChangeBroadcast:440 com.android.server.display.WifiDisplayAdapter.access$1700:63 com.android.server.display.WifiDisplayAdapter$WifiDisplayHandler.handleMessage:675 
+11-20 00:27:09.127 D/AppStorageManager( 1194): BEFORE:: Previous Size: 1047715840 Current Size: 1047584768
+11-20 00:27:09.127 D/AppStorageManager( 1194): AFTER:: Previous Size: 1047584768 Current Size: 1047584768
+11-20 00:27:09.315 D/ConnectivityService( 1194): [130 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+11-20 00:27:09.315 D/ConnectivityService( 1194): [130 WIFI] disconnected, was satisfying 27
+11-20 00:27:09.382 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:09.382 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:09.432 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 1 [130 WIFI] isDefaultNetwork=true
+11-20 00:27:09.434 D/ConnectivityService( 1194): NetReassign [8 : null → 100, 20 : null → 100, 46 : null → 100, 45 : null → 100, 626 : null → 100, 12 : null → 100, 22 : null → 100, 16 : null → 100, 603 : null → 100, 14 : null → 100, 50 : null → 100, 18 : null → 100, 11 : null → 100, 629 : null → 100, 1 : null → 100, 17 : null → 100]
+11-20 00:27:09.439 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:27:09.440 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:27:09.440 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:27:09.440 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:27:09.476 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: nxtgenphone, failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{InterfaceName: rmnet_data2 LinkAddresses: [ 10.129.103.196/29,2600:380:c119:24f:b89a:9f3c:46c1:95af/64 ] DnsAddresses: [ /172.26.38.1,/fc00:a:a::300 ] Domains: null MTU: 1430 TcpBufferSizes: 2097152,4194304,8388608,262144,524288,1048576 Routes: [ 0.0.0.0/0 -> 10.129.103.197 rmnet_data2 mtu 1430,::/0 -> fe80::b45f:41f1:1846:969d rmnet_data2 mtu 1430,10.129.103.192/29 -> 0.0.0.0 rmnet_data2 mtu 0,2600:380:c119:24f::/64 -> :: rmnet_data2 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&FOTA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]}  Score{50}  everValidated{true}  lastValidated{true}  created{true} lingering{true} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:27:09.627 D/ConnectivityService( 1194): Unlingering [100 CELLULAR]
+11-20 00:27:09.628 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:27:11.116 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35881
+11-20 00:27:11.117 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35881, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:12.350 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1037, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:27:12.354 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1037, service client ID = 40, token ID = 17897, result = 0
+11-20 00:27:12.355 D/mculinkhealth( 1118): isMcuReachable 1 (5 ms)
+11-20 00:27:13.654 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:16.628 I/chatty  ( 1194): uid=1000(system) android.ui identical 4 lines
+11-20 00:27:17.622 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:18.189 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:27:18.620 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:19.631 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:20.135 W/ActivityManager( 1194): Invalid packageName: com.facebook.wearable.system.settings/com.facebook.wearable.system.settings.SettingsActivity
+11-20 00:27:20.230 I/ActivityTaskManager( 1194): START u0 {flg=0x10000000 cmp=com.facebook.wearable.system.settings/.SettingsActivity} from uid 0
+11-20 00:27:20.245 I/ActivityTaskManager( 1194): The Process com.facebook.wearable.system.settings Already Exists in BG. So sending its PID: 3038
+11-20 00:27:20.246 W/ActivityTaskManager( 1194): Tried to set launchTime (0) < mLastActivityLaunchTime (31167555)
+11-20 00:27:21.110 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35882
+11-20 00:27:21.111 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35882, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:23.856 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:27:26.914 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.display.WifiDisplayAdapter.handleSendStatusChangeBroadcast:440 com.android.server.display.WifiDisplayAdapter.access$1700:63 com.android.server.display.WifiDisplayAdapter$WifiDisplayHandler.handleMessage:675 
+--------- beginning of main
+11-20 00:27:27.950 I/QC-NETMGR-LIB(  932): NetmgrNetdClientRemoveInterfaceFromOemNetwork(): Looking for Netd service
+11-20 00:27:27.950 I/QC-NETMGR-LIB(  932): NetmgrNetdClientRemoveInterfaceFromOemNetwork(): starting command
+11-20 00:27:27.950 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 5 lines
+11-20 00:27:27.950 I/QC-NETMGR-LIB(  932): removeInterfaceFromOemNetwork(): Attempting removeInterfaceFromOemNetwork
+11-20 00:27:27.959 E/wpa_supplicant(21170): eap_proxy: eap_proxy_notify_config
+11-20 00:27:27.970 I/WifiHAL (  539): event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+11-20 00:27:27.974 I/chatty  ( 1194): uid=1000(system) WifiHandlerThre expire 21 lines
+11-20 00:27:27.975 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendP2pConnectionChangedBroadcast:3236 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.access$5100:768 
+11-20 00:27:27.988 W/BroadcastQueue( 1194): Permission Denial: receiving Intent { act=android.net.wifi.p2p.CONNECTION_STATE_CHANGE flg=0x24000010 (has extras) } to ProcessRecord{ba73 1900:.qtidataservices/u0a89} (pid=1900, uid=10089) requires android.permission.ACCESS_FINE_LOCATION due to sender android (uid 1000)
+11-20 00:27:27.988 I/wpa_supplicant(21170): p2p0: CTRL-EVENT-AVOID-FREQ ranges=
+11-20 00:27:27.990 W/wificond(  906): Scan is not started. Ignore abort request
+11-20 00:27:27.995 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 33 lines
+11-20 00:27:27.996 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 17 lines
+11-20 00:27:27.996 I/QC-NETMGR-LIB(  932): NetmgrNetdClientRemoveInterfaceFromOemNetwork(): completed command
+11-20 00:27:27.997 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 8 lines
+11-20 00:27:27.998 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddInterfaceToOemNetwork(): Looking for Netd service
+11-20 00:27:27.998 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddInterfaceToOemNetwork(): starting command
+11-20 00:27:27.998 I/QC-NETMGR-LIB(  932): addInterfaceToOemNetwork(): Attempting addInterfaceToOemNetwork
+11-20 00:27:28.005 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddInterfaceToOemNetwork(): completed command
+11-20 00:27:28.005 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): Looking for Netd service
+11-20 00:27:28.005 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): starting command
+11-20 00:27:28.005 I/QC-NETMGR-LIB(  932): addRouteToOemNetwork(): Attempting addRouteToOemNetwork
+11-20 00:27:28.006 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): completed command
+11-20 00:27:28.006 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): Looking for Netd service
+11-20 00:27:28.006 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): starting command
+11-20 00:27:28.006 I/QC-NETMGR-LIB(  932): setForwardingBetweenInterfaces() r_rmnet_data0 wlan0: Attempting setForwardingBetweenInterfaces
+11-20 00:27:28.007 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): completed command
+11-20 00:27:28.007 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): Looking for Netd service
+11-20 00:27:28.007 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): starting command
+11-20 00:27:28.007 I/QC-NETMGR-LIB(  932): setForwardingBetweenInterfaces() r_rmnet_data0 dummy0: Attempting setForwardingBetweenInterfaces
+11-20 00:27:28.008 I/QC-NETMGR-LIB(  932): NetmgrNetdClientSetForwardingBetweenInterfaces(): completed command
+11-20 00:27:28.008 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): Looking for Netd service
+11-20 00:27:28.008 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): starting command
+11-20 00:27:28.008 I/QC-NETMGR-LIB(  932): addRouteToOemNetwork(): Attempting addRouteToOemNetwork
+11-20 00:27:28.009 I/QC-NETMGR-LIB(  932): NetmgrNetdClientAddRouteToOemNetwork(): completed command
+11-20 00:27:28.068 E/wpa_supplicant(21170): nl80211: Set scan default IEs failed: ret=-524 (Unknown error 524)
+11-20 00:27:28.079 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendBroadcastMultiplePermissions:3209 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.sendThisDeviceChangedBroadcast:3218 com.android.server.wifi.p2p.WifiP2pServiceImpl$P2pStateMachine.updateThisDevice:3962 
+11-20 00:27:28.128 I/chatty  ( 1194): uid=1000(system) WifiP2pService expire 2 lines
+11-20 00:27:28.134 I/wpa_supplicant(21170): Vendor key_mgmt: 0x142
+11-20 00:27:28.137 I/wpa_supplicant(21170): Vendor Proto: 0x3
+11-20 00:27:28.152 E/wpa_supplicant(21170): eap_proxy: eap_proxy_notify_config
+11-20 00:27:28.157 I/wpa_supplicant(21170): wlan0: Trying to associate with SSID 'MTBF_Lab'
+11-20 00:27:28.162 E/wpa_supplicant(21170): eap_proxy: eap_proxy_notify_config
+11-20 00:27:28.162 E/wpa_supplicant(21170): eap_proxy: eap_proxy_allowed_method
+11-20 00:27:28.174 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.174 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.192 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.195 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.239 I/Choreographer( 3038): Skipped 32 frames!  The application may be doing too much work on its main thread.
+11-20 00:27:28.332 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31194595648360)
+11-20 00:27:28.386 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 15 lines
+11-20 00:27:28.399 V/WifiHAL (  539): event received NL80211_CMD_CONNECT
+11-20 00:27:28.406 I/wpa_supplicant(21170): wlan0: Associated with 6c:cd:d6:25:63:2a
+11-20 00:27:28.406 I/wpa_supplicant(21170): wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+11-20 00:27:28.408 I/wpa_supplicant(21170): wlan0: WPA: RX message 1 of 4-Way Handshake from 6c:cd:d6:25:63:2a (ver=2)
+11-20 00:27:28.408 I/wpa_supplicant(21170): wlan0: WPA: Sending EAPOL-Key 2/4
+11-20 00:27:28.415 I/wpa_supplicant(21170): getWifiGenerationStatusInternal: generation = 4, twtSupport = false, vhtMax8SpatialStreamsSupport = false
+11-20 00:27:28.416 I/wpa_supplicant(21170): wlan0: WPA: RX message 3 of 4-Way Handshake from 6c:cd:d6:25:63:2a (ver=2)
+11-20 00:27:28.416 I/wpa_supplicant(21170): wlan0: WPA: Sending EAPOL-Key 4/4
+11-20 00:27:28.420 I/wpa_supplicant(21170): wlan0: WPA: Key negotiation completed with 6c:cd:d6:25:63:2a [PTK=CCMP GTK=CCMP]
+11-20 00:27:28.420 I/wpa_supplicant(21170): wlan0: CTRL-EVENT-CONNECTED - Connection to 6c:cd:d6:25:63:2a completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22MTBF_Lab%5C%22WPA_PSK%22%2C%22creatorUid%22%3A%221000%22%7D]
+11-20 00:27:28.440 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.440 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.450 D/ConnectivityService( 1194): registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{131}  nethandle{566046412813}  lp{{InterfaceName: wlan0 LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=72000Kbps LinkDnBandwidth>=72000Kbps OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:27:28.450 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.451 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.470 D/ConnectivityService( 1194): [131 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to UNKNOWN
+11-20 00:27:28.473 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.474 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.503 V/WifiHAL (  539): WifiVendorCommand 0xa063a000 created vendor_id:0x1374 subcmd:83
+11-20 00:27:28.504 E/WifiHAL (  539): wifi_get_packet_filter_capabilities: requestResponse() error: -3
+11-20 00:27:28.504 I/WifiHAL (  539): Packet filtering is not supprted
+11-20 00:27:28.618 D/WearableConnectivityManager( 2581): onWifiStrengthChange: -30
+11-20 00:27:28.620 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.RSSI_CHANGED
+11-20 00:27:28.622 V/WifiHAL (  539): WifiVendorCommand 0xa07c1180 created vendor_id:0x1374 subcmd:82
+11-20 00:27:28.623 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:27:28.623 V/WifiHAL (  539): ND offload : Enable
+11-20 00:27:28.659 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.662 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.664 E/Netd    (  459): no such netId 131
+11-20 00:27:28.665 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.724 I/chatty  ( 1194): uid=1000 system_server expire 7 lines
+11-20 00:27:28.786 E/Netd    (  459): no such netId 131
+11-20 00:27:28.786 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.787 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.665 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.787 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:27:28.788 E/Netd    (  459): no such netId 131
+11-20 00:27:28.788 E/ConnectivityService( 1194): Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+11-20 00:27:28.789 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.811 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:28.811 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:28.824 D/WifiConnector( 2841): Configured Networks Changed
+11-20 00:27:28.832 I/chatty  ( 1194): uid=1000(system) pool-9-thread-1 expire 3 lines
+11-20 00:27:28.847 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.789 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.852 D/ConnectivityService( 1194): Setting DNS servers for network 131 to [/192.168.1.1]
+11-20 00:27:28.866 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.848 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.872 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.873 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.873 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:28.866 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:28.938 D/ConnectivityService( 1194): [131 WIFI] EVENT_NETWORK_INFO_CHANGED, going from UNKNOWN to CONNECTED
+11-20 00:27:28.942 D/DnsManager( 1194): sendDnsConfigurationForNetwork(131, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [])
+11-20 00:27:28.964 W/DnsManager( 1194): updatePrivateDns(131, PrivateDnsConfig{true:/[]})
+11-20 00:27:28.964 D/ConnectivityService( 1194): Setting DNS servers for network 131 to [/192.168.1.1]
+11-20 00:27:28.964 D/DnsManager( 1194): sendDnsConfigurationForNetwork(131, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:27:28.972 D/ConnectivityService( 1194): Adding iface wlan0 to network 131
+11-20 00:27:28.973 W/resolv  (  459): Validating DnsTlsServer on netId 131
+11-20 00:27:28.974 W/resolv  (  459): Validation failed
+11-20 00:27:28.991 D/ConnectivityService( 1194): Setting DNS servers for network 131 to [/192.168.1.1]
+11-20 00:27:28.992 D/DnsManager( 1194): sendDnsConfigurationForNetwork(131, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:27:28.994 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:29.002 W/resolv  (  459): Validating DnsTlsServer on netId 131
+11-20 00:27:29.042 W/resolv  (  459): SSL_connect ssl error =5, mark 0xf0083: Connection refused
+11-20 00:27:29.043 W/resolv  (  459): Validation failed
+11-20 00:27:28.994 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:29.051 D/ConnectivityService( 1194): NetReassign [no changes]
+11-20 00:27:29.060 D/QCNEJ/WlanStaInfoRelay( 1900): network available: 131
+11-20 00:27:29.066 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = false)
+11-20 00:27:29.071 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = false)
+11-20 00:27:29.125 I/chatty  ( 1194): uid=1000 system_server expire 3 lines
+11-20 00:27:29.134 I/chatty  ( 1194): uid=1000 system_server expire 2 lines
+11-20 00:27:29.220 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:27:29.222 D/ConnectivityService( 1194): [131 WIFI] validation passed
+11-20 00:27:29.223 D/ConnectivityService( 1194): NetReassign [8 : 100 → 131, 20 : 100 → 131, 46 : 100 → 131, 45 : 100 → 131, 626 : 100 → 131, 12 : 100 → 131, 22 : 100 → 131, 16 : 100 → 131, 603 : 100 → 131, 14 : 100 → 131, 50 : 100 → 131, 18 : 100 → 131, 11 : 100 → 131, 629 : 100 → 131, 1 : 100 → 131, 17 : 100 → 131]
+11-20 00:27:29.229 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:27:29.229 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:27:29.229 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:27:29.229 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:27:29.244 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]}  network{131}  nethandle{566046412813}  lp{{InterfaceName: wlan0 LinkAddresses: [ 192.168.1.39/24 ] DnsAddresses: [ /192.168.1.1 ] Domains: null MTU: 0 ServerAddress: /192.168.1.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,192.168.1.0/24 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 192.168.1.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=68000Kbps LinkDnBandwidth>=68000Kbps SignalStrength: -30 OwnerUid: 1000 SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:27:29.362 D/DeviceAuthService(16172): Network connected
+11-20 00:27:29.362 D/DeviceAuthService(16172): fetchAuthTokenWrapper called
+11-20 00:27:29.364 D/QCNEJ/DefaultNetworkInfoRelay( 1900): Default network available: 131
+11-20 00:27:29.366 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyDefaultNetworkChanged(1)
+11-20 00:27:29.373 V/LigerRadioStatsReporter( 2384): onCapabilitiesChanged: Network capabilities changed
+11-20 00:27:29.376 I/chatty  ( 1194): uid=1000(system) NetworkTimeUpda expire 1 line
+11-20 00:27:29.381 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.390 D/ConnectivityService( 1194): Lingering [100 CELLULAR] for 30000ms
+11-20 00:27:29.392 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:27:29.394 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 1 [131 WIFI] isDefaultNetwork=true
+11-20 00:27:29.383 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.408 I/chatty  ( 1194): uid=1000(system) android.fg expire 1 line
+11-20 00:27:29.409 D/DeviceAuthService(16172): isOculusAddressResolvable returned true
+11-20 00:27:29.409 D/DeviceAuthenticator(16172): Fetching new credentials asynchronously
+11-20 00:27:29.411 I/chatty  (  523): uid=1021(gps) Loc_hal_worker expire 1 line
+11-20 00:27:29.413 D/DeviceAuthenticator(16172): Calling DeviceAuth.authenticate()
+11-20 00:27:29.415 E/DeviceCertService(  541): This device *might* have a provisioning issue. Please run `maui provision check` to verify.
+11-20 00:27:29.415 E/DeviceCertService(  541): See https://fburl.com/wiki/a9hho0p9 for more information.
+11-20 00:27:29.415 E/DeviceCertService(  541): Could not access certificate file '/mnt/vendor/persist/certificates/device_identityinsecure.crt', error 2: No such file or directory
+11-20 00:27:29.417 E/DeviceAuthenticator(16172): ERROR: java.lang.RuntimeException: devicecert returned error FILESYSTEM_ERROR
+11-20 00:27:29.417 E/DeviceAuthenticator(16172): 
+11-20 00:27:29.417 E/DeviceAuthenticator(16172): com.facebook.mos.sdk.devicecert.DeviceIdentityException: java.lang.RuntimeException: devicecert returned error FILESYSTEM_ERROR
+11-20 00:27:29.417 E/DeviceAuthenticator(16172): 
+11-20 00:27:29.435 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.440 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.441 D/PhoneInterfaceManager( 1975): setModemActivityInfo
+11-20 00:27:29.442 D/FbSideCarManager( 1975): setModemActivityInfo
+11-20 00:27:29.442 D/FbSideCarManager( 1975): setModemActivityInfo
+11-20 00:27:29.442 D/WirelessInsightServiceImpl( 1975): setModemActivityInfo
+11-20 00:27:29.442 D/FbSideCarManager( 1975): setModemActivityInfoInternal success
+11-20 00:27:29.442 D/PhoneInterfaceManager( 1975): setModemActivityInfo: success.
+11-20 00:27:29.442 D/WirelessInsightServiceImpl( 1975): notifyListeners: listeners = 0, modemActivityInfo = ModemActivityInfo{ mTimestamp=31195704 mSleepTimeMs=20212724 mIdleTimeMs=175662 mTransmitPowerInfo[]=[TransmitPower{ mTimeInMillis=0 mPowerRangeInDbm={-2147483648,0}}, TransmitPower{ mTimeInMillis=33767 mPowerRangeInDbm={0,5}}, TransmitPower{ mTimeInMillis=274546 mPowerRangeInDbm={5,15}}, TransmitPower{ mTimeInMillis=14284 mPowerRangeInDbm={15,20}}, TransmitPower{ mTimeInMillis=426987 mPowerRangeInDbm={20,2147483647}}] mRxTimeMs=10023417}
+11-20 00:27:29.460 D/QCNEJ/WlanStaInfoRelay( 1900): AndroidValidate from false to true
+11-20 00:27:29.462 D/QCNEJ/WlanStaInfoRelay( 1900): retrieveCountryCode:Location obtained from Telephony: us
+11-20 00:27:29.469 V/LigerRadioStatsReporter( 2384): onCapabilitiesChanged: Network capabilities changed
+11-20 00:27:29.469 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats
+11-20 00:27:29.469 V/LigerRadioStatsReporter( 2384): +++++++++++ RADIO STATS DUMP +++++++++++
+11-20 00:27:29.469 V/LigerRadioStatsReporter( 2384): totalActiveRadioTimeMs=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): totalTailRadioTimeMs=13995
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): totalWakeupCount=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpUpBytes=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpDownBytes=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpWakeupCount=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpRequestCount=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpActiveRadioTimeMs=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): httpTailRadioTimeMs=13995
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tx=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Rx=0
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Uids=10028
+11-20 00:27:29.470 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tags=null
+11-20 00:27:29.474 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.476 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.483 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.496 D/ConnectivityService( 1194): Setting DNS servers for network 131 to [/192.168.1.1]
+11-20 00:27:29.497 D/DnsManager( 1194): sendDnsConfigurationForNetwork(131, [192.168.1.1], [], 1800, 25, 8, 64, 0, 0, , [192.168.1.1])
+11-20 00:27:29.493 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.525 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.526 W/resolv  (  459): Validating DnsTlsServer on netId 131
+11-20 00:27:29.531 D/WifiConnector( 2841): Configured Networks Changed
+11-20 00:27:29.544 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.553 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.559 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.562 W/resolv  (  459): SSL_connect ssl error =5, mark 0xf0083: Connection refused
+11-20 00:27:29.562 W/resolv  (  459): Validation failed
+11-20 00:27:29.564 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.569 I/chatty  ( 1113): uid=1001(radio) main identical 4 lines
+11-20 00:27:29.570 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.579 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.583 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.588 I/chatty  ( 1113): uid=1001(radio) main identical 2 lines
+11-20 00:27:29.593 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.595 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.599 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.743 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:29.600 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:29.744 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.LINK_CONFIGURATION_CHANGED
+11-20 00:27:29.744 E/QCNEJ/WlanStaInfoRelay( 1900): update link properties given null lp
+11-20 00:27:29.811 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyWifiAvailable(v4Connected = truev6Connected = , false, isAndroidValidated = true)
+11-20 00:27:30.628 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31196891750078)
+11-20 00:27:29.743 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:31.103 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35883
+11-20 00:27:31.104 D/vendor.facebook.rtc_sync@1.0-service( 1129): Request req_ts=1637368051103711758 resp_ts=1637368051104097691
+11-20 00:27:31.104 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35883, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:31.692 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.RSSI_CHANGED
+11-20 00:27:31.694 D/WearableConnectivityManager( 2581): onWifiStrengthChange: -32
+11-20 00:27:31.704 V/LigerRadioStatsReporter( 2384): onCapabilitiesChanged: Network capabilities changed
+11-20 00:27:31.704 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats
+11-20 00:27:31.705 V/LigerRadioStatsReporter( 2384): +++++++++++ RADIO STATS DUMP +++++++++++
+11-20 00:27:31.705 V/LigerRadioStatsReporter( 2384): totalActiveRadioTimeMs=0
+11-20 00:27:31.705 V/LigerRadioStatsReporter( 2384): totalTailRadioTimeMs=13995
+11-20 00:27:31.705 V/LigerRadioStatsReporter( 2384): totalWakeupCount=0
+11-20 00:27:31.705 V/LigerRadioStatsReporter( 2384): httpUpBytes=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): httpDownBytes=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): httpWakeupCount=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): httpRequestCount=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): httpActiveRadioTimeMs=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): httpTailRadioTimeMs=13995
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tx=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Rx=0
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Uids=10028
+11-20 00:27:31.706 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tags=null
+11-20 00:27:32.450 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:32.452 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:32.468 I/WearableConnectivityManager( 2581): LTE Signal strength is: 1
+11-20 00:27:32.469 I/WearableConnectivityManager( 2581): Cellular Signal strength is: 1
+11-20 00:27:32.469 D/RadioLinkQualityScoreBuilder( 1975): scoreRsrp: 2scoreRsrq: 2scoreRssnr: 3
+11-20 00:27:33.668 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:33.670 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:33.680 I/WearableConnectivityManager( 2581): LTE Signal strength is: 1
+11-20 00:27:33.680 I/WearableConnectivityManager( 2581): Cellular Signal strength is: 1
+11-20 00:27:33.681 D/RadioLinkQualityScoreBuilder( 1975): scoreRsrp: 2scoreRsrq: 3scoreRssnr: 4
+11-20 00:27:35.330 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:35.331 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:35.332 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:41.107 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35884
+11-20 00:27:41.107 D/vendor.facebook.rtc_sync@1.0-service( 1129): Request req_ts=1637368061102097691 resp_ts=1637368061107499927
+11-20 00:27:41.108 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35884, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:42.356 D/mcu_health_checker( 1118): Sent MCU Health Request
+11-20 00:27:42.356 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_1118, appType = 1, type = SVC_REQ, clientId = 0, token = 1038, payloadLen = 12, result = 0, payload.size() = 12
+11-20 00:27:42.386 D/commandrouter( 1117): mcu_healthcheck_1118 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 1038, service client ID = 40, token ID = 17898, result = 0
+11-20 00:27:42.386 D/mcu_health_checker( 1118): MCU Health Response: MCU_OK
+11-20 00:27:42.386 D/mcu_health_checker( 1118): MCU Session 0, uptime = 31173933 ms
+11-20 00:27:42.386 D/mculinkhealth( 1118): isMcuReachable 1 (31 ms)
+11-20 00:27:46.160 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:46.162 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:46.173 I/WearableConnectivityManager( 2581): LTE Signal strength is: 1
+11-20 00:27:46.174 I/WearableConnectivityManager( 2581): Cellular Signal strength is: 1
+11-20 00:27:46.175 D/RadioLinkQualityScoreBuilder( 1975): scoreRsrp: 2scoreRsrq: 2scoreRssnr: 2
+11-20 00:27:46.931 I/chatty  ( 1194): uid=1000(system) WifiScanningSer expire 2 lines
+11-20 00:27:46.932 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 200 lines
+11-20 00:27:46.933 V/WifiHAL (  539): event received NL80211_CMD_TRIGGER_SCAN
+11-20 00:27:46.937 I/chatty  ( 1194): uid=1000 system_server expire 3 lines
+11-20 00:27:47.078 V/WifiHAL (  539): event received NL80211_CMD_NEW_SCAN_RESULTS
+11-20 00:27:47.079 I/chatty  ( 1194): uid=1000(system) Binder:1194_8 expire 2 lines
+11-20 00:27:47.097 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:47.099 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:47.100 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:47.103 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 7 lines
+11-20 00:27:48.311 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "164d425ddd91136e52c29670e05bdc05", "params": ["back"]}}
+11-20 00:27:48.350 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:48.391 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "bd5ff907e86ce3af4f35488d7a89cf93", "params": ["back"]}}
+11-20 00:27:48.964 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "5934c410224f75a08b1e0ba89f89fe94", "params": ["back"]}}
+11-20 00:27:49.371 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:49.373 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:49.384 I/WearableConnectivityManager( 2581): LTE Signal strength is: 1
+11-20 00:27:49.385 I/WearableConnectivityManager( 2581): Cellular Signal strength is: 1
+11-20 00:27:49.385 D/RadioLinkQualityScoreBuilder( 1975): scoreRsrp: 2scoreRsrq: 3scoreRssnr: 4
+11-20 00:27:49.449 I/chatty  ( 1194): uid=1000(system) Binder:1194_C expire 7 lines
+11-20 00:27:49.478 I/chatty  ( 1194): uid=1000 system_server expire 1 line
+11-20 00:27:49.492 D/ComplicationController( 2581): Starting complication controller. Face Type: OdysseyWatchFace
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.heart, id: com.facebook.wearable.apps.heart.HEART_RATE
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.clock, id: com.facebook.wearable.apps.clock.SHORTCUT_COMPLICATION
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.weather, id: com.facebook.wearable.apps.weather.SHORTCUT_COMPLICATION
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.workout, id: com.facebook.wearable.apps.workout.SHORTCUT_COMPLICATION
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.calendar, id: com.facebook.wearable.apps.calendar.SHORTCUT_COMPLICATION
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.gallery, id: com.facebook.wearable.apps.gallery.SHORTCUT_COMPLICATION
+11-20 00:27:49.493 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.player, id: com.facebook.wearable.apps.player.SHORTCUT_COMPLICATION
+11-20 00:27:49.501 E/DayDateSystemComplicationProvider( 2581): Updating Day Date System Complication
+11-20 00:27:49.501 D/ComplicationDataManagerImpl( 2581): Updating complication data for package: com.facebook.wearable.apps.calendar, id: com.facebook.wearable.apps.calendar.DAY_DATE_COMPLICATION
+11-20 00:27:49.508 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.calendar, com.facebook.wearable.apps.calendar.DAY_DATE_COMPLICATION.
+11-20 00:27:49.508 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.player, com.facebook.wearable.apps.player.SHORTCUT_COMPLICATION.
+11-20 00:27:49.509 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.gallery, com.facebook.wearable.apps.gallery.SHORTCUT_COMPLICATION.
+11-20 00:27:49.509 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.heart, com.facebook.wearable.apps.heart.HEART_RATE.
+11-20 00:27:49.516 D/LauncherActivity( 2581): onResume: Intent { cat=[android.intent.category.DEFAULT] flg=0x10020000 cmp=com.facebook.wearable.system.launcher/.LauncherActivity }
+11-20 00:27:49.516 D/LauncherIntentProcessor( 2581): processLauncherActivityIntent: Intent { cat=[android.intent.category.DEFAULT] flg=0x10020000 cmp=com.facebook.wearable.system.launcher/.LauncherActivity }
+11-20 00:27:49.562 D/FacebookRepository( 2581): Reading from Store [250223709649332]
+11-20 00:27:49.605 I/chatty  ( 1194): uid=1000(system) ActivityManager expire 9 lines
+11-20 00:27:49.616 I/chatty  ( 1194): uid=1000(system) Binder:1194_15 expire 3 lines
+11-20 00:27:49.708 I/chatty  ( 1194): uid=1000(system) HeapTaskDaemon expire 1 line
+11-20 00:27:50.047 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "b0cda068d54bbb22314234cf40065885", "params": ["back"]}}
+11-20 00:27:50.067 E/ANDR-PERF-OPTSHANDLER(  557): perf_lock_rel: failed for /sys/class/kgsl/kgsl-3d0/min_pwrlevel as previous value is not stored
+11-20 00:27:50.068 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 0]
+11-20 00:27:50.631 D/LauncherActivity( 2581): onKeyUp() called with keycode:4, event: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x200, repeatCount=0, eventTime=31216864, downTime=31216864, deviceId=-1, source=0x101, displayId=-1 }
+11-20 00:27:49.413 I/chatty  ( 1194): uid=1000(system) android.ui identical 2 lines
+11-20 00:27:50.630 D/AutofillManagerService( 1194): onBackKeyPressed()
+11-20 00:27:51.101 D/commandrouter( 1117): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35885
+11-20 00:27:51.102 D/vendor.facebook.rtc_sync@1.0-service( 1129): Request req_ts=1637368071099499927 resp_ts=1637368071102066590
+11-20 00:27:51.102 D/commandrouter( 1117): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35885, payloadLen = 8, result = 0, payload.size() = 8
+11-20 00:27:51.178 W/ActivityManager( 1194): Invalid packageName: com.facebook.wearable.system.settings/com.facebook.wearable.system.settings.SettingsActivity
+11-20 00:27:51.314 I/ActivityTaskManager( 1194): START u0 {flg=0x10000000 cmp=com.facebook.wearable.system.settings/.SettingsActivity} from uid 0
+11-20 00:27:51.341 I/ActivityTaskManager( 1194): The Process com.facebook.wearable.system.settings Already Exists in BG. So sending its PID: 3038
+11-20 00:27:51.342 W/ActivityTaskManager( 1194): Tried to set launchTime (0) < mLastActivityLaunchTime (31186510)
+11-20 00:27:51.344 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:51.364 I/cmd     (21224): oneway function results will be dropped but finished with status OK and parcel size 4
+11-20 00:27:51.381 D/LauncherActivity( 2581): onPause
+11-20 00:27:51.423 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:51.423 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:51.423 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:51.479 E/StatusBarClientConnection( 3038): Service connected
+11-20 00:27:51.512 D/FacebookProvider(31424): Starting SSO Network Fetch for 263529928325379
+11-20 00:27:51.518 I/AccountsContentProvider(31424): No Primary Account. Accounts Error [content://com.facebook.wearable.system.accounts.AccountsContentProvider/facebook/263529928325379]
+11-20 00:27:51.524 E/DatabaseUtils(31424): Writing exception to parcel
+11-20 00:27:51.524 E/DatabaseUtils(31424): java.lang.IllegalStateException: No Primary Account
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at com.facebook.secure.content.AbstractContentProvider.doQuery(:284)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at com.facebook.secure.content.AbstractContentProvider.query(:8)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at android.content.ContentProvider.query(ContentProvider.java:1474)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:278)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:106)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-20 00:27:51.524 E/DatabaseUtils(31424): 	at android.os.Binder.execTransact(Binder.java:1123)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): AccountsViewModel.flow failed: No Primary Account
+11-20 00:27:51.526 E/AccountsViewModel( 3038): java.lang.IllegalStateException: No Primary Account
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2381)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.os.Parcel.createException(Parcel.java:2357)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.os.Parcel.readException(Parcel.java:2340)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:190)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:142)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:472)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.content.ContentResolver.query(ContentResolver.java:1185)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at android.content.ContentResolver.query(ContentResolver.java:1116)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.common.accounts.contract.WearableAccountsContractRequest.query(:51)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:95489)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.common.accounts.WearableAccountsKt$fb$1.invoke(:9)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.common.coroutines.lazy.LazyAsync.get(:101)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:96596)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.system.settings.accounts.AccountsViewModel$wearableAccountFlow$1.invoke(:11)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.AbstractFlow.collect$rvp0$0(:72)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:95417)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.FlowKt__ShareKt$launchSharing$1$2.invoke(Unknown Source:10)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:96715)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.FlowKt__MergeKt$mapLatest$1.invoke(Unknown Source:15)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:96820)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2.invoke(Unknown Source:10)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.CoroutineStart.invoke(:32)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(:15)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$invokeSuspend$$inlined$collect$1.emit(:56)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.DistinctFlowImpl$collect$$inlined$collect$1.emit(:74)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.FlowKt__LimitKt$dropWhile$lambda-4$$inlined$collect$1.emit(:114)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.flow.FlowKt__ChannelsKt.emitAllImpl$FlowKt__ChannelsKt(:123)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.invokeSuspend(:96917)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(:5)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at kotlinx.coroutines.DispatchedTask.run(:131)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.common.executors.DelayedFutureTask.run(:22)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-20 00:27:51.526 E/AccountsViewModel( 3038): 	at com.facebook.wearable.common.executors.NamedThreadFactory$1.run(:7)
+11-20 00:27:51.528 W/View    ( 3038): requestLayout() improperly called by android.view.View{a49f998 V.ED..... ......I. 0,368-474,474} during layout: running second layout pass
+11-20 00:27:51.546 W/View    ( 3038): requestLayout() improperly called by com.facebook.wearable.common.wds.listview.WdsListView{12c4229 V.E..V... ........ 0,0-474,474} during second layout pass: posting in next frame
+11-20 00:27:51.843 D/ComplicationController( 2581): Stopping complication controller.
+11-20 00:27:51.856 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:51.856 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:51.856 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:51.858 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.calendar, com.facebook.wearable.apps.calendar.DAY_DATE_COMPLICATION.
+11-20 00:27:51.858 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.player, com.facebook.wearable.apps.player.SHORTCUT_COMPLICATION.
+11-20 00:27:51.858 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.gallery, com.facebook.wearable.apps.gallery.SHORTCUT_COMPLICATION.
+11-20 00:27:51.859 D/ComplicationDataManagerImpl( 2581): Fetching complication data for package: com.facebook.wearable.apps.heart, com.facebook.wearable.apps.heart.HEART_RATE.
+11-20 00:27:51.872 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:51.872 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:51.872 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:52.392 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=192, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "waitForExists", "id": "2266c0c9e6267a451efcc09f1d0f4d2d", "params": [{"mask": 1, "childOrSibling": [], "childOrSiblingSelector": [], "text": "Notifications"}, 5]}}
+11-20 00:27:52.423 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=191, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "waitForExists", "id": "51101aa3c36d526c05bf69a11065a8ee", "params": [{"mask": 1, "childOrSibling": [], "childOrSiblingSelector": [], "text": "Connectivity"}, 5]}}
+11-20 00:27:52.486 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=180, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "click", "id": "a739b9c2f0d5c94b35831f834b6fd744", "params": [{"mask": 1, "childOrSibling": [], "childOrSiblingSelector": [], "text": "Connectivity"}]}}
+11-20 00:27:52.534 E/ANDR-PERF-OPTSHANDLER(  557): Unable to find the correct node storage pointers for                   resource index=16, node path=/proc/sys/kernel/sched_upmigrate
+11-20 00:27:52.535 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 7]
+11-20 00:27:52.535 E/ANDR-PERF-OPTSHANDLER(  557): Unable to find the correct node storage pointers for                   resource index=17, node path=/proc/sys/kernel/sched_downmigrate
+11-20 00:27:52.535 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 8]
+11-20 00:27:52.535 E/ANDR-PERF-OPTSHANDLER(  557): Perflock resource /sys/module/lpm_levels/parameters/bias_hyst not supported
+11-20 00:27:52.535 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [1, 2]
+11-20 00:27:52.535 E/ANDR-PERF-OPTSHANDLER(  557): Perflock resource /proc/sys/kernel/sched_group_upmigrate not supported
+11-20 00:27:52.535 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 21]
+11-20 00:27:52.535 E/ANDR-PERF-OPTSHANDLER(  557): Perflock resource /proc/sys/kernel/sched_group_downmigrate not supported
+11-20 00:27:52.535 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 22]
+11-20 00:27:52.565 W/StatusBarClientConnection( 3038): Messenger is null, ignoring message: { when=-8h40m18s828ms barrier=1 }
+11-20 00:27:52.591 E/StatusBarClientConnection( 3038): Service connected
+11-20 00:27:52.627 W/View    ( 3038): requestLayout() improperly called by android.view.View{d34e46e V.ED..... ......I. 0,368-474,474} during layout: running second layout pass
+11-20 00:27:52.641 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31218904473350)
+11-20 00:27:52.645 W/View    ( 3038): requestLayout() improperly called by com.facebook.wearable.common.wds.listview.WdsListView{91821d4 V.E..V... ........ 0,0-474,474} during second layout pass: posting in next frame
+11-20 00:27:53.329 E/ANDR-PERF-OPTSHANDLER(  557): perf_lock_rel: failed for /proc/sys/vm/swap_ratio as previous value is not stored
+11-20 00:27:53.329 E/ANDR-PERF-OPTSHANDLER(  557): perf_lock_rel: failed for /sys/class/kgsl/kgsl-3d0/min_pwrlevel as previous value is not stored
+11-20 00:27:53.331 E/ANDR-PERF-RESOURCEQS(  557): Failed to reset optimization [3, 0]
+11-20 00:27:53.892 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:53.892 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:53.893 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:54.040 E/TaskPersister( 1194): File error accessing recents directory (directory doesn't exist?).
+11-20 00:27:54.278 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31220541923975)
+11-20 00:27:55.613 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=183, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "waitForExists", "id": "04b0685695172e740cd8e04deb6c5098", "params": [{"mask": 1, "childOrSibling": [], "childOrSiblingSelector": [], "text": "WiFi"}, 5]}}
+11-20 00:27:55.639 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=172, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "click", "id": "dbe088cb0370d5b05f9d62754eef9f06", "params": [{"mask": 1, "childOrSibling": [], "childOrSiblingSelector": [], "text": "WiFi"}]}}
+11-20 00:27:55.729 W/StatusBarClientConnection( 3038): Messenger is null, ignoring message: { when=-8h40m21s993ms barrier=1 }
+11-20 00:27:55.731 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31221993542516)
+11-20 00:27:55.754 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:55.754 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:55.754 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:55.763 E/StatusBarClientConnection( 3038): Service connected
+11-20 00:27:55.768 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:55.774 W/View    ( 3038): requestLayout() improperly called by android.view.View{8566cb6 V.ED..... ......I. 0,368-474,474} during layout: running second layout pass
+11-20 00:27:55.784 D/WifiSharingService( 2841): Starting Wi-Fi scan
+11-20 00:27:55.786 I/WifiService( 1194): startScan uid=1000
+11-20 00:27:55.791 W/View    ( 3038): requestLayout() improperly called by com.facebook.wearable.common.wds.listview.WdsListView{9c3af5 V.E..V... ........ 0,0-474,474} during second layout pass: posting in next frame
+11-20 00:27:55.797 D/WifiNative( 1194): Scan trigered from WifiNative
+11-20 00:27:55.799 I/chatty  ( 1024): uid=1021(gps) lowi-server expire 72 lines
+11-20 00:27:55.800 V/WifiHAL (  539): event received NL80211_CMD_TRIGGER_SCAN
+11-20 00:27:56.349 V/WifiHAL (  539): event received NL80211_CMD_NEW_SCAN_RESULTS
+11-20 00:27:56.349 D/WifiNl80211Manager( 1194): Scan result ready event
+11-20 00:27:56.349 D/WifiNative( 1194): Scan result ready event
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 24
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS ce:dc:12:3b:87:fd LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS ce:dc:12:3b:87:fd FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS ce:dc:12:3b:87:fd (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -106, CPL: 127, AGE: 0,  SSID Pixel5_R1, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.354 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report beacon TSF 31222611747 as it greater than probe TSF 31193853316
+11-20 00:27:56.354 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 15
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS fe:2d:5a:49:61:eb LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS fe:2d:5a:49:61:eb FREQ: 2452, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS fe:2d:5a:49:61:eb (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 08:40:22.611, RSSI: -110, CPL: 127, AGE: 0,  SSID Pixel_R2, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611783 as it greater than Beacon TSF 31143893101
+11-20 00:27:56.355 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 47
+11-20 00:27:56.355 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 12:d7:96:61:85:9f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.356 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 12:d7:96:61:85:9f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.356 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 12:d7:96:61:85:9f (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -108, CPL: 127, AGE: 0,  SSID Pixel_R5, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.356 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.356 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report beacon TSF 31222611895 as it greater than probe TSF 31193853373
+11-20 00:27:56.356 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.356 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.360 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.360 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.360 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 57
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:8a:a1 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:8a:a1 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:8a:a1 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 08:40:22.611, RSSI: -134, CPL: 3, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report beacon TSF 31222611936 as it greater than probe TSF 31193853413
+11-20 00:27:56.361 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.361 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 57
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:88:72:e1 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:88:72:e1 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:88:72:e1 (wlan0) ASSO: NO AddInfo: 0x1, TSF 0, 08:40:22.611, RSSI: -150, CPL: 3, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611913 as it greater than Beacon TSF 31043171652
+11-20 00:27:56.362 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.362 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 45
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 18:64:72:60:2b:40 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x0431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 18:64:72:60:2b:40 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 18:64:72:60:2b:40 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -142, CPL: 127, AGE: 0,  SSID lab-t24103779, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.363 D/WificondScannerImpl( 1194): Filtering out 1 scan results.
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611765 as it greater than Beacon TSF 31043170989
+11-20 00:27:56.363 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.363 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 41
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 52:b8:14:37:74:3f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 52:b8:14:37:74:3f FREQ: 2417, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 52:b8:14:37:74:3f (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -104, CPL: 127, AGE: 0,  SSID Pixel_8668, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.364 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611980 as it greater than Beacon TSF 30993311832
+11-20 00:27:56.365 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 47
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:53:21 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:53:21 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.365 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:53:21 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -160, CPL: 3, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611837 as it greater than Beacon TSF 0
+11-20 00:27:56.366 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 45
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS be:9e:0e:1c:6e:7f LOWI_PHY_MODE_11AC_VHT20_2G(11), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS be:9e:0e:1c:6e:7f FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code =    
+11-20 00:27:56.366 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS be:9e:0e:1c:6e:7f (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -124, CPL: 127, AGE: 0,  SSID Pixel_3541, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222612041 as it greater than Beacon TSF 31092901292
+11-20 00:27:56.367 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 47
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:7a:61 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:7a:61 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.367 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:7a:61 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.612, RSSI: -158, CPL: 3, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222612001 as it greater than Beacon TSF 0
+11-20 00:27:56.368 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 24
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:63:c1 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:63:c1 FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.368 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:89:63:c1 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.612, RSSI: -160, CPL: 2, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] 
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] print_bss_handler: Report Probe TSF 31222611957 as it greater than Beacon TSF 0
+11-20 00:27:56.369 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] RSN_IE
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: Entered
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 )
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_PSK
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] is_qcom_ie, bss_age: 4
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:85:21 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_PSK 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1411): ESS Privacy ShortSlotTime
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:85:21 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = US
+11-20 00:27:56.369 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] BSS 2c:57:41:86:85:21 (wlan0) ASSO: NO AddInfo: 0x0, TSF 0, 08:40:22.611, RSSI: -160, CPL: 2, AGE: 0,  SSID kittyhawk, TSFDelta: 0x0, TXRate: 0
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+11-20 00:27:56.370 I/LOWI-9.0.0.80( 1024): [LOWI-Scan] lowi_close_record:Scan done in 31178853ms, 18 APs in scan results
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 9267 ms, err 0
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIScanResultReceiver] Send scan meas to listener
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIScanResultReceiver] Enter passive listening mode
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+11-20 00:27:56.370 D/PasspointManager( 1194): ANQP entry not found for: 5e:6e:be:46:77:d7:<Pixel_R3>
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+11-20 00:27:56.370 D/PasspointManager( 1194): ANQP entry not found for: ce:dc:12:3b:87:fd:<Pixel5_R1>
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIScheduler] manageMsg: NULL results or NULL request in results
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWIController] Measurements received
+11-20 00:27:56.370 D/LOWI-9.0.0.80( 1024): [LOWICacheManager] putInCache:Num of Meas to add: 18
+11-20 00:27:56.371 D/PasspointManager( 1194): ANQP entry not found for: fe:2d:5a:49:61:eb:<Pixel_R2>
+11-20 00:27:56.371 D/PasspointManager( 1194): ANQP entry not found for: 12:d7:96:61:85:9f:<Pixel_R5>
+11-20 00:27:56.372 D/LOWI-9.0.0.80( 1024): [LOWIController] processMeasurementResults: No current Request. Cache measurements
+11-20 00:27:56.372 D/LOWI-9.0.0.80( 1024): [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+11-20 00:27:56.420 D/WifiSharingService( 2841): Sending scanResults intent with status code 0: PendingIntent{c2609c2: android.os.BinderProxy@a8f8933}
+11-20 00:27:56.427 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:56.427 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:56.427 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:57.418 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31223682011265)
+11-20 00:27:57.452 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31223715744234)
+11-20 00:27:58.195 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31224458622723)
+11-20 00:27:58.212 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31224475509390)
+11-20 00:27:58.770 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=229, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "objInfo", "id": "635416aede309bbb4c7f5e8039f63810", "params": [{"mask": 2097152, "childOrSibling": [], "childOrSiblingSelector": [], "resourceId": "com.facebook.wearable.system.settings:id/toggle"}]}}
+11-20 00:27:58.845 D/UIAutomatorStub( 6249): URI: /jsonrpc/0, Method: POST, Header: {content-length=227, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "click", "id": "2d7cff08c9b65b397573670e4c6897ee", "params": [{"mask": 2097152, "childOrSibling": [], "childOrSiblingSelector": [], "resourceId": "com.facebook.wearable.system.settings:id/toggle"}]}}
+11-20 00:27:58.900 D/WifiSharingService( 2841): Setting Wi-Fi enabled state
+11-20 00:27:58.901 I/WifiService( 1194): setWifiEnabled package=com.facebook.wearable.system.connectivity uid=1000 enable=false
+11-20 00:27:58.905 D/WifiActiveModeWarden( 1194): Switching all client mode managers
+11-20 00:27:58.909 D/QCNEJ/WlanStaInfoRelay( 1900): onChange for uri = content://settings/global/wifi_on
+11-20 00:27:58.914 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:58.919 D/WifiP2pService( 1194): Wifi enabled=false, P2P Interface availability=true
+11-20 00:27:58.920 D/WifiP2pService( 1194): Wifi enabled=false, P2P Interface availability=true
+11-20 00:27:58.921 D/WifiP2pNative( 1194): Teardown P2P interface
+11-20 00:27:58.923 D/WifiClientModeManager1( 1194): IMS not registered over IWLAN for subId: 1
+11-20 00:27:58.923 D/WifiClientModeManager1( 1194): The target role 5
+11-20 00:27:58.930 W/ContextImpl( 1194): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1143 android.content.Context.sendBroadcastWithMultiplePermissions:2150 com.android.server.display.WifiDisplayAdapter.handleSendStatusChangeBroadcast:440 com.android.server.display.WifiDisplayAdapter.access$1700:63 com.android.server.display.WifiDisplayAdapter$WifiDisplayHandler.handleMessage:675 
+11-20 00:27:58.934 I/android_os_HwBinder( 1194): HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+11-20 00:27:58.939 I/wpa_supplicant(21170): wlan0: Do not deauthenticate as part of interface deinit since WoWLAN is enabled
+11-20 00:27:58.997 I/wpa_supplicant(21170): Try to unregister vendor STA network
+11-20 00:27:59.012 E/wpa_supplicant(21170): eap_proxy: pthread_join on eap_proxy=0xf7abeac
+11-20 00:27:59.012 E/wpa_supplicant(21170): eap_proxy: session not started for client = 1
+11-20 00:27:59.012 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.012 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.015 E/wpa_supplicant(21170): eap_proxy: Released QMI UIM service client
+11-20 00:27:59.016 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.016 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.018 E/wpa_supplicant(21170): eap_proxy: Released QMI EAP service client
+11-20 00:27:59.018 E/wpa_supplicant(21170): eap_proxy: session not started for client = 2
+11-20 00:27:59.018 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.018 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.019 E/wpa_supplicant(21170): eap_proxy: Released QMI UIM service client
+11-20 00:27:59.019 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.019 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.020 E/wpa_supplicant(21170): eap_proxy: Released QMI EAP service client
+11-20 00:27:59.022 I/wpa_supplicant(21170): eap_proxy: eap_proxy Deinitialzed
+11-20 00:27:59.058 I/wpa_supplicant(21170): nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+11-20 00:27:59.107 I/wpa_supplicant(21170): Try to unregister vendor interface
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x11043 ([UP][RUNNING])
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(2)
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWIController] intfStateReceived: ifname(wlan0) state(2)
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWIController] updateIntfState: WIFI enabled 2 mNlWifiStatus 2 mWifiStateEnabled 1
+11-20 00:27:59.109 D/LOWI-9.0.0.80( 1024): [LOWIController] isWifiEnabled: mNlWifiStatus 2 mWifiStateEnabled 1
+11-20 00:27:59.116 I/SupplicantStaIfaceHal( 1194): Terminating supplicant using HIDL
+11-20 00:27:59.119 I/wpa_supplicant(21170): p2p0: Do not deauthenticate as part of interface deinit since WoWLAN is enabled
+11-20 00:27:59.157 E/wpa_supplicant(21170): eap_proxy: pthread_join on eap_proxy=0xf7abfa8
+11-20 00:27:59.157 E/wpa_supplicant(21170): eap_proxy: session not started for client = 1
+11-20 00:27:59.157 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.157 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.157 E/wpa_supplicant(21170): eap_proxy: Released QMI UIM service client
+11-20 00:27:59.158 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.158 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.158 E/wpa_supplicant(21170): eap_proxy: Released QMI EAP service client
+11-20 00:27:59.158 E/wpa_supplicant(21170): eap_proxy: session not started for client = 2
+11-20 00:27:59.158 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.158 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.159 E/wpa_supplicant(21170): eap_proxy: Released QMI UIM service client
+11-20 00:27:59.159 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.159 E/QMI_FW  (21170): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.161 E/wpa_supplicant(21170): eap_proxy: Released QMI EAP service client
+11-20 00:27:59.161 I/wpa_supplicant(21170): eap_proxy: eap_proxy Deinitialzed
+11-20 00:27:59.198 I/wpa_supplicant(21170): nl80211: deinit ifname=p2p0 disabled_11b_rates=0
+11-20 00:27:59.223 D/ConnectivityService( 1194): handleLingerComplete for [100 CELLULAR]
+11-20 00:27:59.227 W/MqttClient( 2665): connection/disconnecting; reason=READ_SOCKET, operation=NETWORK_THREAD_LOOP
+11-20 00:27:59.228 W/System.err( 2665): DEBUG: com.whatsapp.net.tls13.WtSocketWrapper.sendAlertAndShutdown(:86) : Sending Alert : type : WARNING description : close_notify(0) exception : 
+11-20 00:27:59.230 W/System.err( 2665): ERROR: com.whatsapp.net.logging.WtLog.log$REDEX$HQcOuACUrr4(:4) : Encountered exception. Nothing much can be done here. com.whatsapp.net.alerts.WtAlertException
+11-20 00:27:59.248 D/QCNEJ/WwanInfoRelay( 1900): onCapabilitiesChanged: 100 [ Transports: CELLULAR Capabilities: MMS&SUPL&FOTA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]
+11-20 00:27:59.249 I/QCNEJ/WwanInfoRelay( 1900): cacheWwanInfo subId = 1 phoneId = 0 slotId = 0
+11-20 00:27:59.267 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname p2p0, flags 0x1003 ([UP])
+11-20 00:27:59.294 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname p2p0, flags 0x1002 ()
+11-20 00:27:59.295 W/System.err( 2665): INFO: com.whatsapp.net.logging.WtLog.log$REDEX$HQcOuACUrr4(:4) : Start handshake.
+11-20 00:27:59.298 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname p2p0, flags 0x1002 ()
+11-20 00:27:59.307 I/wpa_supplicant(21170): Try to unregister vendor p2 interface
+11-20 00:27:59.309 I/WifiP2pNative( 1194): P2P interface teardown completed
+11-20 00:27:59.309 I/android_os_HwBinder( 1194): HwBinder: Starting thread pool for getting: android.hardware.wifi.supplicant@1.0::ISupplicant/default
+11-20 00:27:59.309 D/WifiP2pNative( 1194): P2P InterfaceDestroyedListener p2p0
+11-20 00:27:59.309 D/WifiP2pNative( 1194): Ignoring stale interface destroyed listener
+11-20 00:27:59.310 D/WifiP2pNative( 1194): P2P InterfaceAvailableListener true
+11-20 00:27:59.310 D/WifiP2pService( 1194): Wifi enabled=false, P2P Interface availability=true
+11-20 00:27:59.313 I/wpa_supplicant(21170): Terminating...
+11-20 00:27:59.316 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+11-20 00:27:59.316 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+11-20 00:27:59.316 D/LOWI-9.0.0.80( 1024): [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+11-20 00:27:59.317 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+11-20 00:27:59.317 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+11-20 00:27:59.317 D/LOWI-9.0.0.80( 1024): [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 2 mWifiStateEnabled 1
+11-20 00:27:59.317 D/LOWI-9.0.0.80( 1024): [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+11-20 00:27:59.327 W/System.err( 2665): INFO: com.whatsapp.net.logging.WtLog.log$REDEX$HQcOuACUrr4(:4) : Handshake complete : session_resumed true early_data_sent false early_data_accepted false client_cert_requested false time_ms 32
+11-20 00:27:59.344 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.345 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.346 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.358 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] unpackRTMLinkMessage: RTM_NEWLINK - ifname wlan0, flags 0x1003 ([UP])
+11-20 00:27:59.358 D/LOWI-9.0.0.80( 1024): [LOWINetlinkSocketReceiver] processNetlinkPacket: ifname(wlan0) status(1)
+11-20 00:27:59.358 D/LOWI-9.0.0.80( 1024): [LOWIController] intfStateReceived: ifname(wlan0) state(1)
+11-20 00:27:59.358 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:INTF-STATUS-UPDATE
+11-20 00:27:59.359 D/LOWI-9.0.0.80( 1024): [LOWIEventReceiver] Info to [INTF-STATUS-UPDATE]
+11-20 00:27:59.359 D/LOWI-9.0.0.80( 1024): [LOWIController] updateIntfState: WIFI enabled 1 mNlWifiStatus 1 mWifiStateEnabled 1
+11-20 00:27:59.359 D/LOWI-9.0.0.80( 1024): [LOWIController] isWifiEnabled: mNlWifiStatus 1 mWifiStateEnabled 1
+11-20 00:27:59.360 V/WifiHAL (  539): event received NL80211_CMD_DISCONNECT
+11-20 00:27:59.361 W/SupplicantStaIfaceHal( 1194): Timed out waiting for confirmation of supplicant death
+11-20 00:27:59.362 E/SupplicantStaIfaceHal( 1194): Can't call getKeyMgmtCapabilities_1_3, ISupplicantStaIface is null
+11-20 00:27:59.364 V/WifiHAL (  539): WifiVendorCommand 0xaad86b98 created vendor_id:0x1374 subcmd:38
+11-20 00:27:59.364 V/WifiHAL (  539): Got a Wi-Fi HAL module message from Driver
+11-20 00:27:59.364 V/WifiHAL (  539): Supported feature set : 19d3d
+11-20 00:27:59.364 V/WifiHAL (  539): Supported feature set acquired : 19d3d
+11-20 00:27:59.364 V/WifiHAL (  539): WifiVendorCommand 0xa0792320 created vendor_id:0x1374 subcmd:76
+11-20 00:27:59.365 V/WifiHAL (  539): create: mVendor_id = 4980, Subcmd = 76.
+11-20 00:27:59.366 V/WifiHAL (  539): WifiVendorCommand 0xaad86cc8 created vendor_id:0x1374 subcmd:38
+11-20 00:27:59.367 V/WifiHAL (  539): Got a Wi-Fi HAL module message from Driver
+11-20 00:27:59.367 V/WifiHAL (  539): Supported feature set : 19d3d
+11-20 00:27:59.367 V/WifiHAL (  539): Supported feature set acquired : 19d3d
+11-20 00:27:59.367 V/WifiHAL (  539): WifiVendorCommand 0xa0792320 created vendor_id:0x1374 subcmd:76
+11-20 00:27:59.367 V/WifiHAL (  539): create: mVendor_id = 4980, Subcmd = 76.
+11-20 00:27:59.373 E/SupplicantStaIfaceHal( 1194): Can't call getWpaDriverFeatureSet, ISupplicantStaIface is null
+11-20 00:27:59.373 I/WifiNative( 1194): Successfully switched to scan mode on iface=Iface:{Name=wlan0,Id=1,Type=STA_SCAN}
+11-20 00:27:59.377 W/SupplicantP2pIfaceHal( 1194): ISupplicant/ISupplicantP2pIface died: cookie=0
+11-20 00:27:59.377 W/SupplicantStaIfaceHal( 1194): ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+11-20 00:27:59.377 W/SupplicantP2pIfaceHal( 1194): ISupplicant/ISupplicantP2pIface died: cookie=0
+11-20 00:27:59.377 W/SupplicantP2pIfaceHal( 1194): ISupplicantVendor/ISupplicantVendorP2PIface died: cookie=0
+11-20 00:27:59.377 W/SupplicantStaIfaceHal( 1194): ISupplicantVendor/ISupplicantVendorStaIface died: cookie=0
+11-20 00:27:59.378 D/SupplicantStaIfaceHal( 1194): ISupplicant died: cookie=-4130647415764200803
+11-20 00:27:59.378 W/SupplicantP2pIfaceHal( 1194): ISupplicantVendor/ISupplicantVendorP2PIface died: cookie=0
+11-20 00:27:59.393 I/wificond(  906): Fail RSSI polling because wifi is not associated.
+11-20 00:27:59.394 E/WifiNl80211Manager( 1194): Invalid signal poll result from wificond
+11-20 00:27:59.399 D/WifiClientModeManager1( 1194): entering ScanOnlyModeState
+11-20 00:27:59.400 D/WifiScanRequestProxy( 1194): Sending scan available broadcast: true
+11-20 00:27:59.400 I/WifiScanningService( 1194): Received a request to enable scanning, UID = 1000
+11-20 00:27:59.400 I/WifiScanningService( 1194): scanner impls already exists
+11-20 00:27:59.400 E/WifiScanningService( 1194): wifi driver loaded received while already loaded
+11-20 00:27:59.401 D/WifiP2pService( 1194): Wifi enabled=false, P2P Interface availability=true
+11-20 00:27:59.402 I/WifiScanRequestProxy( 1194): Scanning is enabled
+11-20 00:27:59.402 I/WifiScanRequestProxy( 1194): Scanning for hidden networks is disabled
+11-20 00:27:59.403 D/WakeupController( 1194): start()
+11-20 00:27:59.404 D/WakeupController( 1194): Setting active to true
+11-20 00:27:59.414 D/WakeupLock( 1194): Lock set. Number of networks: 1
+11-20 00:27:59.417 D/WifiClientModeImpl( 1194): ClientModeImpl: Leaving Connected state
+11-20 00:27:59.418 D/WifiCountryCode( 1194): updateCountryCode to US
+11-20 00:27:59.419 E/SupplicantStaIfaceHal( 1194): Can't call setCountryCode, ISupplicantStaIface is null
+11-20 00:27:59.419 D/WifiCountryCode( 1194): Failed to set country code to: US
+11-20 00:27:59.433 E/SupplicantStaIfaceHal( 1194): Can't call listNetworks, ISupplicantStaIface is null
+11-20 00:27:59.433 E/SupplicantStaIfaceHal( 1194): removeAllNetworks failed, got null networks
+11-20 00:27:59.433 E/WifiClientModeImpl( 1194): Failed to remove networks on exiting connect mode
+11-20 00:27:59.435 E/WakeupController( 1194): Unexpected setLastDisconnectInfo when WakeupController is active!
+11-20 00:27:59.436 E/WifiVendorHal( 1194): stopRssiMonitoring(l.2106) failed {.code = ERROR_NOT_AVAILABLE, .description = }
+11-20 00:27:59.437 E/SupplicantStaIfaceHal( 1194): Can't call setPowerSave, ISupplicantStaIface is null
+11-20 00:27:59.437 E/SupplicantStaIfaceHal( 1194): Can't call setBtCoexistenceMode, ISupplicantStaIface is null
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): stopIpClient IpClientWithPreConnection: false
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): java.lang.Throwable
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl.stopIpClient(ClientModeImpl.java:1127)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl.stopDhcpSetup(ClientModeImpl.java:1153)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl.handleNetworkDisconnect(ClientModeImpl.java:2945)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl.stopClientMode(ClientModeImpl.java:3889)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl.access$4600(ClientModeImpl.java:176)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.server.wifi.ClientModeImpl$ConnectModeState.exit(ClientModeImpl.java:4064)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler.invokeExitMethods(StateMachine.java:1021)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler.performTransitions(StateMachine.java:877)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at com.android.wifi.x.com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:819)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at android.os.Looper.loop(Looper.java:223)
+11-20 00:27:59.437 V/WifiClientModeImpl( 1194): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-20 00:27:59.439 D/DhcpClient( 1194): doQuit
+11-20 00:27:59.440 D/ConnectivityService( 1194): [131 WIFI] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to DISCONNECTED
+11-20 00:27:59.441 D/QCNEJ/WlanStaInfoRelay( 1900): Received action: android.net.wifi.STATE_CHANGE
+11-20 00:27:59.441 D/QCNEJ/WlanStaInfoRelay( 1900): reset CountryCodeRetriever
+11-20 00:27:59.442 D/ConnectivityService( 1194): [131 WIFI] disconnected, was satisfying 27
+11-20 00:27:59.444 D/WifiConnector( 2841): Network State Changed
+11-20 00:27:59.445 D/WifiDiags( 1194): stopLogging() iface list is {} after removing wlan0
+11-20 00:27:59.446 E/WifiVendorHal( 1194): resetLogHandler(l.1558) failed {.code = ERROR_NOT_AVAILABLE, .description = }
+11-20 00:27:59.446 W/WifiDiags( 1194): Fail to reset log handler
+11-20 00:27:59.446 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.448 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.455 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.458 D/WifiMemoryStoreImpl( 1194): Set cluster Gded792457511e862 for We4936d4057368143: SUCCESS
+11-20 00:27:59.469 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.476 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.483 I/chatty  ( 1113): uid=1001(radio) main identical 6 lines
+11-20 00:27:59.484 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.487 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.494 I/chatty  ( 1113): uid=1001(radio) main identical 6 lines
+11-20 00:27:59.495 E/QMI_FW  ( 1113): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.516 I/GnssNetworkConnectivityHandler( 1194): Network connection lost. Available networks count: 1
+11-20 00:27:59.516 I/GnssNetworkConnectivityHandler( 1194): updateNetworkState, state=CLOSED, connected=false, network=131, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=68000Kbps LinkDnBandwidth>=68000Kbps SignalStrength: -30 OwnerUid: 1000 AdministratorUids: [] SSID: "MTBF_Lab" RequestorUid: -1 RequestorPackageName: null], apn: , availableNetworkCount: 1
+11-20 00:27:59.519 W/LocSvc_LocIpc(  523): send:66] failed reason: No such file or directory
+11-20 00:27:59.520 D/QCNEJ/WlanStaInfoRelay( 1900): network lost: 131
+11-20 00:27:59.520 D/DeviceAuthService(16172): Network lost
+11-20 00:27:59.521 D/QCNEJ/WlanStaInfoRelay( 1900): onLost: unbind the process to WIFI
+11-20 00:27:59.522 D/QCNEJ/DefaultNetworkInfoRelay( 1900): Default network lost: 131
+11-20 00:27:59.524 D/WifiMemoryStoreImpl( 1194): Set cluster Gded792457511e862 for Wded792457511e862: SUCCESS
+11-20 00:27:59.527 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyDefaultNetworkChanged(1)
+11-20 00:27:59.547 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:59.556 D/DhcpClient( 1194): DHCP Packet Handler stopped
+11-20 00:27:59.557 D/DhcpClient( 1194): onQuitting
+11-20 00:27:59.547 I/Nat464Xlat( 1194): Android Xlat is disabled
+11-20 00:27:59.563 D/ConnectivityService( 1194): Sending DISCONNECTED broadcast for type 1 [131 WIFI] isDefaultNetwork=true
+11-20 00:27:59.566 W/System.err( 2665): DEBUG: com.whatsapp.net.tls13.WtSocketWrapper.sendAlertAndShutdown(:86) : Sending Alert : type : WARNING description : close_notify(0) exception : 
+11-20 00:27:59.572 W/System.err( 2665): ERROR: com.whatsapp.net.logging.WtLog.log$REDEX$HQcOuACUrr4(:4) : Encountered exception. Nothing much can be done here. com.whatsapp.net.alerts.WtAlertException
+11-20 00:27:59.575 D/ConnectivityService( 1194): NetReassign [8 : null → 100, 20 : null → 100, 46 : null → 100, 45 : null → 100, 626 : null → 100, 12 : null → 100, 22 : null → 100, 16 : null → 100, 603 : null → 100, 14 : null → 100, 50 : null → 100, 18 : null → 100, 11 : null → 100, 629 : null → 100, 1 : null → 100, 17 : null → 100]
+11-20 00:27:59.597 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+11-20 00:27:59.597 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'STATE' not found
+11-20 00:27:59.597 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+11-20 00:27:59.597 E/NetlinkEvent(  459): NetlinkEvent::FindParam(): Parameter 'UID' not found
+11-20 00:27:59.603 E/SelfCareDataCloudSyncWorker( 2351): Failed to get access token
+11-20 00:27:59.603 E/SelfCareDataCloudSyncWorker( 2351): kotlinx.coroutines.JobCancellationException: Job was cancelled; job=JobImpl{Cancelling}@28292ed
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): Work [ id=41176d4d-428f-4560-a8c8-961a1631ba8f, tags={ com.facebook.wearable.system.selfcare.cloudsync.SelfCareDataCloudSyncWorker } ] was cancelled
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): java.util.concurrent.CancellationException: Task was cancelled.
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at androidx.work.impl.utils.futures.AbstractFuture.getDoneValue(:32)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at androidx.work.impl.utils.futures.AbstractFuture.get(:268435546)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at androidx.work.impl.WorkerWrapper$2.run(:3)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at androidx.work.impl.utils.SerialExecutor$Task.run(:2)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-20 00:27:59.604 I/WM-WorkerWrapper( 2351): 	at java.lang.Thread.run(Thread.java:923)
+11-20 00:27:59.610 W/SupplicantStaIfaceHal( 1194): ISupplicant died: cookie=70
+11-20 00:27:59.611 D/ConnectivityService( 1194): Switching to new default network: NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: (unspecified), extra: nxtgenphone, failover: false, available: true, roaming: false]}  network{100}  nethandle{432902426637}  lp{{InterfaceName: rmnet_data2 LinkAddresses: [ 10.129.103.196/29,2600:380:c119:24f:b89a:9f3c:46c1:95af/64 ] DnsAddresses: [ /172.26.38.1,/fc00:a:a::300 ] Domains: null MTU: 1430 TcpBufferSizes: 2097152,4194304,8388608,262144,524288,1048576 Routes: [ 0.0.0.0/0 -> 10.129.103.197 rmnet_data2 mtu 1430,::/0 -> fe80::b45f:41f1:1846:969d rmnet_data2 mtu 1430,10.129.103.192/29 -> 0.0.0.0 rmnet_data2 mtu 0,2600:380:c119:24f::/64 -> :: rmnet_data2 mtu 0 ]}}  nc{[ Transports: CELLULAR Capabilities: MMS&SUPL&FOTA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]}  Score{50}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+11-20 00:27:59.621 E/WifiNative( 1194): Could not get Iface object for interface null
+11-20 00:27:59.621 D/WifiNetworkAgent( 1194): NetworkAgent: NetworkAgent channel lost
+11-20 00:27:59.648 W/HWComposer(  577): Ignoring duplicate VSYNC event from HWC for display 0 (t=31225910653712)
+11-20 00:27:59.706 E/WifiNative( 1194): Could not get Iface object for interface null
+11-20 00:27:59.723 D/DeviceAuthService(16172): Network connected
+11-20 00:27:59.723 D/DeviceAuthService(16172): fetchAuthTokenWrapper called
+11-20 00:27:59.723 D/QCNEJ/DefaultNetworkInfoRelay( 1900): Default network available: 100
+11-20 00:27:59.726 D/QCNEJ/NativeHalConnector( 1900): -> SND notifyDefaultNetworkChanged(0)
+11-20 00:27:59.727 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.728 E/QMI_FW  (  927): qmi_cci_get_ref: ref count increased 2
+11-20 00:27:59.737 D/NetworkTimeUpdateService( 1194): New default network 100; checking time.
+11-20 00:27:59.732 V/LigerRadioStatsReporter( 2384): onCapabilitiesChanged: Network capabilities changed
+11-20 00:27:59.744 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): +++++++++++ RADIO STATS DUMP +++++++++++
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): totalActiveRadioTimeMs=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): totalTailRadioTimeMs=13995
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): totalWakeupCount=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpUpBytes=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpDownBytes=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpWakeupCount=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpRequestCount=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpActiveRadioTimeMs=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): httpTailRadioTimeMs=13995
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tx=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Rx=0
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Uids=10028
+11-20 00:27:59.745 V/LigerRadioStatsReporter( 2384): reportAndCheckpointRadioStats: Tags=null
+11-20 00:27:59.757 D/QCNEJ/WwanInfoRelay( 1900): onCapabilitiesChanged: 100 [ Transports: CELLULAR Capabilities: MMS&SUPL&FOTA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> AdministratorUids: [] RequestorUid: -1 RequestorPackageName: null]
+11-20 00:27:59.760 I/QCNEJ/WwanInfoRelay( 1900): cacheWwanInfo subId = 1 phoneId = 0 slotId = 0
+11-20 00:27:59.761 D/ConnectivityService( 1194): Sending CONNECTED broadcast for type 0 [100 CELLULAR] isDefaultNetwork=true
+11-20 00:27:59.778 V/LigerRadioStatsReporter( 2384): onCapabilitiesChanged: Network capabilities changed
+11-20 00:27:59.856 D/CompatibilityInfo( 1194): mCompatibilityFlags - 4
+11-20 00:27:59.856 D/CompatibilityInfo( 1194): applicationDensity - 320
+11-20 00:27:59.857 D/CompatibilityInfo( 1194): applicationScale - 1.0
+11-20 00:27:59.885 D/DeviceAuthService(16172): isOculusAddressResolvable returned true
+11-20 00:27:59.885 D/DeviceAuthenticator(16172): Fetching new credentials asynchronously
+11-20 00:27:59.888 D/DeviceAuthenticator(16172): Calling DeviceAuth.authenticate()
+11-20 00:27:59.894 E/DeviceCertService(  541): This device *might* have a provisioning issue. Please run `maui provision check` to verify.
+11-20 00:27:59.894 E/DeviceCertService(  541): See https://fburl.com/wiki/a9hho0p9 for more information.
+11-20 00:27:59.894 E/DeviceCertService(  541): Could not access certificate file '/mnt/vendor/persist/certificates/device_identityinsecure.crt', error 2: No such file or directory
+11-20 00:27:59.895 E/DeviceAuthenticator(16172): ERROR: java.lang.RuntimeException: devicecert returned error FILESYSTEM_ERROR
+11-20 00:27:59.895 E/DeviceAuthenticator(16172): 
+11-20 00:27:59.895 E/DeviceAuthenticator(16172): com.facebook.mos.sdk.devicecert.DeviceIdentityException: java.lang.RuntimeException: devicecert returned error FILESYSTEM_ERROR
+11-20 00:27:59.895 E/DeviceAuthenticator(16172): 
+11-20 00:27:59.975 D/SettingsSDK::SyncHelper( 2351): Read setting com.facebook.wearable.sdk.selfcare:SELFCARE_SERVICE_ENABLED from persistent cache
+11-20 00:27:59.976 D/FacebookRepository( 2351): Reading from Store [906581286488774]
+11-20 00:28:00.003 D/KeyguardUpdateMonitor( 1753): received broadcast android.intent.action.TIME_TICK
+11-20 00:28:00.003 D/KeyguardUpdateMonitor( 1753): handleTimeUpdate

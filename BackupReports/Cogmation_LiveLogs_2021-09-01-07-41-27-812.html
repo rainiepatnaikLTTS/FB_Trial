@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Cogmation Logs</title>
+        <img src="https://elasticbeanstalk-ap-south-1-509040541908.s3.ap-south-1.amazonaws.com/Cogmation/CogmationIcon.png" alt=www.Ltts.com width=200 height=75>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <style>
+            body { 
+                background-color: #ffffff;
+            }
+            table {  
+                color: #333; /* Lighten up font color */
+                font-family: Consolas, Helvetica, Arial, sans-serif;
+                table-layout: fixed;
+                width: 150%;
+                font-size: 14px;
+            }
+
+            td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+            th {  
+                background: #ccffff; /* Light grey background */
+                font-weight: bold; /* Make sure they're bold */
+                text-align: center; /* Center our text */
+                width: 100; 
+                /* css-3 */
+                white-space: -o-pre-wrap; 
+                word-wrap: break-word;
+                white-space: pre-wrap; 
+                white-space: -moz-pre-wrap; 
+                white-space: -pre-wrap;
+            }
+
+            td {  
+                        
+                background: #FAFAFA; /* Lighter grey background */
+                text-align: center; /* Center our text */
+                width: 100; 
+                /* css-3 */
+                white-space: -o-pre-wrap; 
+                word-wrap: break-word;
+                white-space: pre-wrap; 
+                white-space: -moz-pre-wrap; 
+                white-space: -pre-wrap;
+            }
+
+            tr.breakrow {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th> >>>>> Cogmation Live Automation Logs - Scroll Down for latest <<<<< </th>
+            </tr>
+        </table>
+        </br>
+        <table class="gridtable" id="tablemain">
+            <thead>
+                <tr class="tableheader">
+                    <th>Suite Name (No.of Test Cases)</th>
+                    <th>Test Device Serial Number</th>
+                    <th>Test Name</th>
+                    <th>Execution Status</th>
+                    <th>Start Time (YMD H:M:S.ms)</th>
+                    <th>End Time (YMD H:M:S.ms)</th>                        
+                    <th>Elapased Time (H:M:S.ms)</th>
+                    <th>No.of Loops</th>
+                    <th>Loop Pass Count</th>
+                    <th>Test Status</th>
+                    <th>Message</th>
+                    <th>Screenshot</th>
+                    <th>Logcat And Radio Logs</th>
+                    <th>Crash Count</th>
+                    <th>Device Usage</th>
+                    <th>Build Notes</th>
+                </tr>
+            </thead>
+            <script>
+                $( document ).ready(function(){
+                    $('.breakrow').click(function(){
+                        $(this).nextUntil('tr.breakrow').slideToggle(200);
+                        $(this).find("i").toggleClass("fas fa-chevron-circle-up fas fa-chevron-circle-down");
+                    });
+                });
+            </script>
+    <tbody>
+        
+                <tr class="breakrow">
+                    <td style="background-color:#00aaff"><strong>VZW Stability LiveDashboard (2)</strong>
+                        <i style="float:right;" class="fas fa-chevron-circle-up"></i>
+                    </td>
+                    <td><strong>2748B3DC6M002L</strong></td>
+                    <td></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:41:27.910</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Telephony_Make A Voice Call From The Call History List</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:41:36.852</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Telephony_Make A Voice Call From The Call History List</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:41:36.852</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:44:06.062</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:02:29.210000</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>1</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:86%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00aaff"><strong>Fetch Data For Dashboard</strong></td>
+                    <td><strong>In Progress</strong></td>
+                    <td>20210901 07:44:06.063</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>19740100000000000</strong></td>
+                </tr>
+
+            
+                <tr class="datarow">
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Fetch Data For Dashboard</strong></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:44:06.063</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:44:27.423</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:00:21.360000</strong></td>
+                    <td style="background-color:#00ff00"><strong>0</strong></td>
+                    <td style="background-color:#00ff00"><strong>0</strong></td>
+                    <td style="background-color:#00ff00"><strong>PASS</strong></td>
+                    <td style="text-align: left;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>Storage Used:15%<br>Battery Percentage:87%</strong></td>
+                    <td></td>
+                </tr>
+
+                
+                <tr class="datarow">
+                    <td style="background-color:#00ff00"><strong>VZW Stability LiveDashboard</strong></td>
+                    <td style="background-color:#00ff00"><strong>2748B3DC6M002L</strong></td>
+                    <td style="background-color:#00ff00"></td>
+                    <td style="background-color:#00ff00"><strong>Completed</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:41:27.910</strong></td>
+                    <td style="background-color:#00ff00"><strong>20210901 07:44:31.638</strong></td>
+                    <td style="background-color:#00ff00"><strong>0:03:03.728000</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color:#00ff00"><strong>2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>  
+            
+        </tbody>
+    </table>
+    </br>
+    <table>
+        <tr>
+            <td><strong>Report and Logs</strong></td>
+            <td style="text-align:left"><a href="./log_2748B3DC6M002L-20210901-074127.html"><div style="height:100%;width:100%"><strong>Detailed Logs</strong></div></a></td>
+        </tr>
+        </table>
+        <table>
+            <tr>
+                <th><strong>Execution completed!</strong></th>
+            </tr>
+        </table>
+    </body>
+</html>
+        

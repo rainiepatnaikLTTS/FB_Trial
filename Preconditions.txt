@@ -1,0 +1,48 @@
+
+**** Scripts tested on Emulator device (Pixel/Nexus 5) with android version 8.1
+
+Changes related to device:
+
+1.	Format/ Erase all the data from the device.
+2.	After Reboot, configure the Gmail account.
+3.	Go to Settings> Security & location> Screen lock
+Set the lock as “None”
+4.	Go to Settings> Display> Advanced> Sleep
+Set the time of inactivity as 30 minutes
+5.	Go to Settings> System> About Phone
+Click on Build number five times till Developer Options is enabled
+6.	Go to Settings> System > Developer Options
+I.	Enable “Stay Awake” option
+II.	Disable “Automatic system updates”
+III.	Enable “USB debugging”
+IV.	Disable “Verify apps over USB”
+7.	Connect the device to the PC and do the following:
+I.	Check on “Always allow from this computer” option for connecting to the PC and Click “OK”
+II.	Go to Command Prompt and execute command:  adb devices and check if the device is present under “List of devices attached”
+8. Add all Image/Music/Video files present in ExternalFiles> Android> Test_Data Folder into the Internal Storage Folder of the device.
+
+
+Email: gmail app version 2020.05.31.316831277
+*Gmail app should be configured
+*test_image_1.png should be preloaded on the device (internal storage)
+*support email id should be updated properly in config file
+
+Browser: chrome version 88.0.4324
+*Set homepage (www.att.com)
+
+*Telephony app version 12.1.169291223*
+
+*Contacts App version: 1.7.21*
+
+Messaging:
+*Messaging App version: 7.2.204*
+
+StoreFront:
+*PlayStore App version: 24.2.15-21*
+
+Multimedia: MOS device's Spotify app has to be paired with mobile phone's spotify app.
+The shuffle icon has to be ON in mobile phone and 
+
+
+PIM: 
+*Delete all existing alarm events, contacts*

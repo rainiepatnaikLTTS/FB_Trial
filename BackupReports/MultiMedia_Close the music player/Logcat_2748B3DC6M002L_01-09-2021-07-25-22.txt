@@ -1,0 +1,804 @@
+--------- beginning of main
+09-01 07:24:53.987 D/msys    ( 3417): A[ADNPSUCRTIM custom event]MCICustomEventLeave(43)=>"Presence DB Sync time":0
+--------- beginning of system
+09-01 07:24:54.081 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:24:54.082 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl416176716.tmp
+09-01 07:24:54.094 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=-1: installPackageLI
+09-01 07:24:54.096 I/PackageManager( 1460): Update package com.github.uiautomator code path from /data/app/~~O7Jv7fMMfZBP2NYt5LLeCA==/com.github.uiautomator-7dr2uuz87lfS25FK6MsFcg== to /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==; Retain data and using new
+09-01 07:24:54.096 I/PackageManager( 1460): Update package com.github.uiautomator resource path from /data/app/~~O7Jv7fMMfZBP2NYt5LLeCA==/com.github.uiautomator-7dr2uuz87lfS25FK6MsFcg== to /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==; Retain data and using new
+09-01 07:24:54.272 D/PackageManager( 1460): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+09-01 07:24:54.272 D/PackageManager( 1460): Clear ephemeral installer activity
+09-01 07:24:54.273 W/system_server( 1460): Long monitor contention with owner PackageManager (1635) at void com.android.server.pm.PackageManagerService.updateSettingsInternalLI(com.android.server.pm.parsing.pkg.AndroidPackage, com.android.server.pm.PackageManagerService$InstallArgs, int[], com.android.server.pm.PackageManagerService$PackageInstalledInfo)(PackageManagerService.java:16290) waiters=0 in int com.android.server.pm.permission.PermissionManagerService.checkUidPermission(java.lang.String, int) for 110ms
+09-01 07:24:54.292 E/installd(  889): Couldn't opendir /data/app/vmdl416176716.tmp: No such file or directory
+09-01 07:24:54.292 E/installd(  889): Failed to delete /data/app/vmdl416176716.tmp: No such file or directory
+09-01 07:24:54.293 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=0: pkg removed
+09-01 07:24:54.309 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator. Reason: package android.intent.action.PACKAGE_REMOVED
+09-01 07:24:54.312 I/chatty  ( 1994): uid=1002(bluetooth) com.android.bluetooth expire 290 lines
+09-01 07:24:54.325 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:24:54.327 D/CompatibilityInfo( 1460): mCompatibilityFlags - 14
+09-01 07:24:54.328 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:54.328 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:54.333 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:54.336 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator. Reason: package android.intent.action.PACKAGE_ADDED
+09-01 07:24:54.344 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+09-01 07:24:54.344 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:24:54.345 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:24:54.347 W/TextServicesManagerService( 1460): no available spell checker services found
+09-01 07:24:54.350 W/Searchables( 1460): No global search activity found
+09-01 07:24:54.362 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:24:54.362 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:54.362 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:54.381 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:54.383 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:54.392 I/PermissionControllerServiceImpl(10768): Updating user sensitive for uid 10113
+09-01 07:24:54.393 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:54.409 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:24:54.410 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.410 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.411 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:54.411 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.416 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.417 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.422 W/Searchables( 1460): No global search activity found
+09-01 07:24:54.425 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:24:54.426 W/VoiceInteractionManager( 1460): no available voice recognition services found for user 0
+09-01 07:24:54.426 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.427 I/Telecom ( 1460): DefaultDialerCache: Refreshing default dialer for user 0: now com.facebook.wearable.apps.phone: DDC.oR@En8
+09-01 07:24:54.453 I/system_server( 1460): Background young concurrent copying GC freed 276421(13MB) AllocSpace objects, 90(4320KB) LOS objects, 44% free, 19MB/35MB, paused 280us total 159.403ms
+09-01 07:24:54.454 V/BackupManagerConstants( 1460): getFullBackupIntervalMilliseconds(...) returns 86400000
+09-01 07:24:54.455 V/BackupManagerConstants( 1460): getFullBackupRequiredNetworkType(...) returns 2
+09-01 07:24:54.455 V/BackupManagerConstants( 1460): getFullBackupRequireCharging(...) returns true
+09-01 07:24:54.468 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.471 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.473 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.475 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.503 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:54.512 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.517 I/chatty  (  625): uid=1041(audioserver) Binder:625_8 identical 8 lines
+09-01 07:24:54.518 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:54.539 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:24:54.549 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:24:54.579 D/ImsResolver( 2246): maybeAddedImsService, packageName: com.github.uiautomator
+09-01 07:24:54.587 D/CarrierConfigLoader( 2246): mHandler: 12 phoneId: 0
+09-01 07:24:54.619 W/system_server( 1460): Long monitor contention with owner main (1460) at void com.android.server.backup.UserBackupManagerService.scheduleNextFullBackupJob(long)(UserBackupManagerService.java:2212) waiters=0 in void com.android.server.backup.UserBackupManagerService$1.run() for 159ms
+09-01 07:24:54.706 W/Looper  ( 1460): Slow dispatch took 279ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@5ecb067 m=0
+09-01 07:24:54.706 W/Looper  ( 1460): Slow delivery took 364ms main h=com.android.server.accessibility.AccessibilityManagerService$MainHandler c=<recycled PooledLambda@4a4ed78> m=0
+09-01 07:24:54.709 W/Looper  ( 1460): Drained
+09-01 07:24:55.347 D/AnalyticsLogger( 1460): sent events: 54
+09-01 07:24:55.496 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:24:55.497 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl763539965.tmp
+09-01 07:24:55.499 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:24:55.499 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:55.499 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:55.509 I/ActivityManager( 1460): Force stopping com.github.uiautomator.test appid=10114 user=-1: installPackageLI
+09-01 07:24:55.511 I/PackageManager( 1460): Update package com.github.uiautomator.test code path from /data/app/~~qbGAIWpvqW-xFDmektyV6Q==/com.github.uiautomator.test-fguDho01Kt60NEYk0PlKHQ== to /data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==; Retain data and using new
+09-01 07:24:55.511 I/PackageManager( 1460): Update package com.github.uiautomator.test resource path from /data/app/~~qbGAIWpvqW-xFDmektyV6Q==/com.github.uiautomator.test-fguDho01Kt60NEYk0PlKHQ== to /data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==; Retain data and using new
+09-01 07:24:55.693 D/PackageManager( 1460): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+09-01 07:24:55.694 D/PackageManager( 1460): Clear ephemeral installer activity
+09-01 07:24:55.721 E/installd(  889): Couldn't opendir /data/app/vmdl763539965.tmp: No such file or directory
+09-01 07:24:55.721 E/installd(  889): Failed to delete /data/app/vmdl763539965.tmp: No such file or directory
+09-01 07:24:55.722 I/ActivityManager( 1460): Force stopping com.github.uiautomator.test appid=10114 user=0: pkg removed
+09-01 07:24:55.735 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator.test. Reason: package android.intent.action.PACKAGE_REMOVED
+09-01 07:24:55.739 I/cmd     (12039): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:24:55.750 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:24:55.752 D/CompatibilityInfo( 1460): mCompatibilityFlags - 14
+09-01 07:24:55.752 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:55.752 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:55.755 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:55.768 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:55.771 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:24:55.771 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:55.771 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:55.773 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator.test. Reason: package android.intent.action.PACKAGE_ADDED
+09-01 07:24:55.779 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:55.798 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:24:55.804 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+09-01 07:24:55.810 I/Telecom ( 1460): DefaultDialerCache: Refreshing default dialer for user 0: now com.facebook.wearable.apps.phone: DDC.oR@EoM
+09-01 07:24:55.810 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:24:55.811 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:24:55.811 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:24:55.827 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.828 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.829 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:24:55.829 V/BackupManagerConstants( 1460): getFullBackupIntervalMilliseconds(...) returns 86400000
+09-01 07:24:55.829 V/BackupManagerConstants( 1460): getFullBackupRequiredNetworkType(...) returns 2
+09-01 07:24:55.829 V/BackupManagerConstants( 1460): getFullBackupRequireCharging(...) returns true
+09-01 07:24:55.830 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.831 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.832 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.854 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:55.865 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.869 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.873 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.892 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:24:55.903 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.909 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:24:55.926 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:24:55.935 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:24:55.950 I/PermissionControllerServiceImpl(10768): Updating user sensitive for uid 10114
+09-01 07:24:55.956 W/system_server( 1460): Long monitor contention with owner android.bg (1547) at boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String)(AppStandbyController.java:1574) waiters=1 in int com.android.server.usage.AppStandbyController.getAppStandbyBucket(java.lang.String, int, long, boolean) for 122ms
+09-01 07:24:55.957 W/system_server( 1460): Long monitor contention with owner android.bg (1547) at boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String)(AppStandbyController.java:1574) waiters=0 in boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String) for 181ms
+09-01 07:24:55.958 W/Looper  ( 1460): Slow dispatch took 145ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@3ec725f m=0
+09-01 07:24:55.958 W/TextServicesManagerService( 1460): no available spell checker services found
+09-01 07:24:55.958 W/system_server( 1460): Long monitor contention with owner main (1460) at void com.android.server.backup.UserBackupManagerService.scheduleNextFullBackupJob(long)(UserBackupManagerService.java:2212) waiters=0 in void com.android.server.backup.UserBackupManagerService$1.run() for 128ms
+09-01 07:24:55.963 W/Searchables( 1460): No global search activity found
+09-01 07:24:55.965 D/ImsResolver( 2246): maybeAddedImsService, packageName: com.github.uiautomator.test
+09-01 07:24:55.965 W/Searchables( 1460): No global search activity found
+09-01 07:24:55.967 W/VoiceInteractionManager( 1460): no available voice recognition services found for user 0
+09-01 07:24:55.971 D/CarrierConfigLoader( 2246): mHandler: 12 phoneId: 0
+09-01 07:24:56.600 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=13996.637, rt=14002.025
+09-01 07:24:56.601 D/commandrouter(  803): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35005
+09-01 07:24:56.601 D/vendor.facebook.rtc_sync@1.0-service( 1013): Request req_ts=1630481096589316133 resp_ts=1630481096601508942
+09-01 07:24:56.602 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35005, payloadLen = 8, result = 0, payload.size() = 8
+09-01 07:24:58.311 D/Spotify (11535): Got SpConnectionNotification 7
+09-01 07:24:58.553 D/Spotify (11535): Got SpPlaybackNotification 16
+09-01 07:24:58.556 I/chatty  ( 1994): uid=1002(bluetooth) BluetoothAvrcpH expire 109 lines
+09-01 07:24:58.837 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:24:58.837 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:24:58.837 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:24:58.839 D/McuTransferService( 2270): the service started
+09-01 07:24:58.841 I/mcu_health_check_jni_handler( 2270): isMcuReachable
+09-01 07:24:58.841 D/mcu_health_checker( 2270): Sent isMcuReachable Request
+09-01 07:24:58.841 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_2270, appType = 7, type = SVC_REQ, clientId = 0, token = 408, payloadLen = 12, result = 0, payload.size() = 12
+09-01 07:24:58.860 D/commandrouter(  803): mcu_healthcheck_2270 (7, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 408, service client ID = 36, token ID = 2008, result = 0
+09-01 07:24:58.860 D/mcu_health_checker( 2270): MCU Health Response: MCU_OK
+09-01 07:24:58.862 D/McuTransferService( 2270): the service is being destroyed
+09-01 07:24:58.862 D/McuTransferService( 2270): skipping close shared connection to avoid race condition
+09-01 07:24:58.862 I/mcucapture(  961): 13965951 [info   ] {hlth}: Received control service request
+09-01 07:24:58.862 I/mcucapture(  961): 13965956 [info   ] {hlth}: Health Request cmd: GET_STATUS
+09-01 07:24:58.863 I/mcucapture(  961): 13965961 [info   ] {hlth}: Responded to req, result = MCU_OK
+09-01 07:24:58.944 E/adbd    (  781): failed to connect to socket 'tcp:9008': Connection refused
+09-01 07:24:59.164 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=0: from pid 12055
+09-01 07:24:59.175 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:24:59.176 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:24:59.680 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:24:59.681 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl1536546481.tmp
+09-01 07:24:59.689 W/PackageManager( 1460): Package com.github.uiautomator signatures do not match previously installed version; ignoring!
+09-01 07:24:59.691 E/installd(  889): Couldn't opendir /data/app/vmdl1536546481.tmp: No such file or directory
+09-01 07:24:59.691 E/installd(  889): Failed to delete /data/app/vmdl1536546481.tmp: No such file or directory
+09-01 07:24:59.712 I/cmd     (12066): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:24:59.892 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:24:59.894 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:24:59.984 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:24:59.986 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl265444996.tmp
+09-01 07:24:59.992 W/PackageManager( 1460): Package com.github.uiautomator.test signatures do not match previously installed version; ignoring!
+09-01 07:24:59.994 E/installd(  889): Couldn't opendir /data/app/vmdl265444996.tmp: No such file or directory
+09-01 07:24:59.994 E/installd(  889): Failed to delete /data/app/vmdl265444996.tmp: No such file or directory
+09-01 07:25:00.004 D/KeyguardUpdateMonitor( 2015): received broadcast android.intent.action.TIME_TICK
+09-01 07:25:00.004 D/KeyguardUpdateMonitor( 2015): handleTimeUpdate
+09-01 07:25:00.010 I/cmd     (12071): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:25:00.511 D/AndroidRuntime(12074): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-01 07:25:00.518 E/libc    (12074): Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+09-01 07:25:00.518 E/libc    (12074): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+09-01 07:25:00.518 I/AndroidRuntime(12074): Using default boot image
+09-01 07:25:00.518 E/libc    (12074): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+09-01 07:25:00.518 I/AndroidRuntime(12074): Leaving lock profiling enabled
+09-01 07:25:00.519 E/libc    (12074): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+09-01 07:25:00.510 W/app_process(12074): type=1400 audit(0.0:1942): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10731 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+09-01 07:25:00.529 W/app_process(12074): Could not reserve sentinel fault page
+09-01 07:25:00.530 I/app_process(12074): Core platform API reporting enabled, enforcing=false
+09-01 07:25:00.510 W/app_process(12074): type=1400 audit(0.0:1943): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10731 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+09-01 07:25:00.510 I/chatty  (12074): uid=2000(shell) app_process identical 1 line
+09-01 07:25:00.510 W/app_process(12074): type=1400 audit(0.0:1945): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10731 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+09-01 07:25:00.791 D/app_process(12074): Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+09-01 07:25:00.791 D/app_process(12074): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+09-01 07:25:00.810 I/app_process(12074): The ClassLoaderContext is a special shared library.
+09-01 07:25:00.850 W/app_process(12074): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+09-01 07:25:00.872 D/AndroidRuntime(12074): Calling main entry com.android.commands.am.Am
+09-01 07:25:00.885 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=0: start instr
+09-01 07:25:00.888 D/CompatibilityChangeReporter( 1460): Compat change id reported: 135634846; UID 10113; state: DISABLED
+09-01 07:25:00.889 D/CompatibilityChangeReporter( 1460): Compat change id reported: 143937733; UID 10113; state: DISABLED
+09-01 07:25:00.903 D/Zygote  (  476): Forked child process 12089
+09-01 07:25:00.921 I/hub.uiautomato(12089): Late-enabling -Xcheck:jni
+09-01 07:25:00.927 I/ActivityManager( 1460): Start proc 12089:com.github.uiautomator/u0a113 for added application com.github.uiautomator
+09-01 07:25:00.965 I/hub.uiautomato(12089): Unquickening 16 vdex files!
+09-01 07:25:00.977 I/adbd    (  781): jdwp connection from 12089
+09-01 07:25:00.997 D/CompatibilityInfo( 1460): mCompatibilityFlags - 14
+09-01 07:25:00.997 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:00.997 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:01.063 D/ApplicationLoaders(12089): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-01 07:25:01.067 I/hub.uiautomato(12089): The ClassLoaderContext is a special shared library.
+09-01 07:25:01.082 I/chatty  (12089): uid=10113(com.github.uiautomator) identical 6 lines
+09-01 07:25:01.085 I/hub.uiautomato(12089): The ClassLoaderContext is a special shared library.
+09-01 07:25:01.301 I/Perf    (12089): Connecting to perf service.
+09-01 07:25:01.322 D/ApplicationLoaders(12089): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-01 07:25:01.323 D/ApplicationLoaders(12089): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-01 07:25:01.326 I/hub.uiautomato(12089): The ClassLoaderContext is a special shared library.
+09-01 07:25:01.331 D/ApplicationLoaders(12089): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-01 07:25:01.331 D/ApplicationLoaders(12089): Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-01 07:25:01.333 I/hub.uiautomato(12089): The ClassLoaderContext is a special shared library.
+09-01 07:25:01.356 I/hub.uiautomato(12089): The ClassLoaderContext is a special shared library.
+09-01 07:25:01.589 W/hub.uiautomato(12089): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+09-01 07:25:01.597 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=14001.635, rt=14007.021
+09-01 07:25:01.608 D/NetworkSecurityConfig(12089): No Network Security Config specified, using platform default
+09-01 07:25:01.615 D/NetworkSecurityConfig(12089): No Network Security Config specified, using platform default
+09-01 07:25:01.627 I/MonitoringInstrumentation(12089): Instrumentation Started!
+09-01 07:25:01.634 I/MonitoringInstrumentation(12089): Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/org.apache.http.legacy.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==/base.apk", zip file "/data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==/base.apk"],nativeLibraryDirectories=[/data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==/lib/arm, /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==/lib/arm, /system/lib, /system_ext/lib, /product/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/org.apache.http.legacy.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==/base.apk", zip file "/data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==/base.apk"],nativeLibraryDirectories=[/data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==/lib/arm, /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw==/lib/arm, /system/lib, /system_ext/lib, /product/lib]]]'
+09-01 07:25:01.647 I/MonitoringInstrumentation(12089): No JSBridge.
+09-01 07:25:01.665 I/UsageTrackerFacilitator(12089): Usage tracking enabled
+09-01 07:25:01.667 I/TestRequestBuilder(12089): Scanning classpath to find tests in apks [/data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w==/base.apk]
+09-01 07:25:01.669 W/hub.uiautomato(12089): Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+09-01 07:25:02.383 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.AbstractCompositeJsonServiceExporter
+09-01 07:25:02.386 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.AbstractJsonServiceExporter
+09-01 07:25:02.388 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.AutoJsonRpcClientProxyCreator
+09-01 07:25:02.390 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.AutoJsonRpcServiceExporter
+09-01 07:25:02.391 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.CompositeJsonServiceExporter
+09-01 07:25:02.392 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.CompositeJsonStreamServiceExporter
+09-01 07:25:02.394 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.JsonProxyFactoryBean
+09-01 07:25:02.395 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.JsonServiceExporter
+09-01 07:25:02.396 E/TestLoader(12089): Could not find class: com.googlecode.jsonrpc4j.spring.JsonStreamServiceExporter
+09-01 07:25:02.498 D/TestExecutor(12089): Adding listener android.support.test.internal.runner.listener.LogRunListener
+09-01 07:25:02.499 D/TestExecutor(12089): Adding listener android.support.test.internal.runner.listener.InstrumentationResultPrinter
+09-01 07:25:02.499 D/TestExecutor(12089): Adding listener android.support.test.internal.runner.listener.ActivityFinisherRunListener
+09-01 07:25:02.503 I/TestRunner(12089): run started: 2 tests
+09-01 07:25:02.507 I/TestRunner(12089): started: testApplicationTestCaseSetUpProperly(com.github.uiautomator.ApplicationTest)
+09-01 07:25:02.512 I/MonitoringInstrumentation(12089): Activities that are still in CREATED to STOPPED: 0
+09-01 07:25:02.513 I/TestRunner(12089): finished: testApplicationTestCaseSetUpProperly(com.github.uiautomator.ApplicationTest)
+09-01 07:25:02.515 I/MonitoringInstrumentation(12089): Activities that are still in CREATED to STOPPED: 0
+09-01 07:25:02.532 I/TestRunner(12089): started: testUIAutomatorStub(com.github.uiautomator.stub.Stub)
+09-01 07:25:02.536 I/MonitoringInstrumentation(12089): Activities that are still in CREATED to STOPPED: 0
+09-01 07:25:02.652 V/UiAutomation(12089): Init UiAutomation@c2afdff[id=122, flags=0]
+09-01 07:25:02.673 W/WindowManager( 1460): Cannot find window which accessibility connection is added to
+09-01 07:25:03.751 D/Spotify (11535): Got SpConnectionNotification 7
+09-01 07:25:03.845 D/KeyguardUpdateMonitor( 2015): received broadcast android.intent.action.BATTERY_CHANGED
+09-01 07:25:03.846 D/KeyguardUpdateMonitor( 2015): handleBatteryUpdate
+09-01 07:25:06.101 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=78, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "ping", "id": "70c76cbac613753e7224fd3515915f80"}}
+09-01 07:25:06.225 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=78, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "ping", "id": "45f7c351306e1dcd5fea8c458901067f"}}
+09-01 07:25:06.275 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=245, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "waitForExists", "id": "737010dd02c7114a3dae8a6a5b0023dd", "params": [{"mask": 2097152, "childOrSibling": [], "childOrSiblingSelector": [], "resourceId": "com.facebook.wearable.system.launcher:id/charging_icon"}, 5]}}
+09-01 07:25:06.601 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=14006.632, rt=14012.024
+09-01 07:25:06.601 D/commandrouter(  803): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35006
+09-01 07:25:06.602 D/vendor.facebook.rtc_sync@1.0-service( 1013): Request req_ts=1630481106592508942 resp_ts=1630481106602225761
+09-01 07:25:06.602 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35006, payloadLen = 8, result = 0, payload.size() = 8
+09-01 07:25:07.570 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "08cb06d7f8dc172cb3610453bd0425bc", "params": ["back"]}}
+09-01 07:25:07.594 D/AutofillManagerService( 1460): onBackKeyPressed()
+09-01 07:25:07.789 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "de3bc9039d078f9c175cc7aa98dec02b", "params": ["back"]}}
+09-01 07:25:08.809 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "d7b8069c1c27a4c79f35d8c9927ebce2", "params": ["back"]}}
+09-01 07:25:10.059 D/UIAutomatorStub(12089): URI: /jsonrpc/0, Method: POST, Header: {content-length=102, remote-addr=127.0.0.1, http-client-ip=127.0.0.1, host=localhost:9010, content-type=application/json, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "pressKey", "id": "7b4973372ae97295fcc54bcd5138b4dc", "params": ["back"]}}
+09-01 07:25:09.622 I/chatty  ( 1460): uid=1000(system) android.ui identical 2 lines
+09-01 07:25:10.629 D/AutofillManagerService( 1460): onBackKeyPressed()
+09-01 07:25:10.838 D/commandrouter(  803): sleep (1, sleep:data): <ServiceRequest> FORWARDED (remote -> local) service client ID = 1, token ID = 35007
+09-01 07:25:10.839 D/OTTS_sleep_jni( 2654): Unpacked SleepDataUpdateRequest.
+09-01 07:25:10.839 D/OTTS_sleep_jni( 2654): Received SleepDataRequest with OTT of size 35
+09-01 07:25:10.839 D/OTTS_sleep_jni( 2654): Calling sleep data callback...
+09-01 07:25:10.839 D/OTTS_sleep_jni( 2654): Calling Java sleep callback for OTT data.
+09-01 07:25:10.840 D/OTTS_OTTDataHandler( 2654): Got new OTT data of length: 35 at time 0
+09-01 07:25:10.840 D/OTTS_OTTDataHandler( 2654): Sending OTT to Delegation
+09-01 07:25:10.842 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = sleep, appType = 1, type = SVC_RESP, clientId = 1, token = 35007, payloadLen = 12, result = 0, payload.size() = 12
+09-01 07:25:11.599 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=14011.630, rt=14017.022
+09-01 07:25:13.332 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:25:13.334 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:25:14.160 W/df      (12119): type=1400 audit(0.0:1946): avc: denied { getattr } for path="/metadata" dev="mmcblk0p39" ino=2 scontext=u:r:shell:s0 tcontext=u:object_r:metadata_file:s0 tclass=dir permissive=0
+09-01 07:25:14.160 W/df      (12119): type=1400 audit(0.0:1947): avc: denied { getattr } for path="/linkerconfig" dev="tmpfs" ino=11706 scontext=u:r:shell:s0 tcontext=u:object_r:linkerconfig_file:s0 tclass=dir permissive=0
+09-01 07:25:14.160 W/df      (12119): type=1400 audit(0.0:1948): avc: denied { getattr } for path="/linkerconfig" dev="tmpfs" ino=11706 scontext=u:r:shell:s0 tcontext=u:object_r:linkerconfig_file:s0 tclass=dir permissive=0
+09-01 07:25:14.170 W/df      (12119): type=1400 audit(0.0:1949): avc: denied { getattr } for path="/vendor/firmware_mnt" dev="mmcblk0p10" ino=1 scontext=u:r:shell:s0 tcontext=u:object_r:firmware_file:s0 tclass=dir permissive=0
+09-01 07:25:14.170 W/df      (12119): type=1400 audit(0.0:1950): avc: denied { getattr } for name="/" dev="mmcblk0p10" ino=1 scontext=u:r:shell:s0 tcontext=u:object_r:firmware_file:s0 tclass=filesystem permissive=0
+09-01 07:25:14.170 W/df      (12119): type=1400 audit(0.0:1951): avc: denied { getattr } for path="/vendor/dsp" dev="mmcblk0p20" ino=2 scontext=u:r:shell:s0 tcontext=u:object_r:adsprpcd_file:s0 tclass=dir permissive=0
+09-01 07:25:14.551 I/ActivityManager( 1460): Force stopping com.facebook.wearable.apps.player appid=10085 user=0: from pid 12128
+09-01 07:25:14.552 I/ActivityManager( 1460): Killing 11535:com.facebook.wearable.apps.player.media.MediaPlaybackService/u0a85 (adj 200): stop com.facebook.wearable.apps.player due to from pid 12128
+09-01 07:25:14.587 I/ActivityManager( 1460): Killing 11497:com.facebook.wearable.apps.player.Spotify/u0a85 (adj 935): stop com.facebook.wearable.apps.player due to from pid 12128
+09-01 07:25:14.599 W/ErrorCounterBase( 2824): NotificationFactory Notification is missing ranking/importance com.facebook.wearable.apps.player null
+09-01 07:25:14.605 I/ActivityManager( 1460): Killing 11465:com.facebook.wearable.apps.player/u0a85 (adj 910): stop com.facebook.wearable.apps.player due to from pid 12128
+09-01 07:25:14.621 W/EventCoordinator( 2771): releaseMemory
+09-01 07:25:14.658 I/cmd     (12128): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:25:14.670 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:25:14.675 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:25:14.702 D/ConnectivityService( 1460): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ], android.os.BinderProxy@d457a51)
+09-01 07:25:14.703 D/ConnectivityService( 1460): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=142, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ], android.os.BinderProxy@d7ff2b6)
+09-01 07:25:14.706 I/chatty  ( 1994): uid=1002(bluetooth) BluetoothAvrcpH expire 94 lines
+09-01 07:25:14.706 D/ConnectivityService( 1460): releasing NetworkRequest [ TRACK_DEFAULT id=141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ] (release request)
+09-01 07:25:14.707 I/Zygote  (  476): Process 11535 exited due to signal 9 (Killed)
+09-01 07:25:14.714 I/libprocessgroup( 1460): Successfully killed process cgroup uid 10085 pid 11535 in 158ms
+09-01 07:25:14.717 V/MediaSessionRecord( 1460): Removing dead callback in pushSessionDestroyed, this=com.facebook.wearable.apps.player/MediaPlaybackService (userId=0), callback package=com.facebook.wearable.apps.player, exception=android.os.DeadObjectException
+09-01 07:25:14.724 D/ConnectivityService( 1460): releasing NetworkRequest [ TRACK_DEFAULT id=142, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ] (release request)
+09-01 07:25:14.725 I/Zygote  (  476): Process 11465 exited due to signal 9 (Killed)
+09-01 07:25:14.726 D/MediaSessionService( 1460): Media button session is changed to null
+09-01 07:25:14.727 W/ActivityManager( 1460): setHasOverlayUi called on unknown pid: 11465
+09-01 07:25:14.728 V/MediaSessionRecord( 1460): Removing dead callback in pushSessionDestroyed, this=com.facebook.wearable.apps.player/MediaPlaybackService (userId=0), callback package=com.facebook.wearable.apps.player, exception=android.os.DeadObjectException
+09-01 07:25:14.730 I/chatty  ( 1994): uid=1002(bluetooth) com.android.bluetooth expire 1 line
+09-01 07:25:14.736 I/MediaFocusControl( 1460): AudioFocus  removeFocusStackEntryOnDeath(): removing entry for android.os.BinderProxy@a31fbb7
+09-01 07:25:14.738 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.738 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=8, position=50979, buffered position=0, speed=0.0, updated=13897999, actions=516, custom actions=[], active item id=-1, error=null}(0), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.738 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.738 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.739 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.739 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.739 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.739 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=8, position=50979, buffered position=0, speed=0.0, updated=13897999, actions=516, custom actions=[], active item id=-1, error=null}(0), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.739 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.740 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.740 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.740 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.740 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.740 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=8, position=50979, buffered position=0, speed=0.0, updated=13897999, actions=516, custom actions=[], active item id=-1, error=null}(0), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.740 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.741 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.741 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.742 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.742 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.742 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=8, position=50979, buffered position=0, speed=0.0, updated=13897999, actions=516, custom actions=[], active item id=-1, error=null}(0), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.742 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.742 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.743 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.743 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.743 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.743 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=8, position=50979, buffered position=0, speed=0.0, updated=13897999, actions=516, custom actions=[], active item id=-1, error=null}(0), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.743 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.743 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.743 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.743 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.744 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.744 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.744 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.744 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.744 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.744 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.744 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.744 V/Avrcp_ext( 1994): Exit updatePlayerStateAndPosition
+09-01 07:25:14.744 D/Avrcp_ext( 1994): Exit onSessionDestroyed
+09-01 07:25:14.744 V/Avrcp_ext( 1994): Player 4 package: com.facebook.wearable.apps.player
+09-01 07:25:14.744 V/Avrcp_ext( 1994): updateCurrentMediaState: mMediaController: null
+09-01 07:25:14.745 V/Avrcp_ext( 1994): isMusicActive: true getBluetoothPlayState: 2
+09-01 07:25:14.745 V/Avrcp_ext( 1994): updateCurrentMediaState: isPlaying = false
+09-01 07:25:14.745 V/Avrcp_ext( 1994): Media update: id -1➡-1? [MediaAttributes: none] : [MediaAttributes: none]
+09-01 07:25:14.745 D/Avrcp_ext( 1994): isPackageNameValid: browsedPackage = isValid = false
+09-01 07:25:14.745 V/Avrcp_ext( 1994): newPlayStatus:2mReportedPlayStatus:-1
+09-01 07:25:14.745 V/Avrcp_ext( 1994): updatePlaybackState, state: PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null} device: null
+09-01 07:25:14.745 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:14.745 I/chatty  ( 1994): uid=1002(bluetooth) BluetoothAvrcpH identical 3 lines
+09-01 07:25:14.745 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:14.745 V/Avrcp_ext( 1994): updatePlayerStateAndPosition, old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:14.745 V/Avrcp_ext( 1994): old state = PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:14.745 D/HeadsetService( 1994): getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@476ddce
+09-01 07:25:14.746 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.746 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.747 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.747 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.748 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.748 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.748 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.749 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.749 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.749 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.749 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.749 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.750 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.750 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.751 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.751 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.751 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.751 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.751 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.751 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.752 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.752 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.752 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.752 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.752 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.753 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.753 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.753 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.753 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008732, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.753 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.753 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.753 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.753 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.753 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.753 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.753 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.753 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.753 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.753 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.753 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.753 V/Avrcp_ext( 1994): Exit updatePlayerStateAndPosition
+09-01 07:25:14.753 V/Avrcp_ext( 1994): updateCurrentMediaState: mMediaController: null
+09-01 07:25:14.755 V/Avrcp_ext( 1994): isMusicActive: true getBluetoothPlayState: 2
+09-01 07:25:14.755 V/Avrcp_ext( 1994): updateCurrentMediaState: isPlaying = false
+09-01 07:25:14.755 V/Avrcp_ext( 1994): Media update: id -1➡-1? [MediaAttributes: none] : [MediaAttributes: none]
+09-01 07:25:14.755 D/Avrcp_ext( 1994): isPackageNameValid: browsedPackage = isValid = false
+09-01 07:25:14.755 V/Avrcp_ext( 1994): newPlayStatus:2mReportedPlayStatus:-1
+09-01 07:25:14.755 V/Avrcp_ext( 1994): updatePlaybackState, state: PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null} device: null
+09-01 07:25:14.755 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:14.755 I/chatty  ( 1994): uid=1002(bluetooth) BluetoothAvrcpH identical 3 lines
+09-01 07:25:14.755 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:14.755 V/Avrcp_ext( 1994): updatePlayerStateAndPosition, old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:14.755 V/Avrcp_ext( 1994): old state = PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:14.755 D/HeadsetService( 1994): getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@476ddce
+09-01 07:25:14.756 D/ConnectivityService( 1460): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=140, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ], android.os.BinderProxy@78899c1)
+09-01 07:25:14.757 W/ActivityManager( 1460): setHasOverlayUi called on unknown pid: 11497
+09-01 07:25:14.757 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.757 D/ConnectivityService( 1460): releasing NetworkRequest [ TRACK_DEFAULT id=140, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10085 AdministratorUids: [] RequestorUid: 10085 RequestorPackageName: com.facebook.wearable.apps.player] ] (release request)
+09-01 07:25:14.757 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.758 I/Zygote  (  476): Process 11497 exited due to signal 9 (Killed)
+09-01 07:25:14.758 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.758 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.758 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.758 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.759 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.759 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.760 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.760 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.760 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.760 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.760 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.760 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.761 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.761 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.761 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.761 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.762 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.762 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.763 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.763 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.763 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.763 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.763 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.763 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:14.764 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:14.764 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:14.764 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008741, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:14.764 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:14.764 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.764 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.764 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.764 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.764 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.764 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.764 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.764 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.764 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:14.764 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:14.764 V/Avrcp_ext( 1994): Exit updatePlayerStateAndPosition
+09-01 07:25:14.795 I/libprocessgroup( 1460): Successfully killed process cgroup uid 10085 pid 11497 in 77ms
+09-01 07:25:14.796 I/libprocessgroup( 1460): Successfully killed process cgroup uid 10085 pid 11465 in 0ms
+09-01 07:25:14.846 I/system_server( 1460): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:25:14.847 W/APM::AudioPolicyEngine(  625): getDevicesForStrategy() unknown strategy: -1
+09-01 07:25:14.848 I/chatty  (  625): uid=1041(audioserver) ApmOutput identical 1 line
+09-01 07:25:14.849 W/APM::AudioPolicyEngine(  625): getDevicesForStrategy() unknown strategy: -1
+09-01 07:25:14.849 W/AudioFlinger(  625): moveEffectChain_l() effect chain for session 0 not on source thread 0x99b9ca00
+09-01 07:25:16.599 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=14016.627, rt=14022.022
+09-01 07:25:16.600 D/commandrouter(  803): rtc_sync (1, rtc:sync): <ServiceRequest> FORWARDED (remote -> local) service client ID = 0, token ID = 35008
+09-01 07:25:16.600 D/vendor.facebook.rtc_sync@1.0-service( 1013): Request req_ts=1630481116596225761 resp_ts=1630481116600801903
+09-01 07:25:16.601 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = rtc_sync, appType = 1, type = SVC_RESP, clientId = 0, token = 35008, payloadLen = 8, result = 0, payload.size() = 8
+09-01 07:25:17.682 D/audio_hw_primary(  562): out_standby: enter: stream (0x96f13000) usecase(0: deep-buffer-playback)
+09-01 07:25:17.844 D/audio_hw_primary(  562): disable_audio_route: reset and update mixer path: deep-buffer-playback
+09-01 07:25:17.845 D/soundtrigger(  562): audio_extn_sound_trigger_update_stream_status: uc_info->id 0 of type 0 for Event 2, with Raise=1
+09-01 07:25:17.845 I/sound_trigger_platform(  562): platform_stdev_check_and_update_concurrency: Received STREAM event, event type 2, usecase type 0
+09-01 07:25:17.845 D/sound_trigger_platform(  562): platform_stdev_check_and_update_concurrency: dedicated path 0, reset backend 1, tx 0, rx 0,concurrency session allowed
+09-01 07:25:17.845 D/audio_hw_bluebox(  562): audio_extn_bluebox_route_disabled() usecase=0
+09-01 07:25:17.845 D/hardware_info(  562): hw_info_append_hw_type : device_name = speaker
+09-01 07:25:17.846 D/audio_hw_primary(  562): disable_snd_device: snd_device(2: speaker)
+09-01 07:25:17.846 I/soundtrigger(  562): audio_extn_sound_trigger_update_device_status: device 0x2 of type 0 for Event 0, with Raise=0
+09-01 07:25:17.846 D/audio_hw_bluebox(  562): sending snd dev notification enabled=0 sdev=Speaker
+09-01 07:25:17.846 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = audio_hal, appType = 1, type = SVC_REQ, clientId = 0, token = 548, payloadLen = 32, result = 0, payload.size() = 32
+09-01 07:25:17.874 I/mcucapture(  961): 13984955 [info   ] {AUD }: SoundDevDisabled: Speaker
+09-01 07:25:17.874 I/mcucapture(  961): 13984960 [info   ] {AUD }: setting audio power mode: STANDBY
+09-01 07:25:17.874 I/mcucapture(  961): 13984967 [info   ] {AUD }: SmartAmpDSP: Refcount: 0
+09-01 07:25:17.874 I/mcucapture(  961): 13984971 [info   ] {AUD }: Disabling SmartAmpDSP
+09-01 07:25:17.904 D/commandrouter(  803): audio_hal (1, audio_hal:notification:push): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 548, service client ID = 37, token ID = 2009, result = 0
+09-01 07:25:17.914 I/system_server( 1460): oneway function results will be dropped but finished with status OK and parcel size 4
+09-01 07:25:18.989 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:25:18.990 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl1466489986.tmp
+09-01 07:25:19.006 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=-1: installPackageLI
+09-01 07:25:19.008 I/ActivityManager( 1460): Killing 12089:com.github.uiautomator/u0a113 (adj 0): stop com.github.uiautomator due to installPackageLI
+09-01 07:25:19.008 I/PackageManager( 1460): Update package com.github.uiautomator code path from /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw== to /data/app/~~UEBkFwUOK2w0ZITQKa2bZA==/com.github.uiautomator-_JUX4VvpdH4wGA6r_31Dew==; Retain data and using new
+09-01 07:25:19.008 I/PackageManager( 1460): Update package com.github.uiautomator resource path from /data/app/~~s5j0RW3y4E5IwkV_0BaMRw==/com.github.uiautomator-DIjbly1uLFC2PHSQgxtjdw== to /data/app/~~UEBkFwUOK2w0ZITQKa2bZA==/com.github.uiautomator-_JUX4VvpdH4wGA6r_31Dew==; Retain data and using new
+09-01 07:25:19.014 D/CompatibilityChangeReporter( 1460): Compat change id reported: 135549675; UID 10113; state: DISABLED
+09-01 07:25:19.015 W/ActivityManager( 1460): Crash of app com.github.uiautomator running instrumentation ComponentInfo{com.github.uiautomator.test/android.support.test.runner.AndroidJUnitRunner}
+09-01 07:25:19.031 D/AndroidRuntime(12074): Shutting down VM
+09-01 07:25:19.134 I/Zygote  (  476): Process 12089 exited due to signal 9 (Killed)
+09-01 07:25:19.134 I/libprocessgroup( 1460): Successfully killed process cgroup uid 10113 pid 12089 in 118ms
+09-01 07:25:19.177 I/system_server( 1460): Background young concurrent copying GC freed 258838(12MB) AllocSpace objects, 98(4352KB) LOS objects, 47% free, 18MB/35MB, paused 259us total 120.169ms
+09-01 07:25:19.336 D/PackageManager( 1460): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+09-01 07:25:19.336 D/PackageManager( 1460): Clear ephemeral installer activity
+09-01 07:25:19.337 W/system_server( 1460): Long monitor contention with owner PackageManager (1635) at void com.android.server.pm.PackageManagerService.updateSettingsInternalLI(com.android.server.pm.parsing.pkg.AndroidPackage, com.android.server.pm.PackageManagerService$InstallArgs, int[], com.android.server.pm.PackageManagerService$PackageInstalledInfo)(PackageManagerService.java:16290) waiters=1 in com.android.server.pm.parsing.pkg.AndroidPackage com.android.server.pm.PackageManagerService$PackageManagerInternalImpl.getPackage(java.lang.String) for 315ms
+09-01 07:25:19.338 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=0: finished inst
+09-01 07:25:19.341 W/WindowManager( 1460): removeWindowToken: Attempted to remove non-existing token: android.os.Binder@6fffff7
+09-01 07:25:19.345 W/Looper  ( 1460): Slow dispatch took 338ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=53
+09-01 07:25:19.346 W/Looper  ( 1460): Slow delivery took 332ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=32
+09-01 07:25:19.346 W/Looper  ( 1460): Drained
+09-01 07:25:19.351 W/WindowManager( 1460): Cannot find window which accessibility connection is added to
+09-01 07:25:19.368 E/installd(  889): Couldn't opendir /data/app/vmdl1466489986.tmp: No such file or directory
+09-01 07:25:19.368 E/installd(  889): Failed to delete /data/app/vmdl1466489986.tmp: No such file or directory
+09-01 07:25:19.369 I/ActivityManager( 1460): Force stopping com.github.uiautomator appid=10113 user=0: pkg removed
+09-01 07:25:19.379 D/CompatibilityInfo( 1460): mCompatibilityFlags - 14
+09-01 07:25:19.380 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:19.380 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:19.383 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator. Reason: package android.intent.action.PACKAGE_REMOVED
+09-01 07:25:19.388 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> Action: android.intent.action.PACKAGE_REMOVED
+09-01 07:25:19.390 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:19.391 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator. Reason: package android.intent.action.PACKAGE_ADDED
+09-01 07:25:19.413 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> Action: android.intent.action.PACKAGE_ADDED
+09-01 07:25:19.413 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> packageName: com.github.uiautomator
+09-01 07:25:19.413 D/Avrcp_ext( 1994): packageName: com.github.uiautomator removed: false
+09-01 07:25:19.413 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:19.416 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:25:19.417 D/Avrcp_ext( 1994): isBrowsableListUpdated: browsable list size mismatch, true
+09-01 07:25:19.417 D/Avrcp_ext( 1994): buildBrowsablePlayerList 
+09-01 07:25:19.418 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+09-01 07:25:19.422 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:25:19.423 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:25:19.423 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.android.music
+09-01 07:25:19.423 V/Avrcp_ext( 1994): isBrowseSupported for com.android.music: false
+09-01 07:25:19.424 D/Avrcp_ext( 1994): Adding media player info for com.android.music with id 1
+09-01 07:25:19.424 D/Avrcp_ext( 1994): update #1:MediaPlayerInfo com.android.music (as 'Android Open Source Music Player') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.424 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.424 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.eq
+09-01 07:25:19.424 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.eq: false
+09-01 07:25:19.425 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.eq with id 2
+09-01 07:25:19.425 D/Avrcp_ext( 1994): update #2:MediaPlayerInfo com.facebook.wearable.apps.eq (as 'EQ') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.425 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.425 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.mediacontroller
+09-01 07:25:19.425 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.mediacontroller: false
+09-01 07:25:19.426 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.mediacontroller with id 3
+09-01 07:25:19.426 D/Avrcp_ext( 1994): update #3:MediaPlayerInfo com.facebook.wearable.apps.mediacontroller (as 'mediacontroller') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.426 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.426 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.player
+09-01 07:25:19.426 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.player: false
+09-01 07:25:19.427 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.player with id 4
+09-01 07:25:19.427 D/Avrcp_ext( 1994): update #4:MediaPlayerInfo com.facebook.wearable.apps.player (as 'Spotify') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.427 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.427 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.workout
+09-01 07:25:19.427 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.workout: false
+09-01 07:25:19.428 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.workout with id 5
+09-01 07:25:19.428 D/Avrcp_ext( 1994): update #5:MediaPlayerInfo com.facebook.wearable.apps.workout (as 'Workout') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.429 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.429 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.system.launcher
+09-01 07:25:19.429 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.system.launcher: false
+09-01 07:25:19.430 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.system.launcher with id 6
+09-01 07:25:19.430 D/Avrcp_ext( 1994): update #6:MediaPlayerInfo com.facebook.wearable.system.launcher (as 'Launcher') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:19.430 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:19.430 V/Avrcp_ext( 1994): updateCurrentMediaState: mMediaController: null
+09-01 07:25:19.430 V/Avrcp_ext( 1994): isMusicActive: false getBluetoothPlayState: 2
+09-01 07:25:19.430 V/Avrcp_ext( 1994): updateCurrentMediaState: isPlaying = false
+09-01 07:25:19.430 V/Avrcp_ext( 1994): Media update: id -1➡-1? [MediaAttributes: none] : [MediaAttributes: none]
+09-01 07:25:19.430 D/Avrcp_ext( 1994): isPackageNameValid: browsedPackage = isValid = false
+09-01 07:25:19.430 V/Avrcp_ext( 1994): newPlayStatus:2mReportedPlayStatus:-1
+09-01 07:25:19.430 V/Avrcp_ext( 1994): updatePlaybackState, state: PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null} device: null
+09-01 07:25:19.430 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:19.430 I/chatty  ( 1994): uid=1002(bluetooth) com.android.bluetooth identical 3 lines
+09-01 07:25:19.430 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:19.431 V/Avrcp_ext( 1994): updatePlayerStateAndPosition, old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:19.431 V/Avrcp_ext( 1994): old state = PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:19.431 D/HeadsetService( 1994): getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@476ddce
+09-01 07:25:19.431 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.431 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:19.432 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.432 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:19.432 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:19.432 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:19.433 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.433 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:19.433 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.433 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:19.433 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:19.434 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:19.434 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.434 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:19.435 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.435 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:19.435 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:19.435 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:19.436 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.436 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:19.436 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.436 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:19.436 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:19.436 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:19.437 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.437 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:19.437 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:19.438 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:19.438 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14008751, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:19.438 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:19.438 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:19.438 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:19.438 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:19.438 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:19.438 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:19.438 V/Avrcp_ext( 1994): Exit updatePlayerStateAndPosition
+09-01 07:25:19.438 D/Avrcp_ext( 1994): Exit handlePackageModified
+09-01 07:25:19.444 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:19.447 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:25:19.447 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:19.447 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:19.457 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.github.uiautomator flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:25:19.458 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:19.460 I/Telecom ( 1460): DefaultDialerCache: Refreshing default dialer for user 0: now com.facebook.wearable.apps.phone: DDC.oR@Eos
+09-01 07:25:19.475 V/BackupManagerConstants( 1460): getFullBackupIntervalMilliseconds(...) returns 86400000
+09-01 07:25:19.475 V/BackupManagerConstants( 1460): getFullBackupRequiredNetworkType(...) returns 2
+09-01 07:25:19.477 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:25:19.475 V/BackupManagerConstants( 1460): getFullBackupRequireCharging(...) returns true
+09-01 07:25:19.484 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.487 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:25:19.487 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:19.487 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:19.491 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.494 I/chatty  (  625): uid=1041(audioserver) Binder:625_4 identical 2 lines
+09-01 07:25:19.495 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.529 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:19.542 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.548 I/chatty  (  625): uid=1041(audioserver) Binder:625_4 identical 3 lines
+09-01 07:25:19.550 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.571 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:19.584 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.590 I/chatty  (  625): uid=1041(audioserver) Binder:625_4 identical 3 lines
+09-01 07:25:19.590 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:19.595 W/system_server( 1460): Long monitor contention with owner android.bg (1547) at boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String)(AppStandbyController.java:1574) waiters=1 in int com.android.server.usage.AppStandbyController.getAppStandbyBucket(java.lang.String, int, long, boolean) for 101ms
+09-01 07:25:19.598 W/Looper  ( 1460): Slow dispatch took 137ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@acb00a9 m=0
+09-01 07:25:19.600 W/TextServicesManagerService( 1460): no available spell checker services found
+09-01 07:25:19.604 W/Searchables( 1460): No global search activity found
+09-01 07:25:19.607 W/Searchables( 1460): No global search activity found
+09-01 07:25:19.608 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:25:19.609 W/VoiceInteractionManager( 1460): no available voice recognition services found for user 0
+09-01 07:25:19.617 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:25:19.628 I/PermissionControllerServiceImpl(10768): Updating user sensitive for uid 10113
+09-01 07:25:19.650 D/ImsResolver( 2246): maybeAddedImsService, packageName: com.github.uiautomator
+09-01 07:25:19.660 D/CarrierConfigLoader( 2246): mHandler: 12 phoneId: 0
+09-01 07:25:19.739 D/AnalyticsLogger( 1460): sent events: 54
+09-01 07:25:19.855 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:25:19.855 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:19.855 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:19.975 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:25:19.976 E/QMI_FW  ( 1038): qmi_cci_get_ref: ref count increased 2
+09-01 07:25:20.575 D/mcu_health_checker(  846): Sent isMcuReachable Request
+09-01 07:25:20.576 D/commandrouter(  803): SocServiceHandle::onServiceMessage, SoC Service = mcu_healthcheck_846, appType = 1, type = SVC_REQ, clientId = 0, token = 233, payloadLen = 12, result = 0, payload.size() = 12
+09-01 07:25:20.594 D/commandrouter(  803): mcu_healthcheck_846 (1, merlot:mcu_health:control): <ServiceResponse> FORWARDED (remote -> local) CR token ID = 233, service client ID = 5, token ID = 2010, result = 0
+09-01 07:25:20.594 D/mcu_health_checker(  846): MCU Health Response: MCU_OK
+09-01 07:25:20.594 D/mculinkhealth(  846): isMcuReachable 1 (18 ms)
+09-01 07:25:20.596 I/mcucapture(  961): 13987682 [info   ] {hlth}: Received control service request
+09-01 07:25:20.597 I/mcucapture(  961): 13987687 [info   ] {hlth}: Health Request cmd: GET_STATUS
+09-01 07:25:20.597 I/mcucapture(  961): 13987692 [info   ] {hlth}: Responded to req, result = MCU_OK
+09-01 07:25:20.610 W/RuleEvaluation( 1460): Integrity rule files are not available.
+09-01 07:25:20.611 I/PackageManager( 1460): Integrity check passed for file:///data/app/vmdl1327823572.tmp
+09-01 07:25:20.622 I/ActivityManager( 1460): Force stopping com.github.uiautomator.test appid=10114 user=-1: installPackageLI
+09-01 07:25:20.624 I/PackageManager( 1460): Update package com.github.uiautomator.test code path from /data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w== to /data/app/~~00M8FjEoDxRRKMH3S-mwCA==/com.github.uiautomator.test-Uuzf5JF6usU3Dly3Ft68Jg==; Retain data and using new
+09-01 07:25:20.624 I/PackageManager( 1460): Update package com.github.uiautomator.test resource path from /data/app/~~3KcgQ2V-B0ikUguWT0r4jw==/com.github.uiautomator.test-8Arv5DQuxHsj0_LLSeub0w== to /data/app/~~00M8FjEoDxRRKMH3S-mwCA==/com.github.uiautomator.test-Uuzf5JF6usU3Dly3Ft68Jg==; Retain data and using new
+09-01 07:25:20.801 D/PackageManager( 1460): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+09-01 07:25:20.801 D/PackageManager( 1460): Clear ephemeral installer activity
+09-01 07:25:20.802 W/Looper  ( 1460): Slow dispatch took 130ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=3
+09-01 07:25:20.826 E/installd(  889): Couldn't opendir /data/app/vmdl1327823572.tmp: No such file or directory
+09-01 07:25:20.826 E/installd(  889): Failed to delete /data/app/vmdl1327823572.tmp: No such file or directory
+09-01 07:25:20.827 I/ActivityManager( 1460): Force stopping com.github.uiautomator.test appid=10114 user=0: pkg removed
+09-01 07:25:20.838 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator.test. Reason: package android.intent.action.PACKAGE_REMOVED
+09-01 07:25:20.841 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> Action: android.intent.action.PACKAGE_REMOVED
+09-01 07:25:20.843 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:25:20.849 D/CompatibilityInfo( 1460): mCompatibilityFlags - 14
+09-01 07:25:20.849 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:20.849 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:20.849 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:20.852 I/MediaProvider( 2717): Invalidating LocalCallingIdentity cache for package com.github.uiautomator.test. Reason: package android.intent.action.PACKAGE_ADDED
+09-01 07:25:20.856 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:20.870 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+09-01 07:25:20.870 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> Action: android.intent.action.PACKAGE_ADDED
+09-01 07:25:20.870 D/Avrcp_ext( 1994): AvrcpServiceBroadcastReceiver-> packageName: com.github.uiautomator.test
+09-01 07:25:20.871 D/Avrcp_ext( 1994): packageName: com.github.uiautomator.test removed: false
+09-01 07:25:20.871 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+09-01 07:25:20.871 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:25:20.876 D/Avrcp_ext( 1994): isBrowsableListUpdated: browsable list size mismatch, true
+09-01 07:25:20.876 D/Avrcp_ext( 1994): buildBrowsablePlayerList 
+09-01 07:25:20.880 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.android.music
+09-01 07:25:20.880 V/Avrcp_ext( 1994): isBrowseSupported for com.android.music: false
+09-01 07:25:20.883 D/Avrcp_ext( 1994): Adding media player info for com.android.music with id 1
+09-01 07:25:20.883 D/Avrcp_ext( 1994): update #1:MediaPlayerInfo com.android.music (as 'Android Open Source Music Player') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.883 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.883 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.eq
+09-01 07:25:20.883 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.eq: false
+09-01 07:25:20.885 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.eq with id 2
+09-01 07:25:20.885 D/Avrcp_ext( 1994): update #2:MediaPlayerInfo com.facebook.wearable.apps.eq (as 'EQ') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.885 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.885 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.mediacontroller
+09-01 07:25:20.885 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.mediacontroller: false
+09-01 07:25:20.889 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:20.890 D/CompatibilityInfo( 1460): mCompatibilityFlags - 4
+09-01 07:25:20.890 D/CompatibilityInfo( 1460): applicationDensity - 320
+09-01 07:25:20.890 D/CompatibilityInfo( 1460): applicationScale - 1.0
+09-01 07:25:20.892 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.mediacontroller with id 3
+09-01 07:25:20.892 D/Avrcp_ext( 1994): update #3:MediaPlayerInfo com.facebook.wearable.apps.mediacontroller (as 'mediacontroller') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.892 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.892 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.player
+09-01 07:25:20.892 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.player: false
+09-01 07:25:20.900 W/BroadcastQueue( 1460): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.github.uiautomator.test flg=0x4000010 (has extras) } to com.facebook.wearable.system.appmanager/com.facebook.aloha.app.appmanager.common.packages.event.manifest.ManifestPackageEventReceiver
+09-01 07:25:20.902 I/Telecom ( 1460): DefaultDialerCache: Refreshing default dialer for user 0: now com.facebook.wearable.apps.phone: DDC.oR@Eo8
+09-01 07:25:20.902 I/PermissionControllerServiceImpl(10768): Updating user sensitive for uid 10114
+09-01 07:25:20.904 I/InputReader( 1460): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+09-01 07:25:20.917 V/BackupManagerConstants( 1460): getFullBackupIntervalMilliseconds(...) returns 86400000
+09-01 07:25:20.917 V/BackupManagerConstants( 1460): getFullBackupRequiredNetworkType(...) returns 2
+09-01 07:25:20.917 V/BackupManagerConstants( 1460): getFullBackupRequireCharging(...) returns true
+09-01 07:25:20.920 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.player with id 4
+09-01 07:25:20.920 D/Avrcp_ext( 1994): update #4:MediaPlayerInfo com.facebook.wearable.apps.player (as 'Spotify') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.920 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.920 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.apps.workout
+09-01 07:25:20.920 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.apps.workout: false
+09-01 07:25:20.921 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.apps.workout with id 5
+09-01 07:25:20.921 D/Avrcp_ext( 1994): update #5:MediaPlayerInfo com.facebook.wearable.apps.workout (as 'Workout') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.921 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.921 V/Avrcp_ext( 1994): getMediaPlayerInfo: Found com.facebook.wearable.system.launcher
+09-01 07:25:20.921 V/Avrcp_ext( 1994): isBrowseSupported for com.facebook.wearable.system.launcher: false
+09-01 07:25:20.922 D/Avrcp_ext( 1994): Adding media player info for com.facebook.wearable.system.launcher with id 6
+09-01 07:25:20.922 D/Avrcp_ext( 1994): update #6:MediaPlayerInfo com.facebook.wearable.system.launcher (as 'Launcher') Type = 1, SubType = 0, Status = 0 Feature Bits [40 41 42 44 45 47 48 58] Controller: null
+09-01 07:25:20.922 D/Avrcp_ext( 1994): Added MediaPlayerController/MediaPlayerPackage
+09-01 07:25:20.922 V/Avrcp_ext( 1994): updateCurrentMediaState: mMediaController: null
+09-01 07:25:20.922 V/Avrcp_ext( 1994): isMusicActive: false getBluetoothPlayState: 2
+09-01 07:25:20.923 V/Avrcp_ext( 1994): updateCurrentMediaState: isPlaying = false
+09-01 07:25:20.923 V/Avrcp_ext( 1994): Media update: id -1➡-1? [MediaAttributes: none] : [MediaAttributes: none]
+09-01 07:25:20.923 D/Avrcp_ext( 1994): isPackageNameValid: browsedPackage = isValid = false
+09-01 07:25:20.923 V/Avrcp_ext( 1994): newPlayStatus:2mReportedPlayStatus:-1
+09-01 07:25:20.923 V/Avrcp_ext( 1994): updatePlaybackState, state: PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null} device: null
+09-01 07:25:20.923 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:20.923 I/chatty  ( 1994): uid=1002(bluetooth) com.android.bluetooth identical 3 lines
+09-01 07:25:20.923 V/Avrcp_ext( 1994): Device: no name: 
+09-01 07:25:20.923 V/Avrcp_ext( 1994): updatePlayerStateAndPosition, old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:20.923 V/Avrcp_ext( 1994): old state = PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}
+09-01 07:25:20.923 D/HeadsetService( 1994): getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@476ddce
+09-01 07:25:20.924 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.924 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:20.924 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.924 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.924 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:20.925 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:20.925 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:20.925 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.925 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:20.926 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.926 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.927 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.928 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:20.928 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:20.928 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:20.928 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.928 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.928 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:20.929 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.929 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:20.930 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:20.930 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:20.932 D/RegisteredNfcFServicesCache( 2632): Service unchanged, not updating
+09-01 07:25:20.932 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.932 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:20.934 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.935 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:20.935 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:20.935 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:20.937 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.937 D/HeadsetService( 1994): isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+09-01 07:25:20.938 D/HeadsetService( 1994):  isAudioOn: The number of audio connected devices 0
+09-01 07:25:20.938 I/Avrcp_ext( 1994): updatePlayStatusForDevice: device: null
+09-01 07:25:20.938 V/Avrcp_ext( 1994): updatePlaybackState (1): old=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14013426, actions=0, custom actions=[], active item id=-1, error=null}(2), new=PlaybackState {state=2, position=-1, buffered position=0, speed=0.0, updated=14014919, actions=0, custom actions=[], active item id=-1, error=null}(2)
+09-01 07:25:20.938 I/Avrcp_ext( 1994): Exit updatePlayStatusForDevice
+09-01 07:25:20.938 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:20.938 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:20.938 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:20.938 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:20.938 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:20.938 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:20.938 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:20.938 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:20.938 D/Avrcp_ext( 1994): Enter sendPlayPosNotificationRsp
+09-01 07:25:20.938 D/Avrcp_ext( 1994): sendPlayPosNotificationRsp: Not registered or requesting.
+09-01 07:25:20.939 V/Avrcp_ext( 1994): Exit updatePlayerStateAndPosition
+09-01 07:25:20.939 D/Avrcp_ext( 1994): Exit handlePackageModified
+09-01 07:25:20.939 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.958 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:20.967 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.972 I/chatty  (  625): uid=1041(audioserver) Binder:625_4 identical 3 lines
+09-01 07:25:20.974 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:20.995 E/SmsApplication( 2246): com.facebook.wearable.apps.messages does not have system signature
+09-01 07:25:21.003 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:21.008 I/chatty  (  625): uid=1041(audioserver) Binder:625_4 identical 3 lines
+09-01 07:25:21.009 D/AF::TrackHandle(  625): OpPlayAudio: track:88 usage:3 not muted
+09-01 07:25:21.026 W/system_server( 1460): Long monitor contention with owner NetworkPolicy (1897) at boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String)(AppStandbyController.java:1574) waiters=0 in boolean com.android.server.usage.AppStandbyController.isCarrierApp(java.lang.String) for 158ms
+09-01 07:25:21.027 W/TextServicesManagerService( 1460): no available spell checker services found
+09-01 07:25:21.028 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:25:21.032 W/Searchables( 1460): No global search activity found
+09-01 07:25:21.038 W/Searchables( 1460): No global search activity found
+09-01 07:25:21.040 D/CarrierSvcBindHelper( 2246): No carrier app for: 0
+09-01 07:25:21.041 W/VoiceInteractionManager( 1460): no available voice recognition services found for user 0
+09-01 07:25:21.045 W/Looper  ( 1460): Slow dispatch took 143ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@c90e530 m=0
+09-01 07:25:21.071 D/ImsResolver( 2246): maybeAddedImsService, packageName: com.github.uiautomator.test
+09-01 07:25:21.083 D/CarrierConfigLoader( 2246): mHandler: 12 phoneId: 0
+09-01 07:25:21.604 W/bluelink(  803): [System] updateSmoothedTime: too early or too late; st=14021.626, rt=14027.026

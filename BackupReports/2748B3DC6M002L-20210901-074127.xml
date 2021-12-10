@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.6.8 on win32)" generated="20210901 07:41:27.763" rpa="false">
+<suite id="s1" name="VZW Stability LiveDashboard" source="D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\TestSuite\VZW_Stability_LiveDashboard.robot">
+<kw name="Suite Setup Keyword" library="GenericFunction" type="setup">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:32.566" endtime="20210901 07:41:36.613"></status>
+</kw>
+<kw name="Adb Get Build Number" library="cogmationlibrary">
+<doc>This function returns device build details</doc>
+<assign>
+<var>${BUILD_NUMBER}</var>
+</assign>
+<msg timestamp="20210901 07:41:36.714" level="INFO">Device Build Details: 19740100000000000</msg>
+<msg timestamp="20210901 07:41:36.714" level="INFO">${BUILD_NUMBER} = 19740100000000000</msg>
+<status status="PASS" starttime="20210901 07:41:36.614" endtime="20210901 07:41:36.715"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${BUILD_NUMBER}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.716" level="INFO">${BUILD_NUMBER} = 19740100000000000</msg>
+<status status="PASS" starttime="20210901 07:41:36.715" endtime="20210901 07:41:36.716"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${log_path1}</arg>
+<arg>${EXECDIR}/Report/Device_${TEST_DEVICE}.txt</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.727" level="INFO">${log_path1} = D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1/Report/Device_2748B3DC6M002L.txt</msg>
+<status status="PASS" starttime="20210901 07:41:36.717" endtime="20210901 07:41:36.727"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${TEST_DEVICE} shell rm -rf /storage/emulated/0/DCIM</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:36.728" endtime="20210901 07:41:36.826"></status>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date}</var>
+</assign>
+<msg timestamp="20210901 07:41:36.827" level="INFO">${date} = 2021-09-01 07:41:36.826</msg>
+<status status="PASS" starttime="20210901 07:41:36.826" endtime="20210901 07:41:36.827"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${date}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.827" level="INFO">${date} = 2021-09-01 07:41:36.826</msg>
+<status status="PASS" starttime="20210901 07:41:36.827" endtime="20210901 07:41:36.827"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Suite Setup Current Date : ${date}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:36.827" endtime="20210901 07:41:36.828"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${CRASH_COUNT}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.834" level="INFO">${CRASH_COUNT} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:36.828" endtime="20210901 07:41:36.834"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Suite_Total_Iteration_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.841" level="INFO">${Suite_Total_Iteration_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:36.835" endtime="20210901 07:41:36.841"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Suite_Total_Pass_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.846" level="INFO">${Suite_Total_Pass_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:36.841" endtime="20210901 07:41:36.846"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Suite_CRASH_COUNT}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:36.852" level="INFO">${Suite_CRASH_COUNT} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:36.847" endtime="20210901 07:41:36.852"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:32.565" endtime="20210901 07:41:36.852"></status>
+</kw>
+<test id="s1-t1" name="Telephony_Make A Voice Call From The Call History List">
+<kw name="Test Setup Keyword" library="GenericFunction" type="setup">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:36.853" endtime="20210901 07:41:40.928"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${TEST_DEVICE} logcat -c</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:40.928" endtime="20210901 07:41:41.025"></status>
+</kw>
+<kw name="Wait For Exists" library="cogmationlibrary">
+<doc>Wait for the object which has *selectors* within the given timeout.</doc>
+<arguments>
+<arg>5</arg>
+<arg>&amp;{CHARGING_ICON}</arg>
+</arguments>
+<assign>
+<var>${charging_icon}</var>
+</assign>
+<msg timestamp="20210901 07:41:51.703" level="INFO">${charging_icon} = False</msg>
+<status status="PASS" starttime="20210901 07:41:41.026" endtime="20210901 07:41:51.703"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${charging_icon}</arg>
+<arg>Swipe Right</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:51.703" endtime="20210901 07:41:51.704"></status>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<doc>Executes the specified keyword multiple times.</doc>
+<arguments>
+<arg>4</arg>
+<arg>Press Back</arg>
+</arguments>
+<msg timestamp="20210901 07:41:51.704" level="INFO">Repeating keyword, round 1/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:41:51.704" endtime="20210901 07:41:51.953"></status>
+</kw>
+<msg timestamp="20210901 07:41:51.953" level="INFO">Repeating keyword, round 2/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:41:51.953" endtime="20210901 07:41:52.952"></status>
+</kw>
+<msg timestamp="20210901 07:41:52.953" level="INFO">Repeating keyword, round 3/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:41:52.953" endtime="20210901 07:41:53.953"></status>
+</kw>
+<msg timestamp="20210901 07:41:53.953" level="INFO">Repeating keyword, round 4/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:41:53.953" endtime="20210901 07:41:54.952"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:51.704" endtime="20210901 07:41:54.952"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210901 07:41:57.954" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:41:54.952" endtime="20210901 07:41:57.954"></status>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date}</var>
+</assign>
+<msg timestamp="20210901 07:41:57.956" level="INFO">${date} = 2021-09-01 07:41:57.956</msg>
+<status status="PASS" starttime="20210901 07:41:57.955" endtime="20210901 07:41:57.956"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${date}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:57.957" level="INFO">${date} = 2021-09-01 07:41:57.956</msg>
+<status status="PASS" starttime="20210901 07:41:57.957" endtime="20210901 07:41:57.958"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Test Setup Current Date : ${date}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:57.958" endtime="20210901 07:41:57.959"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Iteration_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:57.974" level="INFO">${Total_Iteration_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:57.959" endtime="20210901 07:41:57.974"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Pass_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:41:57.982" level="INFO">${Total_Pass_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:41:57.974" endtime="20210901 07:41:57.982"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Feature Status}</arg>
+<arg>'Pass'</arg>
+</arguments>
+<msg timestamp="20210901 07:41:57.988" level="INFO">${Feature Status} = 'Pass'</msg>
+<status status="PASS" starttime="20210901 07:41:57.982" endtime="20210901 07:41:57.988"></status>
+</kw>
+<kw name="Adb Get Storage Consumed" library="cogmationlibrary">
+<doc>This function returns the percentage of memory consumed</doc>
+<assign>
+<var>${STORAGE_CONSUMED}</var>
+</assign>
+<msg timestamp="20210901 07:41:58.172" level="INFO">Percentage of storage used: 15%</msg>
+<msg timestamp="20210901 07:41:58.172" level="INFO">${STORAGE_CONSUMED} = 15%</msg>
+<status status="PASS" starttime="20210901 07:41:57.989" endtime="20210901 07:41:58.172"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${STORAGE_CONSUMED}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.173" level="INFO">${STORAGE_CONSUMED} = 15%</msg>
+<status status="PASS" starttime="20210901 07:41:58.173" endtime="20210901 07:41:58.173"></status>
+</kw>
+<kw name="Adb Get Battery Percent" library="cogmationlibrary">
+<doc>This function returns device battery percentage</doc>
+<assign>
+<var>${BATTERY_PERCENTAGE}</var>
+</assign>
+<msg timestamp="20210901 07:41:58.261" level="INFO">Device Battery Percentage: 86%</msg>
+<msg timestamp="20210901 07:41:58.261" level="INFO">${BATTERY_PERCENTAGE} = 86%</msg>
+<status status="PASS" starttime="20210901 07:41:58.174" endtime="20210901 07:41:58.261"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${BATTERY_PERCENTAGE}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.262" level="INFO">${BATTERY_PERCENTAGE} = 86%</msg>
+<status status="PASS" starttime="20210901 07:41:58.262" endtime="20210901 07:41:58.262"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${TEST_DEVICE} shell rm -rf /storage/emulated/0/DCIM</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:58.262" endtime="20210901 07:41:58.344"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:36.853" endtime="20210901 07:41:58.345"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Event 2: Make a voice call from the call history list (50)</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:58.346" endtime="20210901 07:41:58.347"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Event 2: Make a voice call from the call history list (50)</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.348" level="INFO">Event 2: Make a voice call from the call history list (50)</msg>
+<status status="PASS" starttime="20210901 07:41:58.348" endtime="20210901 07:41:58.348"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${log_path}</arg>
+<arg>${EXECDIR}/Report/${TEST_NAME}/Telephony_002_${TEST_DEVICE}.txt</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.359" level="INFO">${log_path} = D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1/Report/Telephony_Make A Voice Call From The Call History List/Telephony_002_2748B3DC6M002L.txt</msg>
+<status status="PASS" starttime="20210901 07:41:58.349" endtime="20210901 07:41:58.359"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>${log_path}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.361" level="INFO" html="yes">Created file '&lt;a href="file://D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt"&gt;D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210901 07:41:58.360" endtime="20210901 07:41:58.361"></status>
+</kw>
+<kw name="${ITERATION_COUNTER} IN RANGE [ 1 | ${ITERATION_COUNT_100}+1 ]" type="for">
+<kw name="${ITERATION_COUNTER} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\nIteration No.: ${ITERATION_COUNTER}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:58.362" endtime="20210901 07:41:58.362"></status>
+</kw>
+<kw name="Append To File" library="OperatingSystem">
+<doc>Appends the given content to the specified file.</doc>
+<arguments>
+<arg>${log_path}</arg>
+<arg>\n\nITERATION ${ITERATION_COUNTER}</arg>
+</arguments>
+<msg timestamp="20210901 07:41:58.363" level="INFO" html="yes">Appended to file '&lt;a href="file://D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt"&gt;D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210901 07:41:58.363" endtime="20210901 07:41:58.363"></status>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Establish Call Connectivity From Call History</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<kw name="Establish Call Connectivity From Call History" library="PhoneFunction">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:41:58.364" endtime="20210901 07:42:02.549"></status>
+</kw>
+<kw name="Initiate Phone Call From Call History" library="PhoneFunction">
+<kw name="Launch Call History" library="PhoneFunction">
+<kw name="Execute Adb Shell Command" library="cogmationlibrary">
+<doc>Execute adb shell *cmd*</doc>
+<arguments>
+<arg>input keyevent KEYCODE_HOME</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:02.552" endtime="20210901 07:42:04.232"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+<arg>For Page to load successfully</arg>
+</arguments>
+<msg timestamp="20210901 07:42:07.235" level="INFO">Slept 3 seconds</msg>
+<msg timestamp="20210901 07:42:07.235" level="INFO">For Page to load successfully</msg>
+<status status="PASS" starttime="20210901 07:42:04.232" endtime="20210901 07:42:07.235"></status>
+</kw>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:42:07.235" endtime="20210901 07:42:16.723"></status>
+</kw>
+<kw name="Execute Adb Shell Command" library="cogmationlibrary">
+<doc>Execute adb shell *cmd*</doc>
+<arguments>
+<arg>input touchscreen swipe 420 200 40 200</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:16.723" endtime="20210901 07:42:18.694"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+<arg>For Page to load successfully</arg>
+</arguments>
+<msg timestamp="20210901 07:42:20.696" level="INFO">Slept 2 seconds</msg>
+<msg timestamp="20210901 07:42:20.696" level="INFO">For Page to load successfully</msg>
+<status status="PASS" starttime="20210901 07:42:18.695" endtime="20210901 07:42:20.696"></status>
+</kw>
+<kw name="Execute Adb Shell Command" library="cogmationlibrary">
+<doc>Execute adb shell *cmd*</doc>
+<arguments>
+<arg>input touchscreen swipe 420 200 40 200</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:20.697" endtime="20210901 07:42:22.063"></status>
+</kw>
+<kw name="Wait For Exists" library="cogmationlibrary">
+<doc>Wait for the object which has *selectors* within the given timeout.</doc>
+<arguments>
+<arg>timeout=5000</arg>
+<arg>&amp;{RECENT_CALLS_NAME}</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<msg timestamp="20210901 07:42:24.381" level="INFO">${status} = True</msg>
+<status status="PASS" starttime="20210901 07:42:22.064" endtime="20210901 07:42:24.381"></status>
+</kw>
+<kw name="Run Keyword Unless" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments if ``condition`` is false.</doc>
+<arguments>
+<arg>${status}</arg>
+<arg>Fail</arg>
+<arg>Phone App not launched successfully.</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:24.382" endtime="20210901 07:42:24.383"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:42:02.551" endtime="20210901 07:42:24.383"></status>
+</kw>
+<kw name="Wait For Exists" library="cogmationlibrary">
+<doc>Wait for the object which has *selectors* within the given timeout.</doc>
+<arguments>
+<arg>timeout=5000</arg>
+<arg>&amp;{PHONE_CALL_HISTORY_DIAL_ICON}</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<msg timestamp="20210901 07:42:24.463" level="INFO">${status} = True</msg>
+<status status="PASS" starttime="20210901 07:42:24.384" endtime="20210901 07:42:24.463"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${status}</arg>
+<arg>Click</arg>
+<arg>&amp;{PHONE_CALL_HISTORY_DIAL_ICON}</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Unable to locate Dial Icon In Call History</arg>
+</arguments>
+<kw name="Click" library="cogmationlibrary">
+<doc>Click on the UI object with *selectors*</doc>
+<arguments>
+<arg>&amp;{PHONE_CALL_HISTORY_DIAL_ICON}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:24.465" endtime="20210901 07:42:24.673"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:42:24.464" endtime="20210901 07:42:24.674"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20210901 07:42:29.677" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210901 07:42:24.675" endtime="20210901 07:42:29.677"></status>
+</kw>
+<kw name="Wait For Exists" library="cogmationlibrary">
+<doc>Wait for the object which has *selectors* within the given timeout.</doc>
+<arguments>
+<arg>timeout=5000</arg>
+<arg>&amp;{VOICE_CALL_OPTION}</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<msg timestamp="20210901 07:42:36.984" level="INFO">${status} = False</msg>
+<status status="PASS" starttime="20210901 07:42:29.678" endtime="20210901 07:42:36.984"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${status}</arg>
+<arg>Click</arg>
+<arg>&amp;{VOICE_CALL_OPTION}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:36.984" endtime="20210901 07:42:36.985"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210901 07:42:39.986" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:42:36.985" endtime="20210901 07:42:39.986"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:42:02.550" endtime="20210901 07:42:39.986"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210901 07:42:42.987" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:42:39.987" endtime="20210901 07:42:42.987"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${PARTNER_DEVICE} shell input keyevent 5</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:42.988" endtime="20210901 07:42:43.239"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210901 07:42:46.241" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:42:43.240" endtime="20210901 07:42:46.241"></status>
+</kw>
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${PARTNER_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:42:46.241" endtime="20210901 07:42:50.999"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210901 07:42:54.001" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:42:50.999" endtime="20210901 07:42:54.001"></status>
+</kw>
+<kw name="Press Home" library="cogmationlibrary">
+<doc>Press home key.</doc>
+<status status="PASS" starttime="20210901 07:42:54.002" endtime="20210901 07:43:04.725"></status>
+</kw>
+<kw name="Open Notification" library="cogmationlibrary">
+<doc>Open notification</doc>
+<status status="PASS" starttime="20210901 07:43:04.725" endtime="20210901 07:43:04.904"></status>
+</kw>
+<kw name="Click" library="cogmationlibrary">
+<doc>Click on the UI object with *selectors*</doc>
+<arguments>
+<arg>&amp;{PHONE_HANG_UP}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:04.905" endtime="20210901 07:43:06.157"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210901 07:43:11.159" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210901 07:43:06.158" endtime="20210901 07:43:11.159"></status>
+</kw>
+<kw name="Handle Teardown For Call Connectivity" library="PhoneFunction" type="teardown">
+<kw name="Terminate Phone Call" library="PhoneFunction">
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${PARTNER_DEVICE} shell input keyevent KEYCODE_ENDCALL</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:11.162" endtime="20210901 07:43:11.427"></status>
+</kw>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:11.428" endtime="20210901 07:43:13.527"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:11.161" endtime="20210901 07:43:13.528"></status>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<doc>Executes the specified keyword multiple times.</doc>
+<arguments>
+<arg>3</arg>
+<arg>Press Back</arg>
+</arguments>
+<msg timestamp="20210901 07:43:13.529" level="INFO">Repeating keyword, round 1/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:13.530" endtime="20210901 07:43:15.318"></status>
+</kw>
+<msg timestamp="20210901 07:43:15.319" level="INFO">Repeating keyword, round 2/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:15.319" endtime="20210901 07:43:16.401"></status>
+</kw>
+<msg timestamp="20210901 07:43:16.402" level="INFO">Repeating keyword, round 3/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:16.403" endtime="20210901 07:43:17.482"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:13.529" endtime="20210901 07:43:17.482"></status>
+</kw>
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:17.482" endtime="20210901 07:43:21.970"></status>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<doc>Executes the specified keyword multiple times.</doc>
+<arguments>
+<arg>4</arg>
+<arg>Press Back</arg>
+</arguments>
+<msg timestamp="20210901 07:43:21.971" level="INFO">Repeating keyword, round 1/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:21.971" endtime="20210901 07:43:31.753"></status>
+</kw>
+<msg timestamp="20210901 07:43:31.753" level="INFO">Repeating keyword, round 2/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:31.754" endtime="20210901 07:43:32.953"></status>
+</kw>
+<msg timestamp="20210901 07:43:32.954" level="INFO">Repeating keyword, round 3/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:32.954" endtime="20210901 07:43:33.954"></status>
+</kw>
+<msg timestamp="20210901 07:43:33.955" level="INFO">Repeating keyword, round 4/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:33.955" endtime="20210901 07:43:34.954"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:21.970" endtime="20210901 07:43:34.955"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:11.160" endtime="20210901 07:43:34.955"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:58.364" endtime="20210901 07:43:34.956"></status>
+</kw>
+<msg timestamp="20210901 07:43:34.956" level="INFO">${status} = True</msg>
+<status status="PASS" starttime="20210901 07:41:58.364" endtime="20210901 07:43:34.956"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${status}</arg>
+<arg>Iteration Sucessfull Keyword</arg>
+<arg>${log_path}</arg>
+<arg>ELSE</arg>
+<arg>Iteration Unsucessfull Keyword</arg>
+<arg>${log_path}</arg>
+</arguments>
+<kw name="Iteration Sucessfull Keyword" library="GenericFunction">
+<arguments>
+<arg>${log_path}</arg>
+</arguments>
+<kw name="Append To File" library="OperatingSystem">
+<doc>Appends the given content to the specified file.</doc>
+<arguments>
+<arg>${log_file_path}</arg>
+<arg>\nPASS</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.961" level="INFO" html="yes">Appended to file '&lt;a href="file://D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt"&gt;D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210901 07:43:34.959" endtime="20210901 07:43:34.961"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Iteration Completed Successfuly</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:34.961" endtime="20210901 07:43:34.962"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:34.958" endtime="20210901 07:43:34.963"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:34.957" endtime="20210901 07:43:34.963"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:58.362" endtime="20210901 07:43:34.964"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:58.361" endtime="20210901 07:43:34.964"></status>
+</kw>
+<kw name="Stability Test Status" library="GenericFunction">
+<arguments>
+<arg>total_iter=${ITERATION_COUNT_100}</arg>
+<arg>iteration_file=${log_path}</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${iteration_file}</arg>
+</arguments>
+<assign>
+<var>${file_content_string}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.965" level="INFO" html="yes">Getting file '&lt;a href="file://D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt"&gt;D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20210901 07:43:34.967" level="INFO">${file_content_string} = 
+
+ITERATION 1
+PASS</msg>
+<status status="PASS" starttime="20210901 07:43:34.965" endtime="20210901 07:43:34.967"></status>
+</kw>
+<kw name="Get Regexp Matches" library="String">
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<arguments>
+<arg>${file_content_string}</arg>
+<arg>PASS</arg>
+</arguments>
+<assign>
+<var>@{match_list}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.968" level="INFO">@{match_list} = [ PASS ]</msg>
+<status status="PASS" starttime="20210901 07:43:34.967" endtime="20210901 07:43:34.968"></status>
+</kw>
+<kw name="Get Length" library="BuiltIn">
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<arguments>
+<arg>${match_list}</arg>
+</arguments>
+<assign>
+<var>${pass_count}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.968" level="INFO">Length is 1</msg>
+<msg timestamp="20210901 07:43:34.968" level="INFO">${pass_count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.968" endtime="20210901 07:43:34.968"></status>
+</kw>
+<kw name="Append To File" library="OperatingSystem">
+<doc>Appends the given content to the specified file.</doc>
+<arguments>
+<arg>${iteration_file}</arg>
+<arg>\nPass_Count::${pass_count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.969" level="INFO" html="yes">Appended to file '&lt;a href="file://D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt"&gt;D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Telephony_002_2748B3DC6M002L.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210901 07:43:34.968" endtime="20210901 07:43:34.969"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${total_iter}+${Total_Iteration_Count}</arg>
+</arguments>
+<assign>
+<var>${Total_Iteration_Count}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.969" level="INFO">${Total_Iteration_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.969" endtime="20210901 07:43:34.969"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Iteration_Count}</arg>
+<arg>${Total_Iteration_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.970" level="INFO">${Total_Iteration_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.969" endtime="20210901 07:43:34.970"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Total Iteration Count:${Total_Iteration_Count}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:34.970" endtime="20210901 07:43:34.970"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Total Iteration Count:${Total_Iteration_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.970" level="INFO">Total Iteration Count:1</msg>
+<status status="PASS" starttime="20210901 07:43:34.970" endtime="20210901 07:43:34.970"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${pass_count}+${Total_Pass_Count}</arg>
+</arguments>
+<assign>
+<var>${Total_Pass_Count}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.971" level="INFO">${Total_Pass_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.971" endtime="20210901 07:43:34.971"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Pass_Count}</arg>
+<arg>${Total_Pass_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.971" level="INFO">${Total_Pass_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.971" endtime="20210901 07:43:34.971"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Total Pass Count:${Total_Pass_Count}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:34.971" endtime="20210901 07:43:34.972"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Total Pass Count:${Total_Pass_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.972" level="INFO">Total Pass Count:1</msg>
+<status status="PASS" starttime="20210901 07:43:34.972" endtime="20210901 07:43:34.972"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:34.965" endtime="20210901 07:43:34.972"></status>
+</kw>
+<kw name="Keyword For Fetching All Data For Dashboard" library="GenericFunction">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${Suite_Total_Iteration_Count} + ${Total_Iteration_Count}</arg>
+</arguments>
+<assign>
+<var>${Suite_Total_Iteration_Count}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.973" level="INFO">${Suite_Total_Iteration_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.973" endtime="20210901 07:43:34.973"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Suite_Total_Iteration_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.974" level="INFO">${Suite_Total_Iteration_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.973" endtime="20210901 07:43:34.974"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${Suite_Total_Pass_Count} + ${Total_Pass_Count}</arg>
+</arguments>
+<assign>
+<var>${Suite_Total_Pass_Count}</var>
+</assign>
+<msg timestamp="20210901 07:43:34.974" level="INFO">${Suite_Total_Pass_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.974" endtime="20210901 07:43:34.974"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Suite_Total_Pass_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:34.975" level="INFO">${Suite_Total_Pass_Count} = 1</msg>
+<status status="PASS" starttime="20210901 07:43:34.974" endtime="20210901 07:43:34.975"></status>
+</kw>
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:34.975" endtime="20210901 07:43:39.552"></status>
+</kw>
+<kw name="Capture Device Logs" library="cogmationlibrary">
+<doc>This functions captures Radio &amp; logcat Logs of the device.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<assign>
+<var>${logcat_path}</var>
+<var>${radio_logs_path}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.920" level="INFO" html="yes">
+&lt;a href="D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Logcat_2748B3DC6M002L_01-09-2021-07-43-39.txt" target="_blank"&gt;Logcat_2748B3DC6M002L_01-09-2021-07-43-39&lt;/a&gt;&lt;br&gt;&lt;script src="D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Logcat_2748B3DC6M002L_01-09-2021-07-43-39.txt"&gt;</msg>
+<msg timestamp="20210901 07:43:39.920" level="INFO" html="yes">
+&lt;a href="D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Radio_2748B3DC6M002L_01-09-2021-07-43-39.txt" target="_blank"&gt;Radio_2748B3DC6M002L_01-09-2021-07-43-39&lt;/a&gt;&lt;br&gt;&lt;script src="D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Radio_2748B3DC6M002L_01-09-2021-07-43-39.txt"&gt;</msg>
+<msg timestamp="20210901 07:43:39.921" level="INFO">${logcat_path} = D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Logcat_2748B3DC6M002L_01-09-2021-07-43-39.txt</msg>
+<msg timestamp="20210901 07:43:39.921" level="INFO">${radio_logs_path} = D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Radio_2748B3DC6M002L_01-09-2021-07-43-39.txt</msg>
+<status status="PASS" starttime="20210901 07:43:39.553" endtime="20210901 07:43:39.921"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${logcat_path}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.921" level="INFO">D:\Scripts\MOS11\ATT_VZW_LatestCode\Sept_1\Report\Telephony_Make A Voice Call From The Call History List\Logcat_2748B3DC6M002L_01-09-2021-07-43-39.txt</msg>
+<status status="PASS" starttime="20210901 07:43:39.921" endtime="20210901 07:43:39.921"></status>
+</kw>
+<kw name="Get Count From Logcat" library="cogmationlibrary">
+<arguments>
+<arg>${LOG_FLAG}</arg>
+<arg>${logcat_path}</arg>
+</arguments>
+<assign>
+<var>${CRASH_COUNT}</var>
+<var>${temp}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.926" level="INFO">['Fatal Exception', 'Crash']</msg>
+<msg timestamp="20210901 07:43:39.926" level="INFO">${CRASH_COUNT} = 0</msg>
+<msg timestamp="20210901 07:43:39.927" level="INFO">${temp} = 3</msg>
+<status status="PASS" starttime="20210901 07:43:39.921" endtime="20210901 07:43:39.927"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${Suite_CRASH_COUNT} + ${CRASH_COUNT}</arg>
+</arguments>
+<assign>
+<var>${Suite_CRASH_COUNT}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.927" level="INFO">${Suite_CRASH_COUNT} = 0</msg>
+<status status="PASS" starttime="20210901 07:43:39.927" endtime="20210901 07:43:39.927"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${CRASH_COUNT}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.928" level="INFO">${CRASH_COUNT} = 0</msg>
+<status status="PASS" starttime="20210901 07:43:39.928" endtime="20210901 07:43:39.928"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:34.972" endtime="20210901 07:43:39.928"></status>
+</kw>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Run Keyword If</arg>
+<arg>${Feature Status}=='Fail'</arg>
+<arg>Test Fail Teardown</arg>
+<arg>AND</arg>
+<arg>Log</arg>
+<arg>${Total_Iteration_Count} ${Total_Pass_Count}</arg>
+<arg>AND</arg>
+<arg>Feature Stability Test Status</arg>
+<arg>total_iters=${Total_Iteration_Count}</arg>
+<arg>passiterations=${Total_Pass_Count}</arg>
+<arg>expected_percent=${EXPECTED_ITERATIONS_SUCCESSFULL}</arg>
+<arg>AND</arg>
+<arg>Repeat Keyword</arg>
+<arg>3</arg>
+<arg>Press Back</arg>
+<arg>AND</arg>
+<arg>BuiltIn.Sleep</arg>
+<arg>10</arg>
+<arg>AND</arg>
+<arg>Test Teardown Sample</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${Feature Status}=='Fail'</arg>
+<arg>Test Fail Teardown</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:39.929" endtime="20210901 07:43:39.930"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Total_Iteration_Count} ${Total_Pass_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.930" level="INFO">1 1</msg>
+<status status="PASS" starttime="20210901 07:43:39.930" endtime="20210901 07:43:39.930"></status>
+</kw>
+<kw name="Feature Stability Test Status" library="GenericFunction">
+<arguments>
+<arg>total_iters=${Total_Iteration_Count}</arg>
+<arg>passiterations=${Total_Pass_Count}</arg>
+<arg>expected_percent=${EXPECTED_ITERATIONS_SUCCESSFULL}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${total_iters} ${Total_Pass_Count} ${expected_percent}</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.931" level="INFO">1 1 80</msg>
+<status status="PASS" starttime="20210901 07:43:39.931" endtime="20210901 07:43:39.931"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${total_iters} ${Total_Pass_Count} ${expected_percent}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:43:39.931" endtime="20210901 07:43:39.931"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${Total_Pass_Count}/${total_iters}*100</arg>
+</arguments>
+<assign>
+<var>${current_status}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.932" level="INFO">${current_status} = 100.0</msg>
+<status status="PASS" starttime="20210901 07:43:39.932" endtime="20210901 07:43:39.932"></status>
+</kw>
+<kw name="Convert To Integer" library="BuiltIn">
+<doc>Converts the given item to an integer number.</doc>
+<arguments>
+<arg>${expected_percent}</arg>
+</arguments>
+<assign>
+<var>${expected_percent}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.933" level="INFO">${expected_percent} = 80</msg>
+<status status="PASS" starttime="20210901 07:43:39.932" endtime="20210901 07:43:39.933"></status>
+</kw>
+<kw name="Convert To Integer" library="BuiltIn">
+<doc>Converts the given item to an integer number.</doc>
+<arguments>
+<arg>${current_status}</arg>
+</arguments>
+<assign>
+<var>${current_status}</var>
+</assign>
+<msg timestamp="20210901 07:43:39.933" level="INFO">${current_status} = 100</msg>
+<status status="PASS" starttime="20210901 07:43:39.933" endtime="20210901 07:43:39.933"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${current_status} &lt; ${expected_percent}</arg>
+<arg>Fail</arg>
+<arg>Expected ${expected_percent}% of iterations to be successful but only ${current_status}% of iterations are successfull</arg>
+<arg>ELSE</arg>
+<arg>Log</arg>
+<arg>${current_status}% of iterations are successfull which is more than expected percent i.e. ${expected_percent}%</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${current_status}% of iterations are successfull which is more than expected percent i.e. ${expected_percent}%</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.934" level="INFO">100% of iterations are successfull which is more than expected percent i.e. 80%</msg>
+<status status="PASS" starttime="20210901 07:43:39.934" endtime="20210901 07:43:39.934"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:39.933" endtime="20210901 07:43:39.934"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:39.930" endtime="20210901 07:43:39.934"></status>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<doc>Executes the specified keyword multiple times.</doc>
+<arguments>
+<arg>3</arg>
+<arg>Press Back</arg>
+</arguments>
+<msg timestamp="20210901 07:43:39.934" level="INFO">Repeating keyword, round 1/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:39.934" endtime="20210901 07:43:49.963"></status>
+</kw>
+<msg timestamp="20210901 07:43:49.964" level="INFO">Repeating keyword, round 2/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:49.964" endtime="20210901 07:43:50.963"></status>
+</kw>
+<msg timestamp="20210901 07:43:50.963" level="INFO">Repeating keyword, round 3/3.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:43:50.964" endtime="20210901 07:43:51.954"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:39.934" endtime="20210901 07:43:51.954"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20210901 07:44:01.957" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20210901 07:43:51.955" endtime="20210901 07:44:01.957"></status>
+</kw>
+<kw name="Test Teardown Sample" library="GenericFunction">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:01.959" endtime="20210901 07:44:06.055"></status>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date2}</var>
+</assign>
+<msg timestamp="20210901 07:44:06.056" level="INFO">${date2} = 2021-09-01 07:44:06.056</msg>
+<status status="PASS" starttime="20210901 07:44:06.055" endtime="20210901 07:44:06.056"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Suite Teardown</arg>
+<arg>Date : ${date2}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:06.056" endtime="20210901 07:44:06.056"></status>
+</kw>
+<kw name="Subtract Date From Date" library="DateTime">
+<doc>Subtracts date from another date and returns time between.</doc>
+<arguments>
+<arg>${date2}</arg>
+<arg>${date}</arg>
+<arg>result_format=timedelta</arg>
+<arg>exclude_millis=True</arg>
+</arguments>
+<assign>
+<var>${date3}</var>
+</assign>
+<msg timestamp="20210901 07:44:06.060" level="INFO">${date3} = 0:02:08</msg>
+<status status="PASS" starttime="20210901 07:44:06.057" endtime="20210901 07:44:06.061"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Date Difference is ${date3}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:06.061" endtime="20210901 07:44:06.061"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${date3}</arg>
+</arguments>
+<assign>
+<var>${date3}</var>
+</assign>
+<msg timestamp="20210901 07:44:06.062" level="INFO">${date3} = 0:02:08</msg>
+<status status="PASS" starttime="20210901 07:44:06.062" endtime="20210901 07:44:06.062"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:44:01.958" endtime="20210901 07:44:06.062"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:43:39.929" endtime="20210901 07:44:06.062"></status>
+</kw>
+<doc>Telephony 5.1.10</doc>
+<status status="PASS" starttime="20210901 07:41:36.852" endtime="20210901 07:44:06.062" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Fetch Data For Dashboard">
+<kw name="Test Setup Keyword" library="GenericFunction" type="setup">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:06.074" endtime="20210901 07:44:10.073"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${TEST_DEVICE} logcat -c</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:10.073" endtime="20210901 07:44:10.166"></status>
+</kw>
+<kw name="Wait For Exists" library="cogmationlibrary">
+<doc>Wait for the object which has *selectors* within the given timeout.</doc>
+<arguments>
+<arg>5</arg>
+<arg>&amp;{CHARGING_ICON}</arg>
+</arguments>
+<assign>
+<var>${charging_icon}</var>
+</assign>
+<msg timestamp="20210901 07:44:20.775" level="INFO">${charging_icon} = False</msg>
+<status status="PASS" starttime="20210901 07:44:10.167" endtime="20210901 07:44:20.775"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${charging_icon}</arg>
+<arg>Swipe Right</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:20.776" endtime="20210901 07:44:20.776"></status>
+</kw>
+<kw name="Repeat Keyword" library="BuiltIn">
+<doc>Executes the specified keyword multiple times.</doc>
+<arguments>
+<arg>4</arg>
+<arg>Press Back</arg>
+</arguments>
+<msg timestamp="20210901 07:44:20.777" level="INFO">Repeating keyword, round 1/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:44:20.777" endtime="20210901 07:44:20.954"></status>
+</kw>
+<msg timestamp="20210901 07:44:20.954" level="INFO">Repeating keyword, round 2/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:44:20.955" endtime="20210901 07:44:21.954"></status>
+</kw>
+<msg timestamp="20210901 07:44:21.955" level="INFO">Repeating keyword, round 3/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:44:21.955" endtime="20210901 07:44:22.954"></status>
+</kw>
+<msg timestamp="20210901 07:44:22.954" level="INFO">Repeating keyword, round 4/4.</msg>
+<kw name="Press Back" library="cogmationlibrary">
+<doc>Press back key.</doc>
+<status status="PASS" starttime="20210901 07:44:22.955" endtime="20210901 07:44:23.956"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:44:20.777" endtime="20210901 07:44:23.956"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210901 07:44:26.959" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210901 07:44:23.957" endtime="20210901 07:44:26.959"></status>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date}</var>
+</assign>
+<msg timestamp="20210901 07:44:26.960" level="INFO">${date} = 2021-09-01 07:44:26.960</msg>
+<status status="PASS" starttime="20210901 07:44:26.960" endtime="20210901 07:44:26.961"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${date}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:26.962" level="INFO">${date} = 2021-09-01 07:44:26.960</msg>
+<status status="PASS" starttime="20210901 07:44:26.961" endtime="20210901 07:44:26.962"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Test Setup Current Date : ${date}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:26.962" endtime="20210901 07:44:26.963"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Iteration_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:44:26.965" level="INFO">${Total_Iteration_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:44:26.964" endtime="20210901 07:44:26.965"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Total_Pass_Count}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20210901 07:44:26.966" level="INFO">${Total_Pass_Count} = 0</msg>
+<status status="PASS" starttime="20210901 07:44:26.966" endtime="20210901 07:44:26.966"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${Feature Status}</arg>
+<arg>'Pass'</arg>
+</arguments>
+<msg timestamp="20210901 07:44:26.967" level="INFO">${Feature Status} = 'Pass'</msg>
+<status status="PASS" starttime="20210901 07:44:26.967" endtime="20210901 07:44:26.968"></status>
+</kw>
+<kw name="Adb Get Storage Consumed" library="cogmationlibrary">
+<doc>This function returns the percentage of memory consumed</doc>
+<assign>
+<var>${STORAGE_CONSUMED}</var>
+</assign>
+<msg timestamp="20210901 07:44:27.223" level="INFO">Percentage of storage used: 15%</msg>
+<msg timestamp="20210901 07:44:27.223" level="INFO">${STORAGE_CONSUMED} = 15%</msg>
+<status status="PASS" starttime="20210901 07:44:26.968" endtime="20210901 07:44:27.223"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${STORAGE_CONSUMED}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.224" level="INFO">${STORAGE_CONSUMED} = 15%</msg>
+<status status="PASS" starttime="20210901 07:44:27.224" endtime="20210901 07:44:27.224"></status>
+</kw>
+<kw name="Adb Get Battery Percent" library="cogmationlibrary">
+<doc>This function returns device battery percentage</doc>
+<assign>
+<var>${BATTERY_PERCENTAGE}</var>
+</assign>
+<msg timestamp="20210901 07:44:27.328" level="INFO">Device Battery Percentage: 87%</msg>
+<msg timestamp="20210901 07:44:27.328" level="INFO">${BATTERY_PERCENTAGE} = 87%</msg>
+<status status="PASS" starttime="20210901 07:44:27.225" endtime="20210901 07:44:27.328"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${BATTERY_PERCENTAGE}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.331" level="INFO">${BATTERY_PERCENTAGE} = 87%</msg>
+<status status="PASS" starttime="20210901 07:44:27.330" endtime="20210901 07:44:27.331"></status>
+</kw>
+<kw name="Execute Adb Command" library="cogmationlibrary">
+<doc>Execute adb *cmd*</doc>
+<arguments>
+<arg>-s ${TEST_DEVICE} shell rm -rf /storage/emulated/0/DCIM</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:27.331" endtime="20210901 07:44:27.417"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:44:06.073" endtime="20210901 07:44:27.418"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${BUILD_NUMBER}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.419" level="INFO">19740100000000000</msg>
+<status status="PASS" starttime="20210901 07:44:27.418" endtime="20210901 07:44:27.419"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SUITE NAME}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.419" level="INFO">VZW Stability LiveDashboard</msg>
+<status status="PASS" starttime="20210901 07:44:27.419" endtime="20210901 07:44:27.419"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.420" level="INFO">2748B3DC6M002L</msg>
+<status status="PASS" starttime="20210901 07:44:27.420" endtime="20210901 07:44:27.420"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Suite_Total_Iteration_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.421" level="INFO">1</msg>
+<status status="PASS" starttime="20210901 07:44:27.420" endtime="20210901 07:44:27.421"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Suite_Total_Pass_Count}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.421" level="INFO">1</msg>
+<status status="PASS" starttime="20210901 07:44:27.421" endtime="20210901 07:44:27.421"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Suite_CRASH_COUNT}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.422" level="INFO">0</msg>
+<status status="PASS" starttime="20210901 07:44:27.422" endtime="20210901 07:44:27.422"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${Iteration_Total}</arg>
+</arguments>
+<msg timestamp="20210901 07:44:27.422" level="INFO">2</msg>
+<status status="PASS" starttime="20210901 07:44:27.422" endtime="20210901 07:44:27.422"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:44:06.063" endtime="20210901 07:44:27.423" critical="yes"></status>
+</test>
+<kw name="Test Teardown Sample" library="GenericFunction" type="teardown">
+<kw name="Set Serial" library="cogmationlibrary">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>${TEST_DEVICE}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:27.424" endtime="20210901 07:44:31.634"></status>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${date2}</var>
+</assign>
+<msg timestamp="20210901 07:44:31.635" level="INFO">${date2} = 2021-09-01 07:44:31.635</msg>
+<status status="PASS" starttime="20210901 07:44:31.634" endtime="20210901 07:44:31.635"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Suite Teardown</arg>
+<arg>Date : ${date2}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:31.635" endtime="20210901 07:44:31.636"></status>
+</kw>
+<kw name="Subtract Date From Date" library="DateTime">
+<doc>Subtracts date from another date and returns time between.</doc>
+<arguments>
+<arg>${date2}</arg>
+<arg>${date}</arg>
+<arg>result_format=timedelta</arg>
+<arg>exclude_millis=True</arg>
+</arguments>
+<assign>
+<var>${date3}</var>
+</assign>
+<msg timestamp="20210901 07:44:31.637" level="INFO">${date3} = 0:02:55</msg>
+<status status="PASS" starttime="20210901 07:44:31.636" endtime="20210901 07:44:31.637"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Date Difference is ${date3}</arg>
+</arguments>
+<status status="PASS" starttime="20210901 07:44:31.637" endtime="20210901 07:44:31.638"></status>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<doc>Converts the given item to a Unicode string.</doc>
+<arguments>
+<arg>${date3}</arg>
+</arguments>
+<assign>
+<var>${date3}</var>
+</assign>
+<msg timestamp="20210901 07:44:31.638" level="INFO">${date3} = 0:02:55</msg>
+<status status="PASS" starttime="20210901 07:44:31.638" endtime="20210901 07:44:31.638"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:44:27.424" endtime="20210901 07:44:31.638"></status>
+</kw>
+<status status="PASS" starttime="20210901 07:41:27.910" endtime="20210901 07:44:31.638"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="VZW Stability LiveDashboard">VZW Stability LiveDashboard</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
